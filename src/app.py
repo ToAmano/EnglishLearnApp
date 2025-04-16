@@ -1,73 +1,19 @@
 import streamlit as st
-import sqlite3
-import pandas as pd
 from collections import defaultdict
-import base64
-import io
-
+from backend.backend import search_word,get_favorites,get_examples,is_favorited,toggle_favorite,get_derived_words,get_synonyms
+from backend.core.db_core import get_word_from_wordid
 # セッションIDで user_id を代用（本番ならログイン機能と連携）
 USER_ID = "default_user"
-
-
-# データベース接続関数
-def get_db_connection():
-    conn = sqlite3.connect("database/words.db")
-    conn.row_factory = sqlite3.Row
-    return conn
-
-# 単語検索機能
-def search_word(word):
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM words WHERE word=?", (word,))
-    results = cursor.fetchall()
-    df = pd.read_sql_query("SELECT * FROM words WHERE word LIKE ?", conn, params=(word,))
-    conn.close()
-    return df # results
-
-def get_examples(word_number):
-    conn = get_db_connection()
-    #    cursor.execute("SELECT * FROM examples WHERE word_number=?", (word_number,))
-    df = pd.read_sql_query("SELECT * FROM examples WHERE word_number=?", conn, params=(word_number,))
-    conn.close()
-    return df
-
-def is_favorited(word_number: int) -> bool:
-    conn = get_db_connection()
-    cur = conn.cursor()
-    cur.execute(
-        "SELECT 1 FROM favorites WHERE word_number = ?",
-        (word_number,)
-    )
-    exists = cur.fetchone() is not None
-    conn.close()
-    return exists
-
-def toggle_favorite(word_number: int):
-    conn = get_db_connection()
-    cur = conn.cursor()
-    if is_favorited(word_number):
-        cur.execute(
-            "DELETE FROM favorites WHERE word_number = ?",
-            (word_number,)
-        )
-    else:
-        cur.execute(
-            "INSERT INTO favorites (word_number) VALUES (?)",
-            (word_number,)
-        )
-    conn.commit()
-    conn.close()
 
 def show_word_entry(df):
     if df.empty:
         st.warning("見つかりませんでした。")
         return
 
-    grouped = df.groupby("word_number")
+    grouped = df.groupby("word_id")
 
-    for word_number, group in grouped:
-        word = group.iloc[0]["word"]
+    for word_id, group in grouped:
+        word = get_word_from_wordid(word_id) 
         pronunciation = group.iloc[0].get("pronunciation", "")
         category = group.iloc[0].get("category", "")
 
@@ -77,13 +23,13 @@ def show_word_entry(df):
         # お気に入りボタン
         col1, col2 = st.columns([4, 1])
         with col2:
-            if is_favorited(word_number):
-                if st.button("★ お気に入り解除", key=f"fav_remove_{word_number}"):
-                    toggle_favorite(word_number)
+            if is_favorited(word_id):
+                if st.button("★ お気に入り解除", key=f"fav_remove_{word_id}"):
+                    toggle_favorite(word_id)
                     st.experimental_rerun()
             else:
-                if st.button("☆ お気に入り追加", key=f"fav_add_{word_number}"):
-                    toggle_favorite(word_number)
+                if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
+                    toggle_favorite(word_id)
                     st.experimental_rerun()
 
         # 品詞別表示
@@ -96,8 +42,23 @@ def show_word_entry(df):
             for i, meaning in enumerate(meanings, start=1):
                 st.write(f"{i}. {meaning}")
 
+        # 派生語の表示
+        derived = get_derived_words(word_id)
+        if derived:
+            print(derived)
+            st.markdown("### 📚 派生語")
+            for dw in derived:
+                st.markdown(f"- {dw['word_id']}: **{dw['word']}**")
+    
+        synonyms = get_synonyms(word_id)
+        if synonyms:
+            st.markdown("#### 🔗 類義語")
+            for row in synonyms:
+                st.markdown(f"- {row['word_id']}: **{row['word']}**")
+
+
         # 例文表示
-        example_df = get_examples(word_number)
+        example_df = get_examples(word_id)
         if not example_df.empty:
             st.markdown("#### 🗣️ 例文")
             for i, row in example_df.iterrows():
@@ -109,15 +70,6 @@ def show_word_entry(df):
                         st.audio(audio_bytes, format='audio/mp3')
                     except Exception as e:
                         st.warning(f"音声再生できません: {e}")
-
-# お気に入りリスト取得
-def get_favorites():
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM words WHERE word_number IN (SELECT word_number FROM favorites)")
-    favorites = cursor.fetchall()
-    conn.close()
-    return favorites
 
 # Streamlit UI
 st.title("📖 英語辞書アプリ")
@@ -151,8 +103,8 @@ with tab4:
             st.write(f"📌 **{row['word']}**: {row['meaning']}")
 
             # # お気に入り削除ボタン
-            # if st.button(f"❌ {row['word']} をお気に入りから削除", key=f"del_{row['word_number']}"):
-            #     remove_favorite(row['word_number'])
+            # if st.button(f"❌ {row['word']} をお気に入りから削除", key=f"del_{row['word_id']}"):
+            #     remove_favorite(row['word_id'])
             #     st.success("お気に入りから削除しました！")
 
     else:
