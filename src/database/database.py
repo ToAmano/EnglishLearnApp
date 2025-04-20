@@ -52,7 +52,7 @@ def init_db():
     )
 
     cursor.execute(
-        """    
+        """
         CREATE TABLE stems (
         stem_id INTEGER PRIMARY KEY AUTOINCREMENT,
         stem TEXT UNIQUE NOT NULL
