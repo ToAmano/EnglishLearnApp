@@ -14,6 +14,7 @@ from backend.backend import (
 from backend.core.db_core import get_word_from_wordid
 from backend.search_count import get_search_count
 from backend.vocab_status import get_vocab_status, set_vocab_status
+from backend.learning import get_word_batch
 
 # セッションIDで user_id を代用（本番ならログイン機能と連携）
 USER_ID = "default_user"
@@ -107,8 +108,8 @@ def show_word_entry(df):
 # Streamlit UI
 st.title("📖 英語辞書アプリ")
 
-tab1, tab2, tab3, tab4 = st.tabs(
-    ["🔍 単語検索", "📝 単語テスト", "🔊 例文リスニング", "⭐ お気に入り"]
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+    ["🔍 単語検索", "📝 単語テスト", "🔊 例文リスニング", "⭐ お気に入り", "📘 単語バッチ確認モード", "🃏 単語カードモード"]
 )
 
 # 🔍 単語検索
@@ -145,3 +146,66 @@ with tab4:
 
     else:
         st.info("お気に入りの単語はまだありません。")
+
+with tab5:
+    st.header("📘 単語バッチ確認モード")
+
+    batch_size = 10
+    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0)
+
+    if st.button("この範囲の単語を表示"):
+        df = get_word_batch(start=start_index, limit=batch_size)
+        if not df.empty:
+            for idx, row in df.iterrows():
+                st.markdown(f"### 🔤 {row['word']} ({row['part_of_speech']})")
+                st.markdown(f"- 意味: {row['meaning']}")
+                st.markdown(f"- カテゴリ: {row['category']}")
+                st.markdown("---")
+        else:
+            st.info("これ以上の単語はありません。")
+            
+            
+with tab6:
+    st.title("🃏 単語カードモード")
+
+    # --- セッションステートで位置管理
+    if "card_index" not in st.session_state:
+        st.session_state["card_index"] = 0
+
+    # --- データ取得（バッチ全体を一括取得）
+    batch_size = 100  # 一度に読み込む単語数
+    word_df = get_word_batch(start=0, limit=batch_size)
+
+    # --- 単語が存在する場合のみカード表示
+    if not word_df.empty:
+        card_idx = st.session_state["card_index"]
+        if card_idx >= len(word_df):
+            st.session_state["card_index"] = len(word_df) - 1
+            card_idx = len(word_df) - 1
+        elif card_idx < 0:
+            st.session_state["card_index"] = 0
+            card_idx = 0
+
+        row = word_df.iloc[card_idx]
+
+        # --- 単語カード表示
+        with st.container():
+            st.markdown("### 🔤 英単語カード")
+            st.markdown(f"## **{row['word']}**")
+            with st.expander("意味を見る"):
+                st.write(f"- 意味: {row['meaning']}")
+                st.write(f"- 品詞: {row['part_of_speech']}")
+                st.write(f"- カテゴリ: {row['category']}")
+
+        # --- ナビゲーションボタン
+        col1, col2, col3 = st.columns([1, 3, 1])
+        with col1:
+            if st.button("⬅️ 前へ"):
+                st.session_state["card_index"] = max(card_idx - 1, 0)
+        with col3:
+            if st.button("➡️ 次へ"):
+                st.session_state["card_index"] = min(card_idx + 1, len(word_df) - 1)
+
+        st.caption(f"{card_idx+1} / {len(word_df)} 単語中")
+    else:
+        st.info("単語が見つかりませんでした。")
