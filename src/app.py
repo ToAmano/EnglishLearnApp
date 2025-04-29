@@ -15,6 +15,7 @@ from backend.core.db_core import get_word_from_wordid
 from backend.search_count import get_search_count
 from backend.vocab_status import get_vocab_status, set_vocab_status
 from backend.learning import get_word_batch
+from backend.explanation import get_explanation
 
 # セッションIDで user_id を代用（本番ならログイン機能と連携）
 USER_ID = "default_user"
@@ -66,6 +67,11 @@ def show_word_entry(df):
                 if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
                     toggle_favorite(word_id)
                     st.rerun()
+
+        # 詳細説明の表示
+        explanation_md = get_explanation(word_id)
+        if explanation_md:
+            st.markdown(explanation_md, unsafe_allow_html=True)
 
         # 品詞別表示
         pos_dict = defaultdict(list)
@@ -168,13 +174,23 @@ with tab5:
 with tab6:
     st.title("🃏 単語カードモード")
 
+
+    sort_mode = st.radio(
+        "📚 単語の並び順",
+        options=["ID順", "アルファベット順"],
+        horizontal=True
+    )
+
+    order_by = "word_id" if sort_mode == "ID順" else "word"
+    word_df = get_word_batch(start=0, limit=batch_size, order_by=order_by)
+
     # --- セッションステートで位置管理
     if "card_index" not in st.session_state:
         st.session_state["card_index"] = 0
 
     # --- データ取得（バッチ全体を一括取得）
     batch_size = 100  # 一度に読み込む単語数
-    word_df = get_word_batch(start=0, limit=batch_size)
+    # word_df = get_word_batch(start=0, limit=batch_size)
 
     # --- 単語が存在する場合のみカード表示
     if not word_df.empty:
@@ -187,15 +203,43 @@ with tab6:
             card_idx = 0
 
         row = word_df.iloc[card_idx]
+        word_id = int(row["word_id"])
+        print(f"word_id = {word_id}")
 
         # --- 単語カード表示
         with st.container():
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
+            
+            word = get_word_from_wordid(word_id)
+            status = get_vocab_status(word_id)
+            word_status_key_2: str = f"vocab_status_{word_id}"
+            st.session_state.setdefault(
+                word_status_key_2, status
+            )  # セッションに初期値がなければ設定
+            print(f"status = {status}")
+
+            # UI 表示
+            new_status = st.selectbox(
+                "📘 単語の習得状態を選択",
+                ["unknown", "passive", "active"],
+                key=word_status_key_2,
+                help="この単語の習得状態を選択してください。",
+            )
+            if new_status != status:
+                print(f"new_status = {new_status}")
+                set_vocab_status(word_id, new_status)
+                st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
+            
             with st.expander("意味を見る"):
                 st.write(f"- 意味: {row['meaning']}")
                 st.write(f"- 品詞: {row['part_of_speech']}")
                 st.write(f"- カテゴリ: {row['category']}")
+
+            explanation_md = get_explanation(word_id)
+            if explanation_md:
+                with st.expander("📖 詳細な解説を読む"):
+                    st.markdown(explanation_md, unsafe_allow_html=True)
 
         # --- ナビゲーションボタン
         col1, col2, col3 = st.columns([1, 3, 1])
