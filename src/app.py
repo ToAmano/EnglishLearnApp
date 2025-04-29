@@ -21,6 +21,20 @@ from backend.explanation import get_explanation
 USER_ID = "default_user"
 
 
+# --- ボタン用のコールバック関数を定義
+def go_prev():
+    if st.session_state["card_index"] > 0:
+        st.session_state["card_index"] -= 1
+    else:
+        st.session_state["card_index"] = 0
+
+def go_next(df_length:int):
+    if st.session_state["card_index"] < df_length - 1:
+        st.session_state["card_index"] += 1
+    else:
+        st.session_state["card_index"] = df_length - 1
+
+
 def show_word_entry(df):
     if df.empty:
         st.warning("見つかりませんでした。")
@@ -156,11 +170,20 @@ with tab4:
 with tab5:
     st.header("📘 単語バッチ確認モード")
 
-    batch_size = 10
-    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0)
+    # --- データ取得（バッチ全体を一括取得）
+    sort_mode = st.radio(
+        "📚 単語の並び順",
+        options=["ID順", "アルファベット順"],
+        horizontal=True,
+        key = "sort_mode_batch"
+    )
+    batch_size = 100  # 一度に読み込む単語数
+    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0, key="start_index_batch")
+    print(f"start_index = {start_index}")
+    order_by = "word_id" if sort_mode == "ID順" else "word"
 
     if st.button("この範囲の単語を表示"):
-        df = get_word_batch(start=start_index, limit=batch_size)
+        df = get_word_batch(start=start_index, limit=batch_size, order_by=order_by)
         if not df.empty:
             for idx, row in df.iterrows():
                 st.markdown(f"### 🔤 {row['word']} ({row['part_of_speech']})")
@@ -178,18 +201,20 @@ with tab6:
     sort_mode = st.radio(
         "📚 単語の並び順",
         options=["ID順", "アルファベット順"],
-        horizontal=True
+        horizontal=True,
+        key = "sort_mode_card"
     )
-
+    # --- データ取得（バッチ全体を一括取得）
+    batch_size = 100  # 一度に読み込む単語数
+    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0,key="start_index_card")
+    print(f"start_index = {start_index}")
     order_by = "word_id" if sort_mode == "ID順" else "word"
-    word_df = get_word_batch(start=0, limit=batch_size, order_by=order_by)
+    word_df = get_word_batch(start=start_index, limit=batch_size, order_by=order_by)
 
     # --- セッションステートで位置管理
     if "card_index" not in st.session_state:
         st.session_state["card_index"] = 0
 
-    # --- データ取得（バッチ全体を一括取得）
-    batch_size = 100  # 一度に読み込む単語数
     # word_df = get_word_batch(start=0, limit=batch_size)
 
     # --- 単語が存在する場合のみカード表示
@@ -201,7 +226,8 @@ with tab6:
         elif card_idx < 0:
             st.session_state["card_index"] = 0
             card_idx = 0
-
+        print(f"card_idx = {card_idx}")
+        
         row = word_df.iloc[card_idx]
         word_id = int(row["word_id"])
         print(f"word_id = {word_id}")
@@ -213,7 +239,7 @@ with tab6:
             
             word = get_word_from_wordid(word_id)
             status = get_vocab_status(word_id)
-            word_status_key_2: str = f"vocab_status_{word_id}"
+            word_status_key_2: str = f"vocab_status_card_{word_id}"
             st.session_state.setdefault(
                 word_status_key_2, status
             )  # セッションに初期値がなければ設定
@@ -244,12 +270,11 @@ with tab6:
         # --- ナビゲーションボタン
         col1, col2, col3 = st.columns([1, 3, 1])
         with col1:
-            if st.button("⬅️ 前へ"):
-                st.session_state["card_index"] = max(card_idx - 1, 0)
+            st.button("⬅️ 前へ", key="prev_card", on_click=go_prev)
         with col3:
-            if st.button("➡️ 次へ"):
-                st.session_state["card_index"] = min(card_idx + 1, len(word_df) - 1)
+            st.button("➡️ 次へ", key="next_card", on_click=lambda: go_next(len(word_df)))
 
         st.caption(f"{card_idx+1} / {len(word_df)} 単語中")
+        print(f"card_idx = {card_idx}")
     else:
         st.info("単語が見つかりませんでした。")

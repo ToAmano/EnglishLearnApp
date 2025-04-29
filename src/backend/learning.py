@@ -16,12 +16,14 @@ def get_word_batch(start: int = 0, limit: int = 100, order_by: str = "word_id") 
         f"""
         SELECT w.word_id, w.word, m.meaning, m.part_of_speech, m.category
         FROM words w
-        JOIN meanings m ON w.word_id = m.word_id
+        LEFT JOIN meanings m ON w.word_id = m.word_id
         ORDER BY {order_column} COLLATE NOCASE
         LIMIT ? OFFSET ?
         """,
         conn,
         params=(limit, start)
     )
+    print(df)
     conn.close()
+    print(f"取得した単語数: {len(df)}")
     return df
