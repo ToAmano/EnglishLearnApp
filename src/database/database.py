@@ -123,17 +123,6 @@ def init_db():
     """
     )
     
-    # table for word explanations
-    cursor.execute(
-        """
-    CREATE TABLE word_explanations (
-        word_id INTEGER NOT NULL,
-        explanation TEXT NOT NULL,
-        FOREIGN KEY (word_id) REFERENCES words(word_id)
-    );
-    """
-    )
-
     conn.commit()
     conn.close()
 
