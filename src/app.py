@@ -47,7 +47,7 @@ def show_word_entry(df):
         pronunciation = group.iloc[0].get("pronunciation", "")
         category = group.iloc[0].get("category", "")
         search_count = get_search_count(word_id)
-        status = get_vocab_status(word_id)
+        status = get_vocab_status(word)
         word_status_key: str = f"vocab_status_{word_id}"
         st.session_state.setdefault(
             word_status_key, status
@@ -62,7 +62,7 @@ def show_word_entry(df):
             help="この単語の習得状態を選択してください。",
         )
         if new_status != status:
-            set_vocab_status(word_id, new_status)
+            set_vocab_status(word, new_status)
             st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
 
         st.markdown(f"### 🔤 {word}")
@@ -238,7 +238,7 @@ with tab6:
             st.markdown(f"## **{row['word']}**")
             
             word = get_word_from_wordid(word_id)
-            status = get_vocab_status(word_id)
+            status = get_vocab_status(word)
             word_status_key_2: str = f"vocab_status_card_{word_id}"
             st.session_state.setdefault(
                 word_status_key_2, status
@@ -254,7 +254,7 @@ with tab6:
             )
             if new_status != status:
                 print(f"new_status = {new_status}")
-                set_vocab_status(word_id, new_status)
+                set_vocab_status(word, new_status)
                 st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
             
             with st.expander("意味を見る"):

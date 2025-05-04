@@ -7,6 +7,12 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+def get_user_db_connection():
+    """Get a user database connection."""
+    conn = sqlite3.connect("database/user.db")
+    conn.row_factory = sqlite3.Row
+    return conn
+
 
 def get_word_from_wordid(word_id):
     """Get the word from the database using word_id."""
