@@ -10,7 +10,8 @@ def init_db():
         """
     CREATE TABLE words (
         word_id INTEGER PRIMARY KEY AUTOINCREMENT,
-        word TEXT NOT NULL UNIQUE
+        word TEXT NOT NULL UNIQUE,
+        source TEXT 
     );
     """
     )
