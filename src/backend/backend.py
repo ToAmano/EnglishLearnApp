@@ -1,6 +1,6 @@
 import pandas as pd
 
-from backend.core.db_core import get_db_connection
+from backend.core.db_core import get_db_connection, get_user_db_connection
 from backend.search_count import increment_search_count
 
 
@@ -30,22 +30,22 @@ def get_examples(word_id: int) -> pd.DataFrame:
     return df
 
 
-def is_favorited(word_id: int) -> bool:
-    conn = get_db_connection()
+def is_favorited(word: str) -> bool:
+    conn = get_user_db_connection()
     cur = conn.cursor()
-    cur.execute("SELECT 1 FROM favorites WHERE word_id = ?", (word_id,))
+    cur.execute("SELECT 1 FROM favorites WHERE word = ?", (word,))
     exists = cur.fetchone() is not None
     conn.close()
     return exists
 
 
-def toggle_favorite(word_id: int):
-    conn = get_db_connection()
+def toggle_favorite(word: str):
+    conn = get_user_db_connection()
     cur = conn.cursor()
-    if is_favorited(word_id):
-        cur.execute("DELETE FROM favorites WHERE word_id = ?", (word_id,))
+    if is_favorited(word):
+        cur.execute("DELETE FROM favorites WHERE word = ?", (word,))
     else:
-        cur.execute("INSERT INTO favorites (word_id) VALUES (?)", (word_id,))
+        cur.execute("INSERT INTO favorites (word) VALUES (?)", (word,))
     conn.commit()
     conn.close()
 

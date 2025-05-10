@@ -1,6 +1,7 @@
 from collections import defaultdict
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from backend.backend import (
     get_derived_words,
@@ -73,13 +74,13 @@ def show_word_entry(df):
         # お気に入りボタン
         col1, col2 = st.columns([4, 1])
         with col2:
-            if is_favorited(word_id):
+            if is_favorited(word):
                 if st.button("★ お気に入り解除", key=f"fav_remove_{word_id}"):
-                    toggle_favorite(word_id)
+                    toggle_favorite(word)
                     st.rerun()
             else:
                 if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
-                    toggle_favorite(word_id)
+                    toggle_favorite(word)
                     st.rerun()
 
         # 詳細説明の表示
@@ -236,6 +237,23 @@ with tab6:
         with st.container():
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
+            # 自動読み上げ用のJSコードを埋め込み
+            components.html(f"""
+                <script>
+                    const utterance = new SpeechSynthesisUtterance("{row['word']}");
+                    utterance.lang = "en-US";
+                    speechSynthesis.cancel();  // 前の発話が残っていたら中断
+                    speechSynthesis.speak(utterance);
+                </script>
+            """, height=0)  # 高さ0でボタンは表示しない
+            
+            # --- 音声読み上げボタン（Web Speech API）
+            speech_html = f"""
+                <button onclick="const u = new SpeechSynthesisUtterance('{row['word']}'); u.lang='en-US'; speechSynthesis.speak(u);">
+                    🔊 発音を聞く
+                </button>
+            """
+            components.html(speech_html, height=50)
             
             word = get_word_from_wordid(word_id)
             status = get_vocab_status(word)
@@ -256,6 +274,18 @@ with tab6:
                 print(f"new_status = {new_status}")
                 set_vocab_status(word, new_status)
                 st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
+            
+            # お気に入りボタン
+            col1, col2 = st.columns([4, 1])
+            with col2:
+                if is_favorited(word):
+                    if st.button("★ お気に入り解除", key=f"fav_remove_{word_id}"):
+                        toggle_favorite(word)
+                        st.rerun()
+                else:
+                    if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
+                        toggle_favorite(word)
+                        st.rerun()
             
             with st.expander("意味を見る"):
                 st.write(f"- 意味: {row['meaning']}")
