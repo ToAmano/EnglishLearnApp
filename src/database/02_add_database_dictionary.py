@@ -80,3 +80,8 @@ if __name__ == "__main__":
     # add eiken 
     insert_words_from_csv(WORD_PATH+f"eiken_added.csv")
     insert_explanations_from_csv(EXPLANATION_PATH+f"eiken_explanation.csv")
+    
+    # add eiken derujun
+    insert_words_from_csv(WORD_PATH+f"eiken_derujun_added.csv")
+    insert_explanations_from_csv(EXPLANATION_PATH+f"eiken_derujun_explanation.csv")
+    
