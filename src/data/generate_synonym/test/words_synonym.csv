@@ -1,0 +1,371 @@
+number,word,synonym
+6001,symposium,conference
+6001,symposium,meeting
+6001,symposium,convention
+6001,symposium,seminar
+6001,symposium,congress
+6001,symposium,forum
+6001,symposium,colloquium
+6001,symposium,panel discussion
+6001,symposium,round table
+6001,symposium,workshop
+6001,symposium,lecture series
+6001,symposium,academic conference
+6001,symposium,scholarly gathering
+6001,symposium,powwow
+6001,symposium,teach-in
+6001,symposium,deliberation
+6001,symposium,parley
+6001,symposium,summit
+6001,symposium,convocation
+6001,symposium,huddle
+6001,symposium,sessions
+6001,symposium,assembly
+6001,symposium,gathering
+6001,symposium,meet
+6001,symposium,pow-wow
+6001,symposium,teach in
+6001,symposium,academic gathering
+6001,symposium,scholarly conference
+6001,symposium,learned discourse
+6001,symposium,intellectual exchange
+6001,symposium,brainstorming session
+6001,symposium,think tank
+6001,symposium,working group
+6001,symposium,study group
+6001,symposium,plenary session
+6001,symposium,general session
+6001,symposium,group discussion
+6001,symposium,open forum
+6001,symposium,public discussion
+6001,symposium,public debate
+6001,symposium,panel
+6001,symposium,lecture
+6001,symposium,presentation
+6001,symposium,address
+6001,symposium,discourse
+6001,symposium,oration
+6001,symposium,talk
+6001,symposium,speech
+6002,broaden,expand
+6002,broaden,widen
+6002,broaden,extend
+6002,broaden,increase
+6002,broaden,enlarge
+6002,broaden,deepen
+6002,broaden,amplify
+6002,broaden,augment
+6002,broaden,develop
+6002,broaden,stretch
+6002,broaden,inflate
+6002,broaden,dilate
+6002,broaden,spread
+6002,broaden,grow
+6002,broaden,magnify
+6002,broaden,elongate
+6002,broaden,unfold
+6002,broaden,exaggerate
+6002,broaden,enhance
+6002,broaden,enrich
+6002,broaden,diversify
+6002,broaden,generalize
+6002,broaden,open up
+6002,broaden,flesh out
+6002,broaden,elaborate
+6002,broaden,expound
+6002,broaden,amplify
+6002,broaden,extend the scope of
+6002,broaden,increase the range of
+6002,broaden,make wider
+6002,broaden,make larger
+6002,broaden,spread out
+6002,broaden,broaden one's horizons
+6002,broaden,deepen understanding
+6002,broaden,develop expertise
+6002,broaden,cultivate
+6002,broaden,enhance knowledge
+6002,broaden,widen perspective
+6002,broaden,augment skills
+6002,broaden,build upon
+6002,broaden,bolster
+6002,broaden,reinforce
+6002,broaden,supplement
+6002,broaden,aggrandize
+6002,broaden,dilate upon
+6002,broaden,expatiate
+6002,broaden,prolong
+6002,broaden,protract
+6002,broaden,exacerbate
+6002,broaden,intensify
+6002,broaden,magnificate
+6002,broaden,outstretch
+6002,broaden,rarefy
+6002,broaden,splay
+6002,broaden,distend
+6002,broaden,inflate
+6002,broaden,burgeon
+6002,broaden,mushroom
+6002,broaden,proliferate
+6002,broaden,ramify
+6002,broaden,asperse
+6002,broaden,diffusion
+6002,broaden,permeate
+6002,broaden,pervade
+6002,broaden,suffuse
+6002,broaden,transfuse
+6002,broaden,inseminate
+6002,broaden,adumbrate
+6002,broaden,delineate
+6002,broaden,elucidate
+6002,broaden,illuminate
+6002,broaden,unravel
+6002,broaden,explicate
+6002,broaden,demarcate
+6002,broaden,expansiate
+6002,broaden,matriculate
+6002,broaden,inculcate
+6002,broaden,propagate
+6002,broaden,disseminate
+6002,broaden,promulgate
+6002,broaden,vent
+6002,broaden,diffuse
+6002,broaden,ventilate
+6002,broaden,disclose
+6002,broaden,reveal
+6002,broaden,impart
+6002,broaden,impregnate
+6002,broaden,inoculate
+6002,broaden,infuse
+6002,broaden,infiltrate
+6002,broaden,instill
+6002,broaden,saturate
+6002,broaden,transfuse
+6002,broaden,extend the boundaries of
+6002,broaden,open up new avenues
+6002,broaden,add breadth
+6002,broaden,add depth
+6003,ecology,environmental science
+6003,ecology,environmentalism
+6003,ecology,nature study
+6003,ecology,bionomics
+6003,ecology,study of ecosystems
+6003,ecology,habitat studies
+6003,ecology,environmental biology
+6003,ecology,conservation biology
+6003,ecology,natural history
+6003,ecology,biotic science
+6003,ecology,the study of organisms and their environment
+6003,ecology,the study of interrelationships between organisms and their environment
+6003,ecology,systems ecology
+6003,ecology,landscape ecology
+6003,ecology,population ecology
+6003,ecology,community ecology
+6003,ecology,biogeography
+6003,ecology,environmental stewardship
+6003,ecology,environmental protection
+6003,ecology,biosphere studies
+6003,ecology,geobiology
+6004,circulate,spread
+6004,circulate,distribute
+6004,circulate,disseminate
+6004,circulate,propagate
+6004,circulate,transmit
+6004,circulate,convey
+6004,circulate,pass around
+6004,circulate,hand out
+6004,circulate,issue
+6004,circulate,broadcast
+6004,circulate,publish
+6004,circulate,promulgate
+6004,circulate,air
+6004,circulate,relay
+6004,circulate,radiate
+6004,circulate,flow
+6004,circulate,move around
+6004,circulate,go around
+6004,circulate,travel
+6004,circulate,course
+6004,circulate,revolve
+6004,circulate,rotate
+6004,circulate,cycle
+6004,circulate,percolate
+6004,circulate,diffuse
+6004,circulate,permeate
+6004,circulate,reach
+6004,circulate,get around
+6004,circulate,be current
+6004,circulate,be known
+6004,circulate,be rife
+6004,circulate,be prevalent
+6004,circulate,pass from hand to hand
+6004,circulate,make the rounds
+6004,circulate,put about
+6004,circulate,set afloat
+6004,circulate,give out
+6004,circulate,fan out
+6004,circulate,put in circulation
+6004,circulate,get abroad
+6004,circulate,be in motion
+6004,circulate,be in effect
+6004,circulate,be in use
+6004,circulate,be operative
+6005,corpse,dead body
+6005,corpse,body
+6005,corpse,remains
+6005,corpse,cadaver
+6005,corpse,carcass
+6005,corpse,stiff
+6005,corpse,deceased
+6005,corpse,the deceased
+6005,corpse,late
+6005,corpse,lifeless body
+6005,corpse,lifeless form
+6005,corpse,departed
+6005,corpse,relìct
+6005,corpse,mortal remains
+6005,corpse,dust
+6005,corpse,ashes
+6005,corpse,bones
+6005,corpse,skeleton
+6005,corpse,frame
+6005,corpse,shell
+6005,corpse,exanimate body
+6005,corpse,a cold body
+6005,corpse,a stiff
+6005,corpse,the fallen
+6005,corpse,the victim
+6005,corpse,slain
+6005,corpse,martyr
+6005,corpse,offal
+6005,corpse,putrefied remains
+6005,corpse,rotting corpse
+6005,corpse,decomposed body
+6005,corpse,roadkill
+6005,corpse,zombie (humorous)
+6005,corpse,walking dead (humorous)
+6005,corpse,deceased person
+6005,corpse,human remains
+6005,corpse,subject (in a medical context)
+6005,corpse,specimen (in a medical context)
+6005,corpse,corpus (legal/medical)
+6005,corpse,mort
+6005,corpse,geist
+6005,corpse,shade
+6005,corpse,wraith
+6005,corpse,phantom
+6006,convey,communicate
+6006,convey,transmit
+6006,convey,impart
+6006,convey,relay
+6006,convey,transfer
+6006,convey,send
+6006,convey,deliver
+6006,convey,bear
+6006,convey,carry
+6006,convey,bring
+6006,convey,express
+6006,convey,indicate
+6006,convey,show
+6006,convey,reveal
+6006,convey,disclose
+6006,convey,make known
+6006,convey,get across
+6006,convey,put across
+6006,convey,signify
+6006,convey,betoken
+6006,convey,denote
+6006,convey,suggest
+6006,convey,imply
+6006,convey,intimate
+6006,convey,bespeak
+6006,convey,evince
+6006,convey,announce
+6006,convey,promulgate
+6006,convey,circulate
+6006,convey,divulge
+6006,convey,air
+6006,convey,ventilate
+6006,convey,diffuse
+6006,convey,propagate
+6006,convey,broadcast
+6006,convey,report
+6006,convey,relate
+6006,convey,narrate
+6006,convey,recount
+6006,convey,detail
+6006,convey,set forth
+6006,convey,pass on
+6006,convey,hand on
+6006,convey,forward
+6006,convey,ship
+6006,convey,export
+6006,convey,import
+6006,convey,move
+6006,convey,conduct
+6006,convey,guide
+6006,convey,lead
+6006,convey,usher
+6006,convey,channel
+6006,convey,funnel
+6006,convey,effect
+6006,convey,cause
+6006,convey,represent
+6006,convey,manifest
+6006,convey,embody
+6006,convey,epitomize
+6006,convey,mirror
+6006,convey,reflect
+6006,convey,portray
+6006,convey,render
+6006,convey,depict
+6006,convey,illustrate
+6006,convey,elucidate
+6006,convey,clarify
+6006,convey,explain
+6006,convey,interpret
+6006,convey,translate
+6006,convey,unfold
+6006,convey,unravel
+6006,convey,decipher
+6006,convey,unwrap
+6006,convey,unveil
+6006,convey,bring to light
+6006,convey,give voice to
+6006,convey,articulate
+6006,convey,enunciate
+6006,convey,utter
+6006,convey,phrase
+6006,convey,word
+6006,convey,couch
+6006,convey,frame
+6006,convey,formulate
+6006,convey,airlift
+6006,convey,route
+6006,convey,dispatch
+6006,convey,remit
+6006,convey,cede
+6006,convey,assign
+6006,convey,make over
+6007,nan,grandmother
+6007,nan,grandma
+6007,nan,granny
+6007,nan,nanna
+6007,nan,nana
+6007,nan,gram
+6007,nan,grandmama
+6007,nan,nonna
+6007,nan,oma
+6007,nan,elderly woman
+6007,nan,female grandparent
+6007,nan,matriarch
+6007,nan,ancestress
+6007,nan,foremother
+6007,nan,old woman (informal)
+6007,nan,senior
+6007,nan,dowager
+6007,nan,materfamilias
+6007,nan,abuela
+6007,nan,babushka
+6007,nan,avó
+6007,nan,memaw
+6007,nan,old lady
