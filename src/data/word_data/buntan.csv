@@ -1,0 +1,1583 @@
+word_id,word,source
+1,bloodshed,buntan
+2,incisive,buntan
+3,genre,buntan
+4,vehicle,buntan
+5,paranoia,buntan
+6,allegory,buntan
+7,communism,buntan
+8,conformity,buntan
+9,disintegrate,buntan
+10,replica,buntan
+11,metaphor,buntan
+12,insidious,buntan
+13,acclaim,buntan
+14,masterpiece,buntan
+15,ill,buntan
+16,revolve,buntan
+17,obsession,buntan
+18,conceal,buntan
+19,cower,buntan
+20,convey,buntan
+21,horrific,buntan
+22,hideous,buntan
+23,precedent,buntan
+24,beloved,buntan
+25,commercially,buntan
+26,groundbreaking,buntan
+27,copyright,buntan
+28,violation,buntan
+29,unauthorized,buntan
+30,duplication,buntan
+31,lawsuit,buntan
+32,the Supreme Court,buntan
+33,death knell,buntan
+34,testify,buntan
+35,empower,buntan
+36,esteem,buntan
+37,testimony,buntan
+38,persuasive,buntan
+39,piracy,buntan
+40,intellectual property,buntan
+41,plaintiff,buntan
+42,defendant,buntan
+43,plagiarize,buntan
+44,encroach,buntan
+45,indispensable,buntan
+46,abrasion,buntan
+47,corrosion,buntan
+48,component,buntan
+49,medieval,buntan
+50,alloy,buntan
+51,manuscript,buntan
+52,compendium,buntan
+53,forge,buntan
+54,ambiguous,buntan
+55,artifact,buntan
+56,data back,buntan
+57,impurity,buntan
+58,brittle,buntan
+59,exquisite,buntan
+60,craftsmanship,buntan
+61,resourcefulness,buntan
+62,ore,buntan
+63,originate,buntan
+64,earthenware,buntan
+65,assassination,buntan
+66,assume,buntan
+67,woefully,buntan
+68,unqualified,buntan
+69,successor,buntan
+70,rift,buntan
+71,rigid,buntan
+72,incompetence,buntan
+73,strife,buntan
+74,engulf,buntan
+75,administration,buntan
+76,obstruct,buntan
+77,abolish,buntan
+78,abandonment,buntan
+79,ensue,buntan
+80,strip A of B,buntan
+81,impeach,buntan
+82,grinding,buntan
+83,afflict,buntan
+84,reconcile,buntan
+85,suffrage,buntan
+86,supremacy,buntan
+87,conjure up,buntan
+88,clumsy,buntan
+89,brute,buntan
+90,versatile,buntan
+91,perception,buntan
+92,carnivorous,buntan
+93,draw on,buntan
+94,smear,buntan
+95,arrogance,buntan
+96,self-interest,buntan
+97,debunk,buntan
+98,trace,buntan
+99,starch,buntan
+100,carbohydrate,buntan
+101,pharmaceutical,buntan
+102,ailment,buntan
+103,digestive,buntan
+104,disorder,buntan
+105,incongruous,buntan
+106,overdue,buntan
+107,venue,buntan
+108,idyllic,buntan
+109,boisterous,buntan
+110,hub,buntan
+111,peripheral,buntan
+112,distraction,buntan
+113,frivolous,buntan
+114,undergo,buntan
+115,stringent,buntan
+116,regimen,buntan
+117,be cut out for,buntan
+118,weed out,buntan
+119,swear an oath,buntan
+120,abide by,buntan
+121,invoke,buntan
+122,plead for,buntan
+123,vanquish,buntan
+124,potion,buntan
+125,curse,buntan
+126,corruption,buntan
+127,bribe,buntan
+128,throw a match,buntan
+129,skull,buntan
+130,hominid,buntan
+131,authority,buntan
+132,physiological,buntan
+133,Homo erectus,buntan
+134,forerunner,buntan
+135,specimen,buntan
+136,integral,buntan
+137,verify,buntan
+138,aberrant,buntan
+139,contentious,buntan
+140,enigma,buntan
+141,intact,buntan
+142,unambiguous,buntan
+143,allay,buntan
+144,sway,buntan
+145,reach a consensus,buntan
+146,cranium,buntan
+147,skeleton,buntan
+148,Homo sapiens,buntan
+149,pore over,buntan
+150,barren,buntan
+151,cluster,buntan
+152,fortress,buntan
+153,outpost,buntan
+154,pottery,buntan
+155,ascertain,buntan
+156,elusive,buntan
+157,indigenous,buntan
+158,testament,buntan
+159,metallurgy,buntan
+160,textile,buntan
+161,irrigation,buntan
+162,channel,buntan
+163,demise,buntan
+164,prerequisite,buntan
+165,reservoir,buntan
+166,tap,buntan
+167,cohesive,buntan
+168,feasible,buntan
+169,ragtag,buntan
+170,deploy,buntan
+171,troop,buntan
+172,topple,buntan
+173,legitimate,buntan
+174,install,buntan
+175,autonomy,buntan
+176,commemorate,buntan
+177,sporadically,buntan
+178,adherent,buntan
+179,have nothing to do with,buntan
+180,proclamation,buntan
+181,foster,buntan
+182,durable,buntan
+183,cater to,buntan
+184,a handful of,buntan
+185,fan out,buntan
+186,ubiquitous,buntan
+187,vendor,buntan
+188,cash in on,buntan
+189,festivity,buntan
+190,settlement,buntan
+191,unearth,buntan
+192,cause a stir among,buntan
+193,excavator,buntan
+194,scribe,buntan
+195,eminent,buntan
+196,proximity,buntan
+197,fortification,buntan
+198,imposing,buntan
+199,earthwork,buntan
+200,erect,buntan
+201,garrison,buntan
+202,thwart,buntan
+203,likely,buntan
+204,accommodate,buntan
+205,infer,buntan
+206,lucrative,buntan
+207,marsh,buntan
+208,deter,buntan
+209,skirt around,buntan
+210,buffer,buntan
+211,intriguing,buntan
+212,complex,buntan
+213,ritualistic,buntan
+214,radiocarbon dating,buntan
+215,occupy,buntan
+216,as yet,buntan
+217,perimeter,buntan
+218,icon,buntan
+219,Neolithic Age,buntan
+220,flesh out,buntan
+221,set a precedent for,buntan
+222,communal,buntan
+223,livestock,buntan
+224,exquisitely,buntan
+225,ostensibly,buntan
+226,lavish,buntan
+227,decommission,buntan
+228,wind down,buntan
+229,cease sanctum,buntan
+230,archipelago,buntan
+231,zero in on,buntan
+232,anthropologist,buntan
+233,hitherto,buntan
+234,remnant,buntan
+235,collectively,buntan
+236,rudimentary,buntan
+237,comprise,buntan
+238,erode,buntan
+239,confine,buntan
+240,cast doubt on,buntan
+241,conjecture,buntan
+242,dynasty,buntan
+243,fragment,buntan
+244,warfare,buntan
+245,repel,buntan
+246,foray,buntan
+247,hang on to,buntan
+248,concede,buntan
+249,tantamount,buntan
+250,chafe at,buntan
+251,play up,buntan
+252,prophesy,buntan
+253,chimera,buntan
+254,depict,buntan
+255,carve,buntan
+256,circular,buntan
+257,notable,buntan
+258,surpass,buntan
+259,subtle,buntan
+260,foresee,buntan
+261,apocalypse,buntan
+262,nomadic,buntan
+263,aggression,buntan
+264,suppress,buntan
+265,as such,buntan
+266,cataclysmic,buntan
+267,eschatology,buntan
+268,theocracy,buntan
+269,solar deity,buntan
+270,human sacrifice,buntan
+271,astronomy,buntan
+272,astrology,buntan
+273,conceive,buntan
+274,persistent,buntan
+275,hold,buntan
+276,fall on,buntan
+277,turnout,buntan
+278,rally,buntan
+279,auspicious,buntan
+280,by-product,buntan
+281,ravage,buntan
+282,apathy,buntan
+283,be disposed to do,buntan
+284,coalition,buntan
+285,like-minded,buntan
+286,fire up,buntan
+287,resonate,buntan
+288,spectacular,buntan
+289,exceed,buntan
+290,relegate,buntan
+291,fringe,buntan
+292,complacent,buntan
+293,give out,buntan
+294,transparent,buntan
+295,maritime,buntan
+296,fatality,buntan
+297,hull,buntan
+298,breach,buntan
+299,iceberg,buntan
+300,hamper,buntan
+301,clutter,buntan
+302,riddle,buntan
+303,alignment,buntan
+304,horde,buntan
+305,run aground,buntan
+306,seaboard,buntan
+307,seal one's fate,buntan
+308,anything but,buntan
+309,propitious,buntan
+310,inconspicuous,buntan
+311,set A in motion,buntan
+312,wreck,buntan
+313,glacier,buntan
+314,spring tide,buntan
+315,intrigue,buntan
+316,intensive,buntan
+317,productivity,buntan
+318,logistics,buntan
+319,beneficiary,buntan
+320,colossal,buntan
+321,retain,buntan
+322,perceive,buntan
+323,stagnant,buntan
+324,skyrocket,buntan
+325,soar,buntan
+326,proclaim,buntan
+327,manifestation,buntan
+328,contend,buntan
+329,attributable to,buntan
+330,reap,buntan
+331,turnover,buntan
+332,workforce,buntan
+333,expenditure,buntan
+334,long-standing,buntan
+335,dominance,buntan
+336,combustion,buntan
+337,uphill,buntan
+338,subsidize,buntan
+339,kick-start,buntan
+340,bolster,buntan
+341,allege,buntan
+342,squander,buntan
+343,shell out,buntan
+344,in lieu of,buntan
+345,gas-guzzling,buntan
+346,astronomical,buntan
+347,parity,buntan
+348,divert,buntan
+349,pollutant,buntan
+350,fume,buntan
+351,commemoration,buntan
+352,oppression,buntan
+353,bigotry,buntan
+354,perpetuate,buntan
+355,subjugation,buntan
+356,enslavement,buntan
+357,in the wake of,buntan
+358,brutality,buntan
+359,homicide,buntan
+360,unjustified,buntan
+361,spring up,buntan
+362,ire,buntan
+363,enforcement,buntan
+364,trample,buntan
+365,civil rights,buntan
+366,entrenched,buntan
+367,pay tribute to,buntan
+368,sweeping,buntan
+369,enact,buntan
+370,menacing,buntan
+371,tyrannize,buntan
+372,absurd,buntan
+373,sadistic,buntan
+374,try,buntan
+375,misdemeanor,buntan
+376,felony,buntan
+377,profound,buntan
+378,litigate,buntan
+379,judicial,buntan
+380,grass-roots,buntan
+381,lobby,buntan
+382,legislature,buntan
+383,sentient,buntan
+384,captivity,buntan
+385,slaughter,buntan
+386,holocaust,buntan
+387,ruling,buntan
+388,mistreat,buntan
+389,emancipate,buntan
+390,hubris,buntan
+391,prosperity,buntan
+392,aggregate,buntan
+393,be intended to do,buntan
+394,uncompensated,buntan
+395,breadwinner,buntan
+396,standstill,buntan
+397,staggering,buntan
+398,indicator,buntan
+399,insight,buntan
+400,contemplate,buntan
+401,allocation,buntan
+402,stimulus,buntan
+403,package,buntan
+404,redistribution,buntan
+405,encompass,buntan
+406,menial,buntan
+407,devalue,buntan
+408,cast a ballot,buntan
+409,subject to,buntan
+410,imprisonment,buntan
+411,correlation,buntan
+412,proponent,buntan
+413,inducement,buntan
+414,segment,buntan
+415,dwindle,buntan
+416,expend,buntan
+417,go to the polls,buntan
+418,coercion,buntan
+419,evade,buntan
+420,render A B,buntan
+421,civic,buntan
+422,underpinning,buntan
+423,statutory,buntan
+424,mandate,buntan
+425,constituent,buntan
+426,nudge,buntan
+427,abuse,buntan
+428,flagrant,buntan
+429,blockade,buntan
+430,rogue,buntan
+431,narcotic,buntan
+432,unintended,buntan
+433,reliance,buntan
+434,escalate,buntan
+445,authoritarian regime,buntan
+446,trigger,buntan
+447,exodus,buntan
+448,unilaterally,buntan
+449,modest,buntan
+450,amicable,buntan
+451,impetuously,buntan
+452,freeze,buntan
+453,pull out,buntan
+454,disrupt,buntan
+455,dissuade,buntan
+456,in coordination with,buntan
+457,infamous,buntan
+458,grand,buntan
+459,follow through,buntan
+460,in office,buntan
+461,contrary to,buntan
+462,conventional wisdom,buntan
+463,portrayal,buntan
+464,the bulk of,buntan
+465,pledge,buntan
+466,respondent,buntan
+467,strive,buntan
+468,manifesto,buntan
+469,subsequent,buntan
+470,expediency,buntan
+471,odds,buntan
+472,deliver on,buntan
+473,striking,buntan
+474,paradox,buntan
+475,out of sync,buntan
+476,explicit,buntan
+477,consistent,buntan
+478,plague,buntan
+479,impede,buntan
+480,equitable,buntan
+481,embed,buntan
+482,futile,buntan
+483,bribery,buntan
+484,influence peddling,buntan
+485,embezzlement,buntan
+486,attribute A to B,buntan
+487,track record,buntan
+488,alter,buntan
+489,ethical,buntan
+490,dilemma,buntan
+491,morally,buntan
+492,upstanding,buntan
+493,hierarchy,buntan
+494,meritocracy,buntan
+495,inept,buntan
+496,audit,buntan
+497,oversight,buntan
+498,referendum,buntan
+499,electorate,buntan
+500,secede,buntan
+501,advocate,buntan
+502,disenchantment,buntan
+503,legitimacy,buntan
+504,marijuana,buntan
+505,detractor,buntan
+506,deceitful,buntan
+507,tactic,buntan
+508,camp,buntan
+509,distort,buntan
+510,viciously,buntan
+511,divisive,buntan
+512,the status quo,buntan
+513,unrest,buntan
+514,credibility,buntan
+515,shady,buntan
+516,venomous,buntan
+517,gear up to do,buntan
+518,imminent,buntan
+519,confiscate,buntan
+520,incumbent,buntan
+521,infringe,buntan
+522,bear,buntan
+523,enumerate,buntan
+524,endow,buntan
+525,verdict,buntan
+526,clash,buntan
+527,grant,buntan
+528,dissenter,buntan
+529,decry,buntan
+530,fraud,buntan
+531,interest group,buntan
+532,moot,buntan
+533,sanction,buntan
+534,pile up,buntan
+535,keep up with,buntan
+536,file for,buntan
+537,bankruptcy,buntan
+538,obligatory,buntan
+539,remit,buntan
+540,be on the hook for,buntan
+541,think tank,buntan
+542,shore up,buntan
+543,strategic default,buntan
+544,go all out to do,buntan
+545,salvage,buntan
+546,deliberately,buntan
+547,fall behind,buntan
+548,asset,buntan
+549,walk way from,buntan
+550,in the red,buntan
+551,bail out,buntan
+552,shareholder,buntan
+553,be left holding the bag,buntan
+554,bottom line,buntan
+555,burgeoning,buntan
+556,shortfall,buntan
+557,power grid,buntan
+558,boost,buntan
+559,paramount,buntan
+560,conglomerate,buntan
+561,utility,buntan
+562,on the drawing board,buntan
+563,domestically,buntan
+564,mine,buntan
+565,filthy,buntan
+566,state-of-the-art,buntan
+567,resort to,buntan
+568,drive up,buntan
+569,pass on,buntan
+570,offset,buntan
+571,unleash,buntan
+572,barrage,buntan
+573,at the expense of,buntan
+574,trade-off,buntan
+575,alluring,buntan
+576,resurgence,buntan
+577,impoverished,buntan
+578,fare,buntan
+579,disproportionately,buntan
+580,subsist on,buntan
+581,benchmark,buntan
+582,shoot up,buntan
+583,subsistence,buntan
+584,incidence,buntan
+585,bring in,buntan
+586,climb out of,buntan
+587,comprehensive,buntan
+588,destitute,buntan
+589,poverty line,buntan
+590,turnaround,buntan
+591,subvention,buntan
+592,beefed-up,buntan
+593,outbreak,buntan
+594,solicit,buntan
+595,falter,buntan
+596,frugal,buntan
+597,backlash,buntan
+598,economic downturn,buntan
+599,acrimony,buntan
+600,sector,buntan
+601,stern,buntan
+602,regulatory,buntan
+603,account for,buntan
+604,balloon,buntan
+605,turmoil,buntan
+606,monetary,buntan
+607,come up with,buntan
+608,determine,buntan
+609,threshold,buntan
+610,condemnation,buntan
+611,remuneration,buntan
+612,arbitrarily,buntan
+613,inflated,buntan
+614,lure,buntan
+615,sustainable,buntan
+616,recession,buntan
+617,denounce,buntan
+618,deregulation,buntan
+619,outsource,buntan
+620,vilify,buntan
+621,boil down to,buntan
+622,hinge on,buntan
+623,budding,buntan
+624,at one time,buntan
+625,conductive,buntan
+626,complexity,buntan
+627,automate,buntan
+628,context-sensitive,buntan
+629,crop up,buntan
+630,expertise,buntan
+631,attribute,buntan
+632,niche,buntan
+633,momentum,buntan
+634,wane,buntan
+635,tedious,buntan
+636,vertical integration,buntan
+637,polarization,buntan
+638,downsizing,buntan
+639,offshore,buntan
+640,sift through,buntan
+641,laborious,buntan
+642,human resources department,buntan
+643,turn to,buntan
+644,round,buntan
+645,screening,buntan
+646,algorithm,buntan
+647,claim,buntan
+648,outdo,buntan
+649,assess,buntan
+650,implement,buntan
+651,charge,buntan
+652,vulnerable,buntan
+653,amplify,buntan
+654,discriminate,buntan
+655,accusation,buntan
+656,criterion,buntan
+657,transparency,buntan
+658,impartial,buntan
+659,bug,buntan
+660,work out,buntan
+661,scrutinize,buntan
+662,premonition,buntan
+663,bear out,buntan
+664,embrace,buntan
+665,more often than not,buntan
+666,oversee,buntan
+667,top-down hierarchy,buntan
+668,dictate,buntan
+669,a vast array of,buntan
+670,at one's fingertips,buntan
+671,breaking news,buntan
+672,swiftly,buntan
+673,come out with,buntan
+674,spin,buntan
+675,development,buntan
+676,savvy,buntan
+677,social networking site,buntan
+678,rebel,buntan
+679,censor,buntan
+680,shut down,buntan
+681,interfere with,buntan
+682,precarious,buntan
+683,Jasmine Revolution,buntan
+684,mission,buntan
+685,void,buntan
+686,excel,buntan
+687,prospect,buntan
+688,multinational corporation,buntan
+689,founder,buntan
+690,spur,buntan
+691,leverage,buntan
+692,accessible,buntan
+693,isolated,buntan
+694,inexpensive,buntan
+695,transmit,buntan
+696,diagnosis,buntan
+697,impair,buntan
+698,audience,buntan
+699,tap into,buntan
+700,watershed,buntan
+701,telemedicine,buntan
+702,distance learning,buntan
+703,clone,buntan
+704,breeding,buntan
+705,association,buntan
+706,ban,buntan
+707,duplicate,buntan
+708,authoritative,buntan
+709,equestrian,buntan
+710,amend,buntan
+711,prohibition,buntan
+712,pivot on,buntan
+713,identical,buntan
+714,gene,buntan
+715,immeasurable,buntan
+716,controversial,buntan
+717,disallow,buntan
+718,decree,buntan
+719,underscore,buntan
+720,genetically modified,buntan
+721,living modified organism,buntan
+722,telecommunication,buntan
+723,radio wave,buntan
+724,light wave,buntan
+725,photon,buntan
+726,scatter,buntan
+727,debris,buntan
+728,neutrino,buntan
+729,obstruction,buntan
+730,matter,buntan
+731,impediment,buntan
+732,abundance,buntan
+733,interact with,buntan
+734,filter out,buntan
+735,background noise,buntan
+736,beam,buntan
+737,emanate,buntan
+738,virtually,buntan
+739,extraterrestrial,buntan
+740,sound wave,buntan
+741,dwarf planet,buntan
+742,asteroid,buntan
+743,skyscraper,buntan
+744,factor in,buntan
+745,gravity,buntan
+746,occupant,buntan
+747,liability,buntan
+748,compliance,buntan
+749,code,buntan
+750,amenity,buntan
+751,conserve,buntan
+752,be obliged to do,buntan
+753,contingency,buntan
+754,shield,buntan
+755,extract,buntan
+756,condensation,buntan
+757,accumulate,buntan
+758,inaugurate,buntan
+759,refurbish,buntan
+760,refrigerant,buntan
+761,microwave,buntan
+762,principle,buntan
+763,physics,buntan
+764,optical,buntan
+765,funding,buntan
+766,dry up,buntan
+767,stumble upon,buntan
+768,dated,buntan
+769,hypothesize,buntan
+770,excite,buntan
+771,validity,buntan
+772,collaborate,buntan
+773,straightforward,buntan
+774,procrastinate,buntan
+775,nothing short of,buntan
+776,coax out,buntan
+777,coarsely,buntan
+778,wind up doing,buntan
+779,usher in,buntan
+780,harness,buntan
+781,frequency,buntan
+782,molecule,buntan
+783,gaseous,buntan
+784,in a broad sense,buntan
+785,organic,buntan
+786,hydrogen,buntan
+787,stand out,buntan
+788,locate,buntan
+789,odorless,buntan
+790,chemical reaction,buntan
+791,manifest,buntan
+792,organism,buntan
+793,consequently,buntan
+794,be keyed up,buntan
+795,frigid,buntan
+796,outright,buntan
+797,plausible,buntan
+798,building block,buntan
+799,ammunition,buntan
+800,stellar,buntan
+801,meteorite,buntan
+802,comet,buntan
+803,resourceful,buntan
+804,size up,buntan
+805,emulate,buntan
+806,property,buntan
+807,consummate,buntan
+808,rigorous,buntan
+809,trial and error,buntan
+810,dissect,buntan
+811,biomimicry,buntan
+812,branch,buntan
+813,ponder,buntan
+814,bur,buntan
+815,cling,buntan
+816,fluctuate,buntan
+817,Celsius,buntan
+818,Phenomenally,buntan
+819,eco-friendly,buntan
+820,entice,buntan
+821,admonish,buntan
+822,abstain from,buntan
+823,saturated,buntan
+824,bum rap,buntan
+825,succumb to,buntan
+826,urge,buntan
+827,reside,buntan
+828,gastrointestinal system,buntan
+829,subvert,buntan
+830,neuron,buntan
+831,enteric,buntan
+832,prevail over,buntan
+833,serotonin,buntan
+834,be loaded with,buntan
+835,saline solution,buntan
+836,infusion,buntan
+837,fatty acid,buntan
+838,setback,buntan
+839,override,buntan
+840,diabetes,buntan
+841,contagious,buntan
+842,deadly,buntan
+843,mortality,buntan
+844,symptom,buntan
+845,deceptively,buntan
+846,benign,buntan
+847,exceedingly,buntan
+848,external,buntan
+849,pull through,buntan
+850,discriminate against,buntan
+851,chronic,buntan
+852,epidemic,buntan
+853,dispel,buntan
+854,misconception,buntan
+855,host,buntan
+856,correspond with,buntan
+857,back up,buntan
+858,inject,buntan
+859,stamp out,buntan
+860,elate,buntan
+861,decode,buntan
+862,culmination,buntan
+863,plot,buntan
+864,hereditary,buntan
+865,autism,buntan
+866,protein,buntan
+867,ensuing,buntan
+868,delve into,buntan
+869,abort,buntan
+870,dead end,buntan
+871,inconsequential,buntan
+872,team up,buntan
+873,activate,buntan
+874,holistic,buntan
+875,gene therapy,buntan
+876,congenital,buntan
+877,syndrome,buntan
+878,tumor,buntan
+879,privilege,buntan
+880,commitment,buntan
+881,monolingual,buntan
+882,momentary,buntan
+883,neurological,buntan
+884,rewire,buntan
+885,incessant,buntan
+886,multitasking,buntan
+887,stave off,buntan
+888,dementia,buntan
+889,Alzheimer's,buntan
+890,vibrant,buntan
+891,take up,buntan
+892,prudent,buntan
+893,linguist,buntan
+894,code switching,buntan
+895,multilingualism,buntan
+896,antibiotic,buntan
+897,overprescribe,buntan
+898,concern,buntan
+899,vicious,buntan
+900,materialize,buntan
+901,impervious to,buntan
+902,medical intervention,buntan
+903,bank on,buntan
+904,alternative treatment,buntan
+905,parasite,buntan
+906,stealth,buntan
+907,break out of,buntan
+908,stem,buntan
+909,fend off,buntan
+910,receptive,buntan
+911,mingle,buntan
+912,hybrid,buntan
+913,pathogen,buntan
+914,E. coli,buntan
+915,microbiologist,buntan
+916,incubate,buntan
+917,chemotherapy,buntan
+918,dermatology,buntan
+919,dearth,buntan
+920,dosage,buntan
+921,equivalent,buntan
+922,duration,buntan
+923,overexpose,buntan
+924,receptor,buntan
+925,inflamed,buntan
+926,cellular,buntan
+927,double-helix structure,buntan
+928,rodent,buntan
+929,as anticipated,buntan
+930,facilitate,buntan
+931,recuperate,buntan
+932,set in,buntan
+933,sting,buntan
+934,wear and tear,buntan
+935,breakdown,buntan
+936,infrared light,buntan
+937,regenerative medicine,buntan
+938,take off,buntan
+939,cumulative,buntan
+940,spray-on,buntan
+941,transplant,buntan
+942,right around the corner,buntan
+943,concurrent,buntan
+944,rejection,buntan
+945,graft,buntan
+946,grievous,buntan
+947,plug,buntan
+948,enzyme,buntan
+949,embryonic,buntan
+950,stem cell,buntan
+951,retinal,buntan
+952,prognosis,buntan
+953,amputee,buntan
+954,paralysis,buntan
+955,take on,buntan
+956,self-generation,buntan
+957,limb,buntan
+958,iconic,buntan
+959,roam,buntan
+960,majestic,buntan
+961,preserve,buntan
+962,round up,buntan
+963,holding pen,buntan
+964,pasture,buntan
+965,fertility,buntan
+966,injection,buntan
+967,administer,buntan
+968,booming,buntan
+969,degrade,buntan
+970,deteriorate,buntan
+971,outrage,buntan
+972,graze,buntan
+973,deprive,buntan
+974,commence,buntan
+975,kin,buntan
+976,traumatic,buntan
+977,feasibility,buntan
+978,domesticate,buntan
+979,dominate,buntan
+980,astoundingly,buntan
+981,yield,buntan
+982,mouthwatering,buntan
+983,unsustainable,buntan
+984,stunning,buntan
+985,prodigious,buntan
+986,pesticide,buntan
+987,eradicate,buntan
+988,borne,buntan
+989,wilt,buntan
+990,under fire,buntan
+991,laden,buntan
+992,residue,buntan
+993,phase out,buntan
+994,scramble,buntan
+995,carcinogen,buntan
+996,bring A to bear,buntan
+997,tractor,buntan
+998,infancy,buntan
+999,prohibitive,buntan
+1000,poisonous,buntan
+1001,incite,buntan
+1002,centipede,buntan
+1003,prestigious,buntan
+1004,journal,buntan
+1005,procure,buntan
+1006,unwittingly,buntan
+1007,abet,buntan
+1008,permit,buntan
+1009,novice,buntan
+1010,protocol,buntan
+1011,diligent,buntan
+1012,legitimately,buntan
+1013,distinguished,buntan
+1014,thorny,buntan
+1015,noble,buntan
+1016,onerous,buntan
+1017,smuggle,buntan
+1018,hinder,buntan
+1019,endeavor,buntan
+1020,poach,buntan
+1021,traffic,buntan
+1022,embargo,buntan
+1023,scarcity,buntan
+1024,ingenious,buntan
+1025,substantiate,buntan
+1026,copious,buntan
+1027,craft,buntan
+1028,adept,buntan
+1029,fierce,buntan
+1030,perforate,buntan
+1031,lash,buntan
+1032,recess,buntan
+1033,resource,buntan
+1034,monitor,buntan
+1035,imply,buntan
+1036,fin,buntan
+1037,decimation,buntan
+1038,the Red List,buntan
+1039,overfishing,buntan
+1040,aquaculture,buntan
+1041,quest,buntan
+1042,makeup,buntan
+1043,bizarre,buntan
+1044,phylogenetic tree,buntan
+1045,de facto,buntan
+1046,genesis,buntan
+1047,bacteria,buntan
+1048,arsenic,buntan
+1049,deduce,buntan
+1050,assimilate,buntan
+1051,phosphorus,buntan
+1052,corroborate,buntan
+1053,concession,buntan
+1054,back down on ,buntan
+1055,singular,buntan
+1056,incorporate,buntan
+1057,composition,buntan
+1058,fallacy,buntan
+1059,light pollution,buntan
+1060,skyglow,buntan
+1061,artificial,buntan
+1062,cast,buntan
+1063,nocturnal,buntan
+1064,stunt,buntan
+1065,collide into,buntan
+1066,beach,buntan
+1067,distinct,buntan
+1068,lifespan,buntan
+1069,catch on,buntan
+1070,incandescent,buntan
+1071,supplant,buntan
+1072,tinge,buntan
+1073,ameliorate,buntan
+1074,spectrum,buntan
+1075,imperative,buntan
+1076,fluorescent light,buntan
+1077,noise pollution,buntan
+1078, renowned,buntan
+1079,biodiversity,buntan
+1080,robust,buntan
+1081,invasive species,buntan
+1082,jeopardize,buntan
+1083,native species,buntan
+1084,prey on,buntan
+1085,offspring,buntan
+1086,inadvertently,buntan
+1088,curtail,buntan
+1089,hold the title of,buntan
+1090,ecosystem,buntan
+1091,influx,buntan
+1092,pervasive,buntan
+1093,gauge,buntan
+1094,crack down on,buntan
+1095,derelict,buntan
+1096,predator,buntan
+1097,natural selection,buntan
+1098,lethal,buntan
+1099,premise,buntan
+1100,assessment,buntan
+1101,unsound,buntan
+1102,tally up,buntan
+1103,inverse correlation,buntan
+1104,defy,buntan
+1105,anomaly,buntan
+1106,diverse,buntan
+1107,strain,buntan
+1108,habitat,buntan
+1109,fracture,buntan
+1110,equilibrium,buntan
+1111,implicit,buntan
+1112,irretrievably,buntan
+1113,ill-founded,buntan
+1114,stratum,buntan
+1115,deforestation,buntan
+1116,desertification,buntan
+1117,substantially,buntan
+1118,sediment,buntan
+1119,multitudes of,buntan
+1120,methane,buntan
+1121,menace,buntan
+1122,have yet to do,buntan
+1123,ice sheet,buntan
+1124,credence,buntan
+1125,hypothetical,buntan
+1126,inhospitable,buntan
+1127,ocean floor,buntan
+1128,build up,buntan
+1129,abate,buntan
+1130,inevitably,buntan
+1131,ultimately,buntan
+1132,add up to,buntan
+1133,tipping point,buntan
+1134,impending,buntan
+1135,spell,buntan
+1136,unprecedented,buntan
+1137,bring about,buntan
+1138,propensity,buntan
+1139,analogy,buntan
+1140,inherent,buntan
+1141,inhibit,buntan
+1142,implication,buntan
+1143,augment,buntan
+1144,surmise,buntan
+1145,outlet,buntan
+1146,be prone to,buntan
+1147,salinity,buntan
+1148,keep track of,buntan
+1149,low atmospheric pressure,buntan
+1150,front,buntan
+1151,tornado,buntan
+1152,landslide,buntan
+1153,oceanography,buntan
+1154,brackish water,buntan
+1155,breakthrough,buntan
+1156,spell out,buntan
+1157,synthetic,buntan
+1158,insecticide,buntan
+1159,curb,buntan
+1160,widespread,buntan
+1161,imperil,buntan
+1162,mull over,buntan
+1163,nesting pair,buntan
+1164,on the brink of,buntan
+1165,extinction,buntan
+1166,be taken aback,buntan
+1167,hammer out,buntan
+1168,skeptical,buntan
+1169,enforce,buntan
+1170,disperse,buntan
+1171,implementation,buntan
+1172,endangered,buntan
+1173,environmentalism,buntan
+1174,fungicide,buntan
+1175,blight,buntan
+1176,crucial,buntan
+1177,mandatory,buntan
+1178,nutritional value,buntan
+1179,baffle,buntan
+1180,intervention,buntan
+1181,be apt to do,buntan
+1182,rule out,buntan
+1183,daunting,buntan
+1184,overload,buntan
+1185,tune out,buntan
+1186,perspective,buntan
+1187,payoff,buntan
+1188,profess,buntan
+1189,intake,buntan
+1190,contradict,buntan
+1191,be resigned to doing,buntan
+1192,to an extent ,buntan
+1193,undermine,buntan
+1194,address,buntan
+1195,obesity,buntan
+1196,malnutrition,buntan
+1197,surge,buntan
+1198,haul in,buntan
+1199,crustacean,buntan
+1200,tumble,buntan
+1201,be swamped with,buntan
+1202,gimmick,buntan
+1203,beseech,buntan
+1204,sit on,buntan
+1205,unanimously,buntan
+1206,endorsement,buntan
+1207,proliferation,buntan
+1208,drawback,buntan
+1209,taper off,buntan
+1210,viable,buntan
+1211,glut,buntan
+1212,nibble away at,buntan
+1213,balk at,buntan
+1214,pay off,buntan
+1215,crawfish,buntan
+1216,fishery,buntan
+1217,flock,buntan
+1218,outrageous,buntan
+1219,haphazard,buntan
+1220,coherent,buntan
+1221,scurry,buntan
+1222,maneuver,buntan
+1223,optimum,buntan
+1224,herd,buntan
+1225,postulate,buntan
+1226,tracking device,buntan
+1227,swirl,buntan
+1228,frenzy,buntan
+1229,disorderly,buntan
+1230,flight,buntan
+1231,adhere to,buntan
+1232,veterinary,buntan
+1233,assert,buntan
+1234,hint at,buntan
+1235,discreet,buntan
+1236,scapegoat,buntan
+1237,give A credit for B,buntan
+1238,carnivore,buntan
+1239,put A to work,buntan
+1240,disregard,buntan
+1241,cognitive scientist,buntan
+1242,morsel,buntan
+1243,follow-up,buntan
+1244,entail,buntan
+1245,acuity,buntan
+1246,forte,buntan
+1247,inveterate,buntan
+1248,scrounger,buntan
+1249,ingenuity,buntan
+1250,get through,buntan
+1251,scarce,buntan
+1252,hibernate,buntan
+1253,quadrupedal,buntan
+1254,fungi,buntan
+1255,annihilate,buntan
+1256,circulation,buntan
+1257,wilderness area,buntan
+1258,covertly,buntan
+1259,freight,buntan
+1260,dormant,buntan
+1261,die-off,buntan
+1262,clear-cutting,buntan
+1263,pandemic,buntan
+1264,ornamental,buntan
+1265,formidable,buntan
+1266,repercussion,buntan
+1267,ongoing,buntan
+1268,infestation,buntan
+1269,condemn A to B,buntan
+1270,prevalence,buntan
+1271,virtuous,buntan
+1272,contentment,buntan
+1273,innocuous,buntan
+1274,binge,buntan
+1275,objectionable,buntan
+1276,blatantly,buntan
+1277,sexist,buntan
+1278,stereotypically,buntan
+1279,masculine,buntan
+1280,diversity,buntan
+1281,corporate,buntan
+1282,backfire,buntan
+1283,inclusion,buntan
+1284,initiative,buntan
+1285,justification,buntan
+1286,compulsory,buntan
+1287,engage in,buntan
+1288,pass over,buntan
+1289,upright,buntan
+1290,hail,buntan
+1291,bachelor's degree,buntan
+1292,perplex,buntan
+1293,transcript,buntan
+1294,grumble,buntan
+1295,appall,buntan
+1296,dropout,buntan
+1297,secondary,buntan
+1298,speculate,buntan
+1299,accountable,buntan
+1300,handout,buntan
+1301,faculty,buntan
+1302,cynical,buntan
+1303,churn out,buntan
+1304,rigor,buntan
+1305,heated,buntan
+1306,conundrum,buntan
+1307,thesis,buntan
+1308,higher education,buntan
+1309,prompt,buntan
+1310,cite,buntan
+1311,detrimental,buntan
+1312,pummel,buntan
+1313,inflatable,buntan
+1314,mallet,buntan
+1315,verbally,buntan
+1316,interval,buntan
+1317,selection,buntan
+1318,sedate,buntan
+1319,expose,buntan
+1320,exhibit,buntan
+1321,prevailing,buntan
+1322,exclusively,buntan
+1323,inclined,buntan
+1324,corporal punishment,buntan
+1325,tantrum,buntan
+1326,unruly,buntan
+1327,defiant,buntan
+1328,acquisition,buntan
+1329,cognitive,buntan
+1330,acronym,buntan
+1331,innumerable,buntan
+1332,presume,buntan
+1333,applicable,buntan
+1334,disproportionate,buntan
+1335,slanted,buntan
+1336,paradigm,buntan
+1337,interpretation,buntan
+1338,ethics,buntan
+1339,overwhelming,buntan
+1340,diagnose,buntan
+1341,senility,buntan
+1342,skewed,buntan
+1343,methodology,buntan
+1344,connotation,buntan
+1345,cognizant,buntan
+1346,predisposition,buntan
+1347,adolescence,buntan
+1348,intuition,buntan
+1349,cerebral,buntan
+1350,banishment,buntan
+1351,offense,buntan
+1352,dealing,buntan
+1353,ancestry,buntan
+1354,intermarriage,buntan
+1355,murky,buntan
+1356,exemption,buntan
+1357,revenue,buntan
+1358,correlate,buntan
+1359,tenuous,buntan
+1360,stipend,buntan
+1361,level,buntan
+1362,objective,buntan
+1363,quantitative,buntan
+1364,qualm,buntan
+1365,worldview,buntan
+1366,genealogy,buntan
+1367,forebear,buntan
+1368,punitive,buntan
+1369,slaughterhouse,buntan
+1370,factory farm,buntan
+1371,instrumental,buntan
+1372,footage,buntan
+1373,cramped,buntan
+1374,legislation,buntan
+1375,boycott,buntan
+1376,surreptitious,buntan
+1377,pretense,buntan
+1378,activist,buntan
+1379,pose,buntan
+1380,deception,buntan
+1381,whistle-blower,buntan
+1382,liable,buntan
+1383,unconstitutional,buntan
+1384,strike down,buntan
+1385,repeal,buntan
+1386,on the books,buntan
+1387,husbandry,buntan
+1388,infiltrate,buntan
+1389,inhumane,buntan
+1390,distinction,buntan
+1391,enlisted,buntan
+1392,constitute,buntan
+1393,chain of command,buntan
+1394,infantry,buntan
+1395,artillery,buntan
+1396,armor,buntan
+1397,commander,buntan
+1398,admiral,buntan
+1399,segregate,buntan
+1400,casualty,buntan
+1401,systemic,buntan
+1402,overt,buntan
+1403,drastically,buntan
+1404,dire,buntan
+1405,cohesion,buntan
+1406,bear fruit,buntan
+1407,concerted,buntan
+1408,personnel file,buntan
+1409,echelon,buntan
+1410,disparity,buntan
+1411,catalyst,buntan
+1412,enhanced,buntan
+1413,homogeneous,buntan
+1414,rapport,buntan
+1415,stem from,buntan
+1416,apprehension,buntan
+1417,task,buntan
+1418,twist,buntan
+1419,dissension,buntan
+1420,collaborative,buntan
+1421,tightknit,buntan
+1422,presumption,buntan
+1423,complacency,buntan
+1424,provided,buntan
+1425,hostility,buntan
+1426,distrust,buntan
+1427,disparate,buntan
+1428,friction,buntan
+1429,undergraduate,buntan
+1430,discipline,buntan
+1431,prevalent,buntan
+1432,leg up,buntan
+1433,variable,buntan
+1434,entrepreneurship,buntan
+1435,extroverted,buntan
+1436,factor out,buntan
+1437,capacity,buntan
+1438,appraisal,buntan
+1439,network,buntan
+1440,domain,buntan
+1441,conspicuously,buntan
+1442,innovative,buntan
+1443,crunch,buntan
+1444,census,buntan
+1445,perceptible,buntan
+1446,liberal arts,buntan
+1447,tack on,buntan
+1448,premium,buntan
+1449,multifaceted,buntan
+1450,interdisciplinary,buntan
+1451,fertility rate,buntan
+1452,affluent,buntan
+1453,forgo,buntan
+1454,dominant,buntan
+1455,invariably,buntan
+1456,propagate,buntan
+1457,gene pool,buntan
+1458,rationale,buntan
+1459,contemporary,buntan
+1460,demographic,buntan
+1461,posit,buntan
+1462,reproductive,buntan
+1463,pragmatic,buntan
+1464,perk,buntan
+1465,eventually,buntan
+1466,span,buntan
+1467,on the face of things,buntan
+1468,progeny,buntan
+1469,side effect,buntan
+1470,project,buntan
+1471,level off,buntan
+1472,confer,buntan
+1473,give away,buntan
+1474,stipulation,buntan
+1475,assign,buntan
+1476,charitable,buntan
+1477,big-time,buntan
+1478,philanthropy,buntan
+1479,token,buntan
+1480,at one's disposal,buntan
+1481,uplifting,buntan
+1482,stinginess,buntan
+1483,of one's own volition,buntan
+1484,elicit,buntan
+1485,bond,buntan
+1486,fulfillment,buntan
+1487,innately,buntan
+1488,altruism,buntan
+1489,generosity,buntan
+1490,recipient,buntan
+1491,job title,buntan
+1492,give short shrift to,buntan
+1493,inspire,buntan
+1494,be blind to,buntan
+1495,exert,buntan
+1496,infectious,buntan
+1497,intrinsic,buntan
+1498,mimic,buntan
+1499,intimate,buntan
+1500,downside,buntan
+1501,underestimate,buntan
+1502,innovation,buntan
+1503,state of mind,buntan
+1504,stifle,buntan
+1505,nuisance,buntan
+1506,eliminate,buntan
+1507,morale,buntan
+1508,demote,buntan
+1509,incentive,buntan
+1510,mentor,buntan
+1511,peer,buntan
+1512,juvenile,buntan
+1513,experiment with,buntan
+1514,condone,buntan
+1515,set an example,buntan
+1516,chore,buntan
+1517,exempt,buntan
+1518,toddler,buntan
+1519,primate,buntan
+1520,treacherous,buntan
+1521,stray,buntan
+1522,norm,buntan
+1523,alienate,buntan
+1524,namely,buntan
+1525,conform,buntan
+1526,unethical,buntan
+1527,agitate,buntan
+1528,antipathy,buntan
+1529,coerce,buntan
+1530,docile,buntan
+1531,ironic twist,buntan
+1532,mediocre,buntan
+1533,aptitude,buntan
+1534,readily,buntan
+1535,deficiency,buntan
+1536,self-discipline,buntan
+1537,bear up,buntan
+1538,nose out,buntan
+1539,discredit,buntan
+1540,eat away at,buntan
+1541,recoup,buntan
+1542,impeccable,buntan
+1543,lament,buntan
+1544,torment,buntan
+1545,intelligence quotient,buntan
+1546,rave,buntan
+1547,overconfident,buntan
+1548,vex,buntan
+1549,demeanor,buntan
+1550,fortitude,buntan
+1551,plight,buntan
+1552,pinnacle,buntan
+1553,in a vacuum,buntan
+1554,interpersonal dynamics,buntan
+1555,concord,buntan
+1556,hindrance,buntan
+1557,arena,buntan
+1558,interdependence,buntan
+1559,obtrusive,buntan
+1560,presumptuous,buntan
+1561,drain,buntan
+1562,level with,buntan
+1563,intrusive,buntan
+1564,sort out,buntan
+1565,trait,buntan
+1566,idiosyncrasy,buntan
+1567,distinctive,buntan
+1568,spurt,buntan
+1569,buckle down,buntan
+1570,take aim,buntan
+1571,instill,buntan
+1572,composure,buntan
+1573,optimism,buntan
+1574,bias,buntan
+1575,overestimate,buntan
+1576,outcome,buntan
+1577,outlook,buntan
+1578,pitfall,buntan
+1579,set up A for B,buntan
+1580,ill-prepared,buntan
+1581,ordeal,buntan
+1582,bout of,buntan
+1583,depression,buntan
+1584,reflect on,buntan
+1585,be equipped to do,buntan
+1586,empathize,buntan
+1587,stigma,buntan
+1588,motivator,buntan
+1589,psychiatrist,buntan
+1590,face up to,buntan
+1591,tenacity,buntan
+1592,temper,buntan
+1593,bleak,buntan
