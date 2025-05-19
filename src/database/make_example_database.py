@@ -1,5 +1,6 @@
-import sqlite3
 import os
+import sqlite3
+
 
 def insert_sample_data():
     if not os.path.exists("words.db"):
@@ -87,7 +88,7 @@ def insert_sample_data():
         cursor.execute(
             "INSERT OR IGNORE INTO stems (stem_id, stem) VALUES (?, ?)", (word_id, "")
         )
-        
+
         # init exlanations by sample text
         cursor.execute(
             "INSERT OR IGNORE INTO word_explanations (word_id, explanation) VALUES (?, ?)",

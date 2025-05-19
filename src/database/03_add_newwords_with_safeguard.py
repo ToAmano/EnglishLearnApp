@@ -1,17 +1,19 @@
+import sqlite3
 
 import pandas as pd
-import sqlite3
 
 # ==== 設定 ====
 DB_PATH = "words.db"  # SQLite のファイルパス
 NEW_WORDS_CSV = "../data/word_data/eiken.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
 NEW_WORDS_CSV = "../data/word_data/eiken_derujun.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
+NEW_WORDS_CSV = "../data/word_data/buntan.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
+
 
 # ==== ステップ1: 新しい単語をCSVから読み込み ====
 new_words_df = pd.read_csv(NEW_WORDS_CSV)
 
 # 必要なカラムだけ抽出（他のカラムがあっても無視されるように）
-new_words_df = new_words_df[["word","source"]]
+new_words_df = new_words_df[["word", "source"]]
 new_words_df["word"] = new_words_df["word"].str.strip().str.lower()
 print(new_words_df[new_words_df.duplicated(subset="word", keep=False)])
 
@@ -21,7 +23,7 @@ conn = sqlite3.connect(DB_PATH)
 existing_words_df = pd.read_sql_query("SELECT word FROM words", conn)
 existing_words_df["word"] = existing_words_df["word"].str.strip().str.lower()
 
-existing_words = existing_words_df["word"] # set(existing_words_df["word"])
+existing_words = existing_words_df["word"]  # set(existing_words_df["word"])
 print(f"DB に既に {len(existing_words)} 単語が登録されています。")
 
 
@@ -45,9 +47,10 @@ query = f"SELECT word_id, word FROM words WHERE word IN ({placeholders})"
 added_rows = pd.read_sql_query(query, conn, params=unique_new_words["word"].tolist())
 
 # 6. CSV に保存
-added_rows.sort_values("word_id").to_csv("added_words_with_ids.csv", index=False, encoding="utf-8")
+added_rows.sort_values("word_id").to_csv(
+    "added_words_with_ids.csv", index=False, encoding="utf-8"
+)
 print("追加された単語とword_idをCSVに書き出しました。")
 
 # ==== クローズ ====
 conn.close()
-

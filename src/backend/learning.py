@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
-from backend.core.db_core import get_db_connection
 import pandas as pd
 
-def get_word_batch(start: int = 0, limit: int = 100, order_by: str = "word_id") -> pd.DataFrame:
+from backend.core.db_core import get_db_connection
+
+
+def get_word_batch(
+    start: int = 0, limit: int = 100, order_by: str = "word_id"
+) -> pd.DataFrame:
     conn = get_db_connection()
 
     # 安全な並び替えカラムの制限
@@ -21,7 +25,7 @@ def get_word_batch(start: int = 0, limit: int = 100, order_by: str = "word_id") 
         LIMIT ? OFFSET ?
         """,
         conn,
-        params=(limit, start)
+        params=(limit, start),
     )
     print(df)
     conn.close()

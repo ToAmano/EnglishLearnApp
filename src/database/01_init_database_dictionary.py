@@ -15,7 +15,7 @@ def init_db():
     );
     """
     )
-    
+
     # Table for explanation
     cursor.execute(
         """
@@ -27,7 +27,6 @@ def init_db():
     """
     )
 
-    
     # Table for meanings
     cursor.execute(
         """
@@ -123,9 +122,10 @@ def init_db():
     );
     """
     )
-    
+
     conn.commit()
     conn.close()
+
 
 if __name__ == "__main__":
     init_db()

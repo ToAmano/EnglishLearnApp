@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
@@ -13,10 +14,10 @@ from backend.backend import (
     toggle_favorite,
 )
 from backend.core.db_core import get_word_from_wordid
+from backend.explanation import get_explanation
+from backend.learning import get_word_batch
 from backend.search_count import get_search_count
 from backend.vocab_status import get_vocab_status, set_vocab_status
-from backend.learning import get_word_batch
-from backend.explanation import get_explanation
 
 # セッションIDで user_id を代用（本番ならログイン機能と連携）
 USER_ID = "default_user"
@@ -29,14 +30,15 @@ def go_prev():
     else:
         st.session_state["card_index"] = 0
 
-def go_next(df_length:int):
+
+def go_next(df_length: int):
     if st.session_state["card_index"] < df_length - 1:
         st.session_state["card_index"] += 1
     else:
         st.session_state["card_index"] = df_length - 1
 
 
-def show_word_entry(df):
+def show_word_entry(df: pd.DataFrame):
     if df.empty:
         st.warning("見つかりませんでした。")
         return
@@ -130,7 +132,14 @@ def show_word_entry(df):
 st.title("📖 英語辞書アプリ")
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["🔍 単語検索", "📝 単語テスト", "🔊 例文リスニング", "⭐ お気に入り", "📘 単語バッチ確認モード", "🃏 単語カードモード"]
+    [
+        "🔍 単語検索",
+        "📝 単語テスト",
+        "🔊 例文リスニング",
+        "⭐ お気に入り",
+        "📘 単語バッチ確認モード",
+        "🃏 単語カードモード",
+    ]
 )
 
 # 🔍 単語検索
@@ -176,10 +185,12 @@ with tab5:
         "📚 単語の並び順",
         options=["ID順", "アルファベット順"],
         horizontal=True,
-        key = "sort_mode_batch"
+        key="sort_mode_batch",
     )
     batch_size = 100  # 一度に読み込む単語数
-    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0, key="start_index_batch")
+    start_index = st.number_input(
+        "スタート位置", min_value=0, step=batch_size, value=0, key="start_index_batch"
+    )
     print(f"start_index = {start_index}")
     order_by = "word_id" if sort_mode == "ID順" else "word"
 
@@ -193,21 +204,22 @@ with tab5:
                 st.markdown("---")
         else:
             st.info("これ以上の単語はありません。")
-            
-            
+
+
 with tab6:
     st.title("🃏 単語カードモード")
-
 
     sort_mode = st.radio(
         "📚 単語の並び順",
         options=["ID順", "アルファベット順"],
         horizontal=True,
-        key = "sort_mode_card"
+        key="sort_mode_card",
     )
     # --- データ取得（バッチ全体を一括取得）
     batch_size = 100  # 一度に読み込む単語数
-    start_index = st.number_input("スタート位置", min_value=0, step=batch_size, value=0,key="start_index_card")
+    start_index = st.number_input(
+        "スタート位置", min_value=0, step=batch_size, value=0, key="start_index_card"
+    )
     print(f"start_index = {start_index}")
     order_by = "word_id" if sort_mode == "ID順" else "word"
     word_df = get_word_batch(start=start_index, limit=batch_size, order_by=order_by)
@@ -228,7 +240,7 @@ with tab6:
             st.session_state["card_index"] = 0
             card_idx = 0
         print(f"card_idx = {card_idx}")
-        
+
         row = word_df.iloc[card_idx]
         word_id = int(row["word_id"])
         print(f"word_id = {word_id}")
@@ -238,15 +250,18 @@ with tab6:
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
             # 自動読み上げ用のJSコードを埋め込み
-            components.html(f"""
+            components.html(
+                f"""
                 <script>
                     const utterance = new SpeechSynthesisUtterance("{row['word']}");
                     utterance.lang = "en-US";
                     speechSynthesis.cancel();  // 前の発話が残っていたら中断
                     speechSynthesis.speak(utterance);
                 </script>
-            """, height=0)  # 高さ0でボタンは表示しない
-            
+            """,
+                height=0,
+            )  # 高さ0でボタンは表示しない
+
             # --- 音声読み上げボタン（Web Speech API）
             speech_html = f"""
                 <button onclick="const u = new SpeechSynthesisUtterance('{row['word']}'); u.lang='en-US'; speechSynthesis.speak(u);">
@@ -254,7 +269,7 @@ with tab6:
                 </button>
             """
             components.html(speech_html, height=50)
-            
+
             word = get_word_from_wordid(word_id)
             status = get_vocab_status(word)
             word_status_key_2: str = f"vocab_status_card_{word_id}"
@@ -274,7 +289,7 @@ with tab6:
                 print(f"new_status = {new_status}")
                 set_vocab_status(word, new_status)
                 st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
-            
+
             # お気に入りボタン
             col1, col2 = st.columns([4, 1])
             with col2:
@@ -286,7 +301,7 @@ with tab6:
                     if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
                         toggle_favorite(word)
                         st.rerun()
-            
+
             with st.expander("意味を見る"):
                 st.write(f"- 意味: {row['meaning']}")
                 st.write(f"- 品詞: {row['part_of_speech']}")
