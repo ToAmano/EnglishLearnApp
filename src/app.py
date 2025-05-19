@@ -10,10 +10,10 @@ from backend.backend import (
     get_favorites,
     get_synonyms,
     is_favorited,
-    search_word,
+    search_meanings,
     toggle_favorite,
 )
-from backend.core.db_core import get_word_from_wordid
+from backend.core.db_core import get_word_from_wordid, get_wordid_from_word
 from backend.explanation import get_explanation
 from backend.learning import get_word_batch
 from backend.search_count import get_search_count
@@ -38,15 +38,41 @@ def go_next(df_length: int):
         st.session_state["card_index"] = df_length - 1
 
 
-def show_word_entry(df: pd.DataFrame):
-    if df.empty:
-        st.warning("見つかりませんでした。")
-        return
+def show_word_entry(word_id: int):
 
+    # 詳細説明の表示 (一時的に先頭に表示)
+    word: str = get_word_from_wordid(word_id)
+    search_count = get_search_count(word_id)
+    status = get_vocab_status(word)
+    word_status_key: str = f"vocab_status_{word_id}"
+    st.session_state.setdefault(
+        word_status_key, status
+    )  # セッションに初期値がなければ設定
+    print(status)
+
+    # UI 表示
+    new_status = st.selectbox(
+        "📘 単語の習得状態を選択",
+        ["unknown", "passive", "active"],
+        key=word_status_key,
+        help="この単語の習得状態を選択してください。",
+    )
+    if new_status != status:
+        set_vocab_status(word, new_status)
+        st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
+
+    st.markdown(f"### 🔤 {word}")
+    st.caption(f" 検索回数: {search_count}")
+
+    explanation_md: str = get_explanation(word_id)
+    if explanation_md:
+        st.markdown(explanation_md, unsafe_allow_html=True)
+
+    # 以下がmeanings DBが完成した時に表示される内容
+    df: pd.DataFrame = search_meanings(word_id)
     grouped = df.groupby("word_id")
-
     for word_id, group in grouped:
-        word = get_word_from_wordid(word_id)
+        word: str = get_word_from_wordid(word_id)
         pronunciation = group.iloc[0].get("pronunciation", "")
         category = group.iloc[0].get("category", "")
         search_count = get_search_count(word_id)
@@ -84,11 +110,6 @@ def show_word_entry(df: pd.DataFrame):
                 if st.button("☆ お気に入り追加", key=f"fav_add_{word_id}"):
                     toggle_favorite(word)
                     st.rerun()
-
-        # 詳細説明の表示
-        explanation_md = get_explanation(word_id)
-        if explanation_md:
-            st.markdown(explanation_md, unsafe_allow_html=True)
 
         # 品詞別表示
         pos_dict = defaultdict(list)
@@ -148,15 +169,12 @@ with tab1:
     word = st.text_input("単語を入力", "", key="search_input")
 
     if st.button("検索", key=1):
-        df_results = search_word(word)
-        if not df_results.empty:
-            st.session_state["search_result"] = df_results
-        else:
-            st.warning("見つかりませんでした。")
-    if "search_result" in st.session_state:
-        print(f"セッションに結果がある :: {st.session_state['search_result']}")
-        df_results = st.session_state["search_result"]
-        show_word_entry(df_results)
+        word_id = get_wordid_from_word(word)
+        st.session_state["word_id"] = word_id
+    if "word_id" in st.session_state:
+        print(f"セッションに結果がある :: word_id = {st.session_state['word_id']}")
+        word_id = st.session_state["word_id"]
+        show_word_entry(word_id)
 
 # 📝 単語テスト
 with tab2:
