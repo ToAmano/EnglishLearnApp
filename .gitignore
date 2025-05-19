@@ -1,5 +1,9 @@
+# .env files
+.env
+
 # vscode
 .history
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
