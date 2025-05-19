@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from backend.core.db_core import get_db_connection, get_user_db_connection
+from backend.core.db_core import get_user_db_connection
 
 
 def get_vocab_status(word: str) -> str:
