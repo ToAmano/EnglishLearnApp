@@ -4,20 +4,14 @@ from backend.core.db_core import get_db_connection, get_user_db_connection
 from backend.search_count import increment_search_count
 
 
-# 単語検索機能
-def search_word(word: str) -> pd.DataFrame:
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute("SELECT word_id FROM words WHERE word=?", (word,))
-    word_id_row = cursor.fetchone()
-    if not word_id_row:  # return empty df if not found
-        conn.close()
-        return pd.DataFrame()
-    word_id = word_id_row[0]
+def search_meanings(word_id: int) -> pd.DataFrame:
+    """単語検索"""
     increment_search_count(word_id)
+    conn = get_db_connection()
     df = pd.read_sql_query(
         "SELECT * FROM meanings WHERE word_id=?", conn, params=(word_id,)
     )
+    print(f"df = {df}")
     return df
 
 
