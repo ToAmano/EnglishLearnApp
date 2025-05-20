@@ -62,7 +62,27 @@ def show_word_entry(word_id: int):
         st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
 
     st.markdown(f"### 🔤 {word}")
-    st.caption(f" 検索回数: {search_count}")
+    st.caption(f" word_id: {word_id} /検索回数: {search_count}")
+    # 自動読み上げ用のJSコードを埋め込み
+    components.html(
+        f"""
+        <script>
+            const utterance = new SpeechSynthesisUtterance("{word}");
+            utterance.lang = "en-US";
+            speechSynthesis.cancel();  // 前の発話が残っていたら中断
+            speechSynthesis.speak(utterance);
+        </script>
+    """,
+        height=0,
+    )  # 高さ0でボタンは表示しない
+
+    # --- 音声読み上げボタン（Web Speech API）
+    speech_html = f"""
+        <button onclick="const u = new SpeechSynthesisUtterance('{word}'); u.lang='en-US'; speechSynthesis.speak(u);">
+            🔊 発音を聞く
+        </button>
+    """
+    components.html(speech_html, height=50)
 
     explanation_md: str = get_explanation(word_id)
     if explanation_md:
