@@ -2,7 +2,7 @@ import os
 import sqlite3
 
 
-def insert_sample_data():
+def insert_sample_data() -> None:
     if not os.path.exists("words.db"):
         raise FileNotFoundError("Database not found.")
     # init database

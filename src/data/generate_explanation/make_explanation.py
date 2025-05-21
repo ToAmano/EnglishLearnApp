@@ -1,16 +1,14 @@
 import os
 import time
-from logging import DEBUG, INFO, StreamHandler, getLogger
-from typing import List
+from logging import DEBUG, StreamHandler, getLogger
+from typing import Any, Dict, List, Set, Tuple
 
 import pandas as pd
 from dotenv import load_dotenv
-from IPython.display import Markdown, display
-from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_google_genai import GoogleGenerativeAI
-from pydantic import BaseModel, Field
 
 logger = getLogger(__name__)
 handler = StreamHandler()
@@ -21,10 +19,8 @@ logger.addHandler(handler)
 # 環境変数からAPIキーを読み込む
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-NUMBER_OF_EXAMPLES = os.getenv("NUMBER_OF_EXAMPLES", default=5)
+NUMBER_OF_EXAMPLES = int(os.getenv("NUMBER_OF_EXAMPLES", default="5"))
 
-
-from langchain_core.rate_limiters import InMemoryRateLimiter
 
 rate_limiter = InMemoryRateLimiter(
     requests_per_second=0.1,  # <-- Super slow! We can only make a request once every 10 seconds!!
@@ -41,16 +37,16 @@ llm = GoogleGenerativeAI(
 # 例文生成用のプロンプトテンプレート
 example_prompt = PromptTemplate.from_template(
     """Generate the detailed dictionary-like explanation of the English word "{word}" for Japanese learners in markdown format.
-    
+
     Requirements:
     - provide detailed meaning and nuance of the word in Japanese
     - If the word is a noum, provide the noun form (countable or uncountable) and its meaning
     - provide famous collocations and idioms
     - provide derivative words
-    - explain the synonyms and antonyms with their proper usage 
+    - explain the synonyms and antonyms with their proper usage
     - follow the example format below
     - Do not include ```markdown at the beginning and end of the output
-    
+
     example:
     # 📚 `abound` ― Detailed Explanation
 
@@ -149,35 +145,23 @@ example_prompt = PromptTemplate.from_template(
 chain = example_prompt | llm | StrOutputParser()
 
 
-def load_input_csv(input_file: str):
-    # 入力CSVの読み込み(重複なしの想定)
-    try:
-        df = pd.read_csv(
-            input_file, dtype={"word_id": int, "word": str}, na_filter=False
-        )
-    except Exception as e:
-        print(f"CSVファイルの読み込みエラー: {e}")
-        raise ValueError(f"CSVファイルの読み込みエラー: {e}")
-    return df
-
-
-def check_existing_words(output_file: str):
+def check_existing_words(check_file: str) -> Tuple[Set[str], Dict[str, str]]:
     """既存の出力ファイルをチェックし、完全に処理された単語を取得する"""
 
-    fully_processed_words = set()
-    word_explanation_dict = {}
+    fully_processed_words: Set[str] = set()
+    word_explanation_dict: Dict[str, str] = {}
 
-    if not os.path.exists(output_file):
+    if not os.path.exists(check_file):
         return fully_processed_words, word_explanation_dict
 
     try:
         existing_df = pd.read_csv(
-            output_file,
+            check_file,
             dtype={"word_id": int, "word": str, "explanation": str},
             na_filter=False,
         )
         # NaNの処理を改善（pandasの標準的な方法でNaNをチェック）
-        for index, row in existing_df.iterrows():
+        for _, row in existing_df.iterrows():
             word = row["word"]
             explanation = row["explanation"]
             if pd.notna(explanation) and explanation != "":
@@ -187,23 +171,22 @@ def check_existing_words(output_file: str):
             f"既存の出力ファイルから{len(fully_processed_words)}件のデータを読み込みました。"
         )
     except Exception as e:
-        print(f"既存の出力ファイルの読み込みエラー: {e}")
+        raise e
     return fully_processed_words, word_explanation_dict
 
 
-def generate_example(word: str) -> List[str]:
-    """単語に対して例文を生成する"""
-    # 例文の生成
-    output = chain.invoke({"word": word})
-    # 出力をパース
-    examples: str = output  # .explanation
-    return examples
+def generate_explanation(word: str) -> str:
+    """Generate detailed explanation from LLM for given word"""
+    output: str = chain.invoke({"word": word})
+    return output
 
 
-def convert_to_long_format(results: List[dict], word_id_dict: dict) -> List[dict]:
+def convert_to_long_format(
+    results: Dict[Any, Any], word_id_dict: pd.DataFrame
+) -> List[Dict[Any, Any]]:
     """結果をロング形式に変換する"""
     long_format_results = []
-    for index, row in word_id_dict.iterrows():
+    for _, row in word_id_dict.iterrows():
         word = row["word"]
         word_id = row["word_id"]
 
@@ -218,9 +201,11 @@ def convert_to_long_format(results: List[dict], word_id_dict: dict) -> List[dict
     return long_format_results
 
 
-def process_csv(input_file, output_file):
+def process_csv(input_file: str, output_file: str) -> None:
     """入力CSVファイルを処理し、各単語に例文を追加して新しいCSVに保存する"""
-    df = load_input_csv(input_file)
+    df: pd.DataFrame = pd.read_csv(
+        input_file, dtype={"word_id": int, "word": str}, na_filter=False
+    )
 
     # 既存の出力ファイルをチェック（続きから処理するため）
     fully_processed_words, word_explanation_dict = check_existing_words(output_file)
@@ -233,17 +218,17 @@ def process_csv(input_file, output_file):
         if word in fully_processed_words:
             print(f"スキップ: {word} (既に処理済み)")
             continue
-        print(f"処理中: {word} ({index+1}/{len(df)})")
+        print(f"処理中: {word} ( {index + 1} / {len(df)} )")
 
         try:
             # 例文を生成
-            examples = generate_example(word)
+            generated_explanation = generate_explanation(word)
             # 結果を辞書に追加または更新
-            word_explanation_dict[word] = examples
-        except Exception as e:
-            print(f"単語「{word}」の処理中にエラーが発生: {e}")
+            word_explanation_dict[word] = generated_explanation
+        except Exception as e:  # pylint: disable=broad-exception-caught
             # エラーが発生した場合も、空の例文で結果を追加して保存
             word_explanation_dict[word] = ""
+            print(f"単語「{word}」の処理中にエラーが発生: {e}")
 
         # 形式を変形し，ファイルに保存
         long_format_results = convert_to_long_format(word_explanation_dict, df)
@@ -260,7 +245,7 @@ def process_csv(input_file, output_file):
 # 使用例
 if __name__ == "__main__":
     # input_file = "../generate_examples/lv6.csv"  # 入力ファイル名
-    input_file = "../word_data/eiken_derujun_added.csv"
-    output_file = "eiken_derujun_detail.csv"  # 出力ファイル名
+    input_filename: str = "../word_data/eiken_derujun_added.csv"
+    output_filename: str = "eiken_derujun_detail.csv"  # 出力ファイル名
 
-    process_csv(input_file, output_file)
+    process_csv(input_filename, output_filename)

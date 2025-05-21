@@ -1,21 +1,23 @@
 import sqlite3
+from sqlite3 import Connection
+from typing import Any
 
 
-def get_db_connection():
+def get_db_connection() -> Connection:
     """Get a database connection."""
     conn = sqlite3.connect("database/words.db")
     conn.row_factory = sqlite3.Row
     return conn
 
 
-def get_user_db_connection():
+def get_user_db_connection() -> Connection:
     """Get a user database connection."""
     conn = sqlite3.connect("database/user.db")
     conn.row_factory = sqlite3.Row
     return conn
 
 
-def get_word_from_wordid(word_id: int) -> str:
+def get_word_from_wordid(word_id: int) -> Any | None:
     """Get the word from the database using word_id."""
     conn = get_db_connection()
     cursor = conn.cursor()
@@ -26,7 +28,7 @@ def get_word_from_wordid(word_id: int) -> str:
 
 
 def get_wordid_from_word(word: str) -> int:
-    """単語検索"""
+    """Get the word_id from the given word"""
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT word_id FROM words WHERE word=?", (word,))
@@ -35,6 +37,6 @@ def get_wordid_from_word(word: str) -> int:
     if not word_id_row:  # return empty df if not found
         print("word not found")
         return 0
-    word_id = word_id_row[0]
+    word_id: int = word_id_row[0]
     print(f"search word {word} :: word_id {word_id}")
     return word_id

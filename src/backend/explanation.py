@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
+from typing import Any
+
 from backend.core.db_core import get_db_connection
 
 
-def get_explanation(word_id: int) -> str:
+def get_explanation(word_id: int) -> Any | None:
+    """extract explanation from word_id"""
     conn = get_db_connection()
     cursor = conn.cursor()
     cursor.execute(
