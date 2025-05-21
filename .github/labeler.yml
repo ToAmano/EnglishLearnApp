@@ -1,0 +1,27 @@
+Python:
+  - changed-files:
+      - any-glob-to-any-file: src/**/*
+Backend:
+  - changed-files:
+      - any-glob-to-any-file: src/backend/**/*
+Frontend:
+  - changed-files:
+      - any-glob-to-any-file: src/frontend/**/*
+Database:
+  - changed-files:
+      - any-glob-to-any-file: src/database/**/*
+Data:
+  - changed-files:
+      - any-glob-to-any-file: src/data/**/*
+Docs:
+  - changed-files:
+      - any-glob-to-any-file: docs/**/*
+Examples:
+  - changed-files:
+      - any-glob-to-any-file: examples/**/*
+Test:
+  - changed-files:
+      - any-glob-to-any-file: test/**/*
+CICD:
+  - changed-files:
+      - any-glob-to-any-file: .github/**/*
