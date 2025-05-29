@@ -70,6 +70,7 @@ def render_speak_button(word: str) -> None:
 
 def render_explanation(word_id: int) -> None:
     """単語の説明をMarkdownで表示"""
-    explanation_md = get_explanation(word_id)
-    if explanation_md:
-        st.markdown(explanation_md, unsafe_allow_html=True)
+    with st.expander("詳細を見る"):
+        explanation_md = get_explanation(word_id)
+        if explanation_md:
+            st.markdown(explanation_md, unsafe_allow_html=True)
