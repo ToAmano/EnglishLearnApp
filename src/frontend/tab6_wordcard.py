@@ -77,6 +77,7 @@ def render() -> None:
         with st.container():
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
+            st.markdown(f"{word_id}")
             # 自動読み上げ用のJSコードを埋め込み
             speak_word_automatically(word)
 
