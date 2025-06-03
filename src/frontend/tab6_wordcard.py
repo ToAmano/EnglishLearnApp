@@ -85,7 +85,7 @@ def render() -> None:
             # --- 音声読み上げボタン（Web Speech API）
             render_speak_button(word)
 
-            show_status(word)  # 単語状態の表示
+            show_status(word, "tab6_")  # 単語状態の表示
             show_favorite(word)  # お気に入りボタン
 
             with st.expander("意味を見る"):

@@ -24,7 +24,6 @@ def show_word_entry(word_id: int) -> None:
     """詳細説明の表示 (一時的に先頭に表示)"""
     word: str = get_word_from_wordid(word_id)
     search_count: int = get_search_count(word_id)
-    show_status(word)  # 単語の状態表示
 
     st.markdown(f"### 🔤 {word}")
     st.caption(f" word_id: {word_id} /検索回数: {search_count}")
@@ -34,7 +33,7 @@ def show_word_entry(word_id: int) -> None:
     # --- 音声読み上げボタン（Web Speech API）
     render_speak_button(word)
 
-    show_status(word)  # 単語の状態表示
+    show_status(word, "tab1_")  # 単語の状態表示
     show_favorite(word)  # お気に入りボタン
 
     render_explanation(word_id)
