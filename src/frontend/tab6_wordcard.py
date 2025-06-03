@@ -42,6 +42,12 @@ def get_idx(card_idx: int, len_df: int) -> int:
     return new_card_idx
 
 
+def on_change_start_index() -> None:
+    """Callback function for start index change. reset card index if the start index changes."""
+    st.session_state["card_index"] = 0
+    print("スタート位置が変更されました。カードインデックスをリセットしました。")
+
+
 def render() -> None:
     st.title("🃏 単語カードモード")
 
@@ -53,7 +59,12 @@ def render() -> None:
     )
     # --- データ取得（バッチ全体を一括取得）
     start_index = st.number_input(
-        "スタート位置", min_value=0, step=BATCH_SIZE, value=0, key="start_index_card"
+        "スタート位置",
+        min_value=0,
+        step=BATCH_SIZE,
+        value=0,
+        key="start_index_card",
+        on_change=on_change_start_index,
     )
     print(f"start_index = {start_index}")
     order_by = "word_id" if sort_mode == "ID順" else "word"
