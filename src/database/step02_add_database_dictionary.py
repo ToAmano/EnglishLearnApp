@@ -100,3 +100,7 @@ if __name__ == "__main__":
     # add eiken buntan
     insert_words_from_csv(WORD_PATH + "buntan_added.csv")
     insert_explanations_from_csv(EXPLANATION_PATH + "buntan_explanation.csv")
+
+    # add supervocab
+    insert_words_from_csv(WORD_PATH + "supervocab_added.csv")
+    insert_explanations_from_csv(EXPLANATION_PATH + "supervocab_explanation.csv")
