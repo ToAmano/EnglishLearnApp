@@ -54,7 +54,9 @@ def insert_meanings_from_csv(csv_path: str, db_path: str = "words.db") -> None:
         )
 
 
-def insert_explanations_from_csv(csv_path: str, db_path: str = "words.db") -> None:
+def insert_explanations_from_csv(
+    csv_path: str, db_path: str = "words.db", if_ignore: bool = True
+) -> None:
     # CSV読み込み
     df = pd.read_csv(csv_path)
 
@@ -66,10 +68,20 @@ def insert_explanations_from_csv(csv_path: str, db_path: str = "words.db") -> No
     for _, row in df.iterrows():
         try:
             # print(f"word_id: {row['word_id']}, word: {row['explanation']}")
-            cursor.execute(
-                "INSERT OR IGNORE INTO word_explanations (word_id, explanation) VALUES (?, ?);",
-                (int(row["word_id"]), row["explanation"]),
-            )
+            if if_ignore:
+                cursor.execute(
+                    "INSERT OR IGNORE INTO word_explanations (word_id, explanation) VALUES (?, ?);",
+                    (int(row["word_id"]), row["explanation"]),
+                )
+            else:  # update if exists
+                cursor.execute(
+                    """
+                    INSERT INTO word_explanations (word_id, explanation)
+                    VALUES (?, ?)
+                    ON CONFLICT(word_id) DO UPDATE SET explanation = excluded.explanation;
+                    """,
+                    (int(row["word_id"]), row["explanation"]),
+                )
         except sqlite3.IntegrityError as e:
             print(f"❌ 挿入失敗: word={row['word']}, 理由: {str(e)}")
     # コミット・クローズ
@@ -86,8 +98,10 @@ if __name__ == "__main__":
     # add svl 1-12
     for i in range(1, 13):
         insert_words_from_csv(WORD_PATH + f"lv{i}.csv")
-    for i in range(1, 13):
-        insert_explanations_from_csv(EXPLANATION_PATH + f"lv{i}_explanation.csv")
+    for i in range(1, 13):  # update explanations
+        insert_explanations_from_csv(
+            EXPLANATION_PATH + f"lv{i}_explanation.csv", if_ignore=False
+        )
 
     # add eiken
     insert_words_from_csv(WORD_PATH + "eiken_added.csv")
