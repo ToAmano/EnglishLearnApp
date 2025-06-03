@@ -1,6 +1,7 @@
 import streamlit as st
 
 from backend.learning import get_word_batch
+from backend.search_count import get_search_count
 from frontend.core import (
     render_explanation,
     render_speak_button,
@@ -71,13 +72,13 @@ def render() -> None:
         row = word_df.iloc[card_idx]
         word_id = int(row["word_id"])
         word: str = row["word"]
-        print(f"word_id = {word_id}")
+        search_count: int = get_search_count(word_id)
 
         # --- 単語カード表示
         with st.container():
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
-            st.markdown(f"{word_id}")
+            st.caption(f" word_id: {word_id} /検索回数: {search_count}")
             # 自動読み上げ用のJSコードを埋め込み
             speak_word_automatically(word)
 
