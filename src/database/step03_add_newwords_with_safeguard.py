@@ -4,10 +4,10 @@ import pandas as pd
 
 # ==== 設定 ====
 DB_PATH = "words.db"  # SQLite のファイルパス
-NEW_WORDS_CSV = "../data/word_data/eiken.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
-NEW_WORDS_CSV = "../data/word_data/eiken_derujun.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
-NEW_WORDS_CSV = "../data/word_data/buntan.csv"  # 追加したい単語が入ったCSV（列名: word, meaning, example）
-
+NEW_WORDS_CSV = "../data/word_data/eiken.csv"  # 追加したい単語が入ったCSV
+NEW_WORDS_CSV = "../data/word_data/eiken_derujun.csv"  # 追加したい単語が入ったCSV
+NEW_WORDS_CSV = "../data/word_data/buntan.csv"  # 追加したい単語が入ったCSV
+NEW_WORDS_CSV = "../data/word_data/supervocab.csv"  # 追加したい単語が入ったCSV
 
 # ==== ステップ1: 新しい単語をCSVから読み込み ====
 new_words_df = pd.read_csv(NEW_WORDS_CSV)
