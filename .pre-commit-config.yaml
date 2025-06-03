@@ -9,7 +9,7 @@ repos:
     -   id: check-yaml
     -   id: check-json
     -   id: check-added-large-files
-        args: ["--maxkb=50000"]
+        args: ["--maxkb=50000"] # large files for word examples
     - id: check-toml
 - repo: https://github.com/pycqa/isort
   rev: 6.0.1
@@ -43,6 +43,7 @@ repos:
       language: python
       types: [python]
       additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai]
+      # ignore pymupdf which do not have type hints
       args: [--max-line-length,"150","--init-hook", "import sys; sys.path.insert(0, 'src')", "--ignored-modules=pymupdf"]
 
 # - repo: https://github.com/markdownlint/markdownlint
