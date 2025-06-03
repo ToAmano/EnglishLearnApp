@@ -42,7 +42,7 @@ repos:
       language: python
       types: [python]
       additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai]
-      args: [--max-line-length,"150","--init-hook", "import sys; sys.path.insert(0, 'src')"]
+      args: [--max-line-length,"150","--init-hook", "import sys; sys.path.insert(0, 'src')", "--ignored-modules=pymupdf"]
 
 # - repo: https://github.com/markdownlint/markdownlint
 #   rev: v0.13.0
