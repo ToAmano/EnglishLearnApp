@@ -48,35 +48,36 @@ example_prompt = PromptTemplate.from_template(
     - Do not include ```markdown at the beginning and end of the output
 
     example:
-    # 📚 `abound` ― Detailed Explanation
+    # 📚 `comprise` ― Detailed Explanation
 
     ## ✅ 単語の意味やニュアンス
 
-    - **哲語**: 自動語 (intransitive verb)
+    - **品詞**: 他動詞 (transitive verb)
     - **意味**:
-    - (物、情報などが)豊富にある
-    - (場所が)「−で満ちている」
+        - (全体が部分を)含む、構成する
+        - (部分が全体を)構成する (ややフォーマル)
 
     ### 🔹 ニュアンス
 
-    - 抽象的、自然な存在を記述する際に使用
-    - 人間は主語にならない
-    - ややフォーマルな文体
+    - 全体と部分の関係を表す言葉です。
+    - `comprise`は、全体が部分を「含む」という意味でよく使われます。
+    - フォーマルな文体で使われることが多いです。
+    - 受動態で使うことは避けるべきです (後述)。
 
     #### 例文
 
-    ```markdown
-    - The forest abounds with wildlife.
-    - Rumors abound about the celebrity's sudden disappearance.
-    - Opportunities abound for those who are willing to seek them.
-    ```
+    - The committee comprises ten members. (委員会は10人のメンバーで構成されている。)
+    - The United Kingdom comprises England, Scotland, Wales, and Northern Ireland. (イギリスは、イングランド、スコットランド、ウェールズ、北アイルランドから構成されている。)
+    - The book comprises six chapters. (その本は6つの章から構成されている。)
+
 
     ---
 
     ## 🌱 語源
 
-    - ラテン語 **"abundare"** = 溢れる、満ちる
-    - **ab-** (離れて) + **unda** (波) → 波が溢れるように満ちる
+    - フランス語 **""comprendre""** = 理解する、含む
+    - ラテン語 **""comprehendere""** = 把握する、包含する
+    - **com-** (共に) + **prehendere** (掴む) → 全てを掴む、包含する
 
     ---
 
@@ -84,21 +85,22 @@ example_prompt = PromptTemplate.from_template(
 
     | コロケーション | 意味・用途 |
     |----------------|----------------|
-    | **abound in** + 名詞 | ～に富む (資源、成分) |
-    | **abound with** + 名詞 | ～で満ちている (動物、情報) |
-    | **rumors abound** | うわさが湧いている |
-    | **opportunities abound** | チャンスが豊富にある |
-    | **wildlife abounds** | 自然、動物が多く存在する |
+    | **comprise of** + 名詞 | (非推奨) ～から構成される  (誤用とみなされることが多い) |
+    | **comprise ... members** | ～人のメンバーから構成される |
+    | **comprise ... chapters** | ～章から構成される |
+    | **comprise ... elements** | ～の要素から構成される |
+
+    **注意点**:
+    * `comprise of` は誤用とみなされることが多く、`consist of` や `be composed of` を使うのがより適切です。
 
     ---
 
-    ## 🔄 源語語
+    ## 🔄 派生語
 
-    | 単語 | 哲語 | 意味 | 用例 |
+    | 単語 | 品詞 | 意味 | 用例 |
     |--------|--------|--------|--------|
-    | **abundant** | 形容語 | 豊富な | *an abundant supply of water* |
-    | **abundance** | 名詞 | 豊富 | *live in abundance* |
-    | **abundantly** | 副語 | 豊かに | *abundantly clear* (非常に明白) |
+    | **composition** | 名詞 | 構成、組成、作文 | *The composition of the committee.* |
+    | **composite** | 形容詞/名詞 | 合成の、複合の/複合材 | *a composite material* |
 
     ---
 
@@ -108,20 +110,28 @@ example_prompt = PromptTemplate.from_template(
 
     | 単語 | ニュアンス | 例文 |
     |--------|-------------|-------|
-    | **be plentiful** | 数が多い、ややカジュアル | *Resources were plentiful in the area.* |
-    | **overflow with** | 物理的に溢れている | *Her inbox overflowed with messages.* |
-    | **teem with** | 人や動物がうごめいている | *The market teems with people.* |
-    | **be rich in** | 特定の成分に富む | *The soil is rich in nutrients.* |
-    | **proliferate** | 急増する（抽象） | *Fake news has proliferated online.* |
+    | **consist of** | ～から成る (部分が全体を構成する) | *The team consists of five players.* |
+    | **be composed of** | ～から構成される (部分が全体を構成する) | *The cake is composed of flour, sugar, and eggs.* |
+    | **include** | ～を含む (全体の一部を含む) | *The price includes breakfast.* |
+    | **contain** | ～を含む (物理的に含む) | *The box contains books.* |
+    | **be made up of** | ～から構成されている (口語的) | *The group is made up of volunteers.* |
+
+    **使い分け**:
+
+    * `comprise`: 全体 = 部分 + 部分 + 部分... (全体が部分を包含する、または部分が全体を構成する)
+    * `consist of`: 全体 = 部分 + 部分 + 部分... (部分が全体を構成する)
+    * `be composed of`: `consist of` とほぼ同じ意味で、よりフォーマル。
+    * `include`: 全体 ⊃ 部分 (全体が部分を含む。全てを列挙するわけではない)
+    * `contain`: 物理的に含む場合や、抽象的な要素を含む場合にも使える。
+    * `be made up of`: 口語的で、`consist of` と同様の意味。
 
     ### 対義語 (antonyms)
 
     | 単語 | ニュアンス | 例文 |
     |--------|-------------|--------|
-    | **lack** | ～がない | *He lacks motivation.* |
-    | **be scarce** | 少ない、得がたい | *Food was scarce during the war.* |
-    | **be short of** | ～が足りない | *We're short of time.* |
-    | **be devoid of** | 完全に缺けている | *His speech was devoid of passion.* |
+    | **exclude** | ～を除外する | *The price excludes tax.* |
+    | **omit** | ～を省略する | *He omitted the details.* |
+    | **lack** | ～を欠く | *The essay lacks clarity.* |
 
     ---
 
@@ -129,15 +139,14 @@ example_prompt = PromptTemplate.from_template(
 
     | 項目 | 内容 |
     |------|------|
-    | 品詞 | 自動詞 |
-    | 意味 | 豊富にある、～で満ちている |
-    | 語源 | ラテン語 "abundare"（あふれ出る） |
-    | よく使う形 | abound in / abound with |
-    | 派生語 | abundant, abundance, abundantly |
-    | 類語 | be plentiful, teem with, overflow with, be rich in, proliferate |
-    | 対義語 | lack, be scarce, be short of, be devoid of |
-    | 使用場面 | 自然、情報、機会などが豊富な状況の描写に最適。フォーマルな文で多用される |
-
+    | 品詞 | 他動詞 |
+    | 意味 | (全体が部分を)含む、構成する、(部分が全体を)構成する |
+    | 語源 | フランス語 ""comprendre"" (理解する、含む) |
+    | よく使う形 | The whole comprises the parts. The parts comprise the whole. |
+    | 派生語 | composition, composite |
+    | 類語 | consist of, be composed of, include, contain, be made up of |
+    | 対義語 | exclude, omit, lack |
+    | 使用場面 | 全体と部分の関係を説明する際に使用。フォーマルな文で多用される。 |
     """
 )
 
