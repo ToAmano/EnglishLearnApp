@@ -28,15 +28,15 @@ def show_status(word: str, prefix: str) -> None:
 
 
 def show_favorite(word: str) -> None:
-    # お気に入りボタン
+    """favorite button"""
     _, col2 = st.columns([4, 1])
     with col2:
         if is_favorited(word):
-            if st.button("★ お気に入り解除", key=f"fav_remove_{word}"):
+            if st.button("⭐", key=f"fav_remove_{word}", help="お気に入り解除"):
                 toggle_favorite(word)
                 st.rerun()
         else:
-            if st.button("☆ お気に入り追加", key=f"fav_add_{word}"):
+            if st.button("☆", key=f"fav_add_{word}", help="お気に入り追加"):
                 toggle_favorite(word)
                 st.rerun()
 
