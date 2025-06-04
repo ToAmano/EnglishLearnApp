@@ -1,3 +1,4 @@
+import os
 import sqlite3
 from sqlite3 import Connection
 from typing import Any
@@ -5,14 +6,16 @@ from typing import Any
 
 def get_db_connection() -> Connection:
     """Get a database connection."""
-    conn = sqlite3.connect("database/words.db")
+    db_path: str = os.getenv("WORDS_DB_PATH", "database/words.db")
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
 
 
 def get_user_db_connection() -> Connection:
     """Get a user database connection."""
-    conn = sqlite3.connect("database/user.db")
+    db_path: str = os.getenv("USER_DB_PATH", "database/user.db")
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
 

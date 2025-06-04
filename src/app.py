@@ -8,8 +8,11 @@ streamlit run app.py
 """
 
 import streamlit as st
+from dotenv import load_dotenv
 
 from frontend import tab1_search, tab4_favorite, tab5_wordbatch, tab6_wordcard
+
+load_dotenv()
 
 # セッションIDで user_id を代用（本番ならログイン機能と連携）
 USER_ID = "default_user"
