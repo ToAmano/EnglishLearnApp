@@ -1,13 +1,15 @@
 import streamlit as st
 
-from backend.backend import get_favorites
+from backend.core.db_core import get_wordid_from_word
+from backend.favorite import get_favorites
 
 
 def render() -> None:
     st.subheader("お気に入りの単語")
-    favorites = get_favorites()
+    favorites: list[str] = get_favorites()
     if favorites:
-        for row in favorites:
-            st.write(f"📌 {row['word_id']} **{row['word']}**")
+        for word in favorites:
+            word_id: int = get_wordid_from_word(word)
+            st.write(f"📌 **{word}** {word_id}")
     else:
         st.info("お気に入りの単語はまだありません。")

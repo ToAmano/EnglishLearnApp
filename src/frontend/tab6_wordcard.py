@@ -1,6 +1,7 @@
 import streamlit as st
 
 from backend.learning import get_word_batch
+from backend.search_count import get_search_count
 from frontend.core import (
     render_explanation,
     render_speak_button,
@@ -41,6 +42,12 @@ def get_idx(card_idx: int, len_df: int) -> int:
     return new_card_idx
 
 
+def on_change_start_index() -> None:
+    """Callback function for start index change. reset card index if the start index changes."""
+    st.session_state["card_index"] = 0
+    print("スタート位置が変更されました。カードインデックスをリセットしました。")
+
+
 def render() -> None:
     st.title("🃏 単語カードモード")
 
@@ -52,7 +59,12 @@ def render() -> None:
     )
     # --- データ取得（バッチ全体を一括取得）
     start_index = st.number_input(
-        "スタート位置", min_value=0, step=BATCH_SIZE, value=0, key="start_index_card"
+        "スタート位置",
+        min_value=0,
+        step=BATCH_SIZE,
+        value=0,
+        key="start_index_card",
+        on_change=on_change_start_index,
     )
     print(f"start_index = {start_index}")
     order_by = "word_id" if sort_mode == "ID順" else "word"
@@ -71,20 +83,20 @@ def render() -> None:
         row = word_df.iloc[card_idx]
         word_id = int(row["word_id"])
         word: str = row["word"]
-        print(f"word_id = {word_id}")
+        search_count: int = get_search_count(word_id)
 
         # --- 単語カード表示
         with st.container():
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
-            st.markdown(f"{word_id}")
+            st.caption(f" word_id: {word_id} /検索回数: {search_count}")
             # 自動読み上げ用のJSコードを埋め込み
             speak_word_automatically(word)
 
             # --- 音声読み上げボタン（Web Speech API）
             render_speak_button(word)
 
-            show_status(word)  # 単語状態の表示
+            show_status(word, "tab6_")  # 単語状態の表示
             show_favorite(word)  # お気に入りボタン
 
             with st.expander("意味を見る"):

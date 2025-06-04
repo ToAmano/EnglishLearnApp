@@ -2,7 +2,7 @@ from typing import Any, List, Set, Tuple
 
 import pandas as pd
 
-from backend.core.db_core import get_db_connection, get_user_db_connection
+from backend.core.db_core import get_db_connection
 from backend.search_count import increment_search_count
 
 
@@ -25,28 +25,6 @@ def get_examples(word_id: int) -> pd.DataFrame:
     )
     conn.close()
     return df
-
-
-def is_favorited(word: str) -> bool:
-    """Check if the word is favorited"""
-    conn = get_user_db_connection()
-    cur = conn.cursor()
-    cur.execute("SELECT 1 FROM favorites WHERE word = ?", (word,))
-    exists = cur.fetchone() is not None
-    conn.close()
-    return exists
-
-
-def toggle_favorite(word: str) -> None:
-    """Change the state of favorited for the word"""
-    conn = get_user_db_connection()
-    cur = conn.cursor()
-    if is_favorited(word):
-        cur.execute("DELETE FROM favorites WHERE word = ?", (word,))
-    else:
-        cur.execute("INSERT INTO favorites (word) VALUES (?)", (word,))
-    conn.commit()
-    conn.close()
 
 
 def get_derived_words(word_id: int) -> Any:
@@ -87,19 +65,6 @@ def get_derived_words(word_id: int) -> Any:
     results = cur.fetchall()
     conn.close()
     return results
-
-
-# お気に入りリスト取得
-def get_favorites() -> Any:
-    """Get all the favorited words"""
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT * FROM words WHERE word_id IN (SELECT word_id FROM favorites)"
-    )
-    favorites = cursor.fetchall()
-    conn.close()
-    return favorites
 
 
 def find_synonym_ids(start_id: int) -> set[int]:

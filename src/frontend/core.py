@@ -1,16 +1,16 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-from backend.backend import is_favorited, toggle_favorite
 from backend.explanation import get_explanation
+from backend.favorite import is_favorited, toggle_favorite
 from backend.vocab_status import get_vocab_status, set_vocab_status
 
 
-def show_status(word: str) -> None:
+def show_status(word: str, prefix: str) -> None:
     status = get_vocab_status(word)
-    word_status_key_2: str = f"vocab_status_card_{word}"
+    word_status_key: str = f"{prefix}_vocab_status_card_{word}"
     st.session_state.setdefault(
-        word_status_key_2, status
+        word_status_key, status
     )  # セッションに初期値がなければ設定
     print(f"status = {status}")
 
@@ -18,7 +18,7 @@ def show_status(word: str) -> None:
     new_status = st.selectbox(
         "📘 単語の習得状態を選択",
         ["unknown", "passive", "active"],
-        key=word_status_key_2,
+        key=word_status_key,
         help="この単語の習得状態を選択してください。",
     )
     if new_status != status:
@@ -28,15 +28,15 @@ def show_status(word: str) -> None:
 
 
 def show_favorite(word: str) -> None:
-    # お気に入りボタン
+    """favorite button"""
     _, col2 = st.columns([4, 1])
     with col2:
         if is_favorited(word):
-            if st.button("★ お気に入り解除", key=f"fav_remove_{word}"):
+            if st.button("⭐", key=f"fav_remove_{word}", help="お気に入り解除"):
                 toggle_favorite(word)
                 st.rerun()
         else:
-            if st.button("☆ お気に入り追加", key=f"fav_add_{word}"):
+            if st.button("☆", key=f"fav_add_{word}", help="お気に入り追加"):
                 toggle_favorite(word)
                 st.rerun()
 
