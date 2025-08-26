@@ -1,3 +1,5 @@
+from typing import List
+
 from backend.core.db_core import get_user_db_connection
 
 
@@ -23,12 +25,11 @@ def toggle_favorite(word: str) -> None:
     conn.close()
 
 
-def get_favorites() -> list[str]:
+def get_favorites_words() -> List[str]:
     """Get all the favorited words"""
     conn = get_user_db_connection()
     cursor = conn.cursor()
     cursor.execute("SELECT word FROM favorites")
-    # favorites = cursor.fetchall()
-    favorite_words = [row[0] for row in cursor.fetchall()]  # list of words
+    favorite_words: List[str] = [row[0] for row in cursor.fetchall()]  # list of words
     conn.close()
     return favorite_words
