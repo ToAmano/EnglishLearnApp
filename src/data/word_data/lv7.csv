@@ -72,7 +72,7 @@ word_id,word,source
 6071,ripen,svl
 6072,goldfish,svl
 6073,rot,svl
-6074,distributer,svl
+6074,distributor,svl
 6075,simplify,svl
 6076,merchandise,svl
 6077,metropolis,svl
@@ -107,7 +107,7 @@ word_id,word,source
 6106,arouse,svl
 6107,fury,svl
 6108,creditor,svl
-6109,pedestrain,svl
+6109,pedestrian,svl
 6110,beware,svl
 6111,pathway,svl
 6112,tram,svl
@@ -122,7 +122,7 @@ word_id,word,source
 6121,predecessor,svl
 6122,concede,svl
 6123,statistical,svl
-6124,falsefood,svl
+6124,falsehood,svl
 6125,confer,svl
 6126,treasurer,svl
 6127,fiscal,svl
@@ -182,7 +182,7 @@ word_id,word,source
 6181,devour,svl
 6182,hare,svl
 6183,appliance,svl
-6184,dicate,svl
+6184,dictate,svl
 6185,elevate,svl
 6186,dome,svl
 6187,embrace,svl
@@ -504,7 +504,7 @@ word_id,word,source
 6503,slug,svl
 6504,snail,svl
 6505,swarm,svl
-6506,avoidanve,svl
+6506,avoidance,svl
 6507,continuity,svl
 6508,contraction,svl
 6509,conversion,svl
@@ -560,7 +560,7 @@ word_id,word,source
 6559,satire,svl
 6560,abbreviation,svl
 6561,advancement,svl
-6562,authropology,svl
+6562,anthropology,svl
 6563,correspondence,svl
 6564,dialect,svl
 6565,diploma,svl
@@ -611,11 +611,11 @@ word_id,word,source
 6610,revelation,svl
 6611,seam,svl
 6612,stance,svl
-6613,tritbute,svl
+6613,tribute,svl
 6614,accordance,svl
 6615,adoption,svl
 6616,agenda,svl
-6617,atttachment,svl
+6617,attachment,svl
 6618,auction,svl
 6619,backing,svl
 6620,ballot,svl
@@ -629,7 +629,7 @@ word_id,word,source
 6628,directive,svl
 6629,disarmament,svl
 6630,dishonor,svl
-6631,disxmissal,svl
+6631,dismissal,svl
 6632,disposal,svl
 6633,dividend,svl
 6634,enforcement,svl
@@ -650,7 +650,7 @@ word_id,word,source
 6649,memorandum,svl
 6650,menace,svl
 6651,monarchy,svl
-6652,mortgate,svl
+6652,mortgage,svl
 6653,nationalism,svl
 6654,oath,svl
 6655,oppression,svl
@@ -727,7 +727,7 @@ word_id,word,source
 6726,patriot,svl
 6727,payer,svl
 6728,pessimist,svl
-6729,refree,svl
+6729,referee,svl
 6730,seeker,svl
 6731,striker,svl
 6732,supplier,svl

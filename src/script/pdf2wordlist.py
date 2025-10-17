@@ -31,8 +31,8 @@ if __name__ == "__main__":
         with open("wordlist.txt", "r", encoding="utf-8") as file:
             for line in file:
                 word_list.append(line.strip())
-        # df = pd.DataFrame(word_list, columns=["word"])
-        # df.to_csv("wordlist.csv", index=False)
+        # if save data:: df = pd.DataFrame(word_list, columns=["word"])
+        # if save data:: df.to_csv("wordlist.csv", index=False)
         print(f"Extracted {len(text)} unique words from the PDF.")
     else:
         print("No text extracted from the PDF.")
