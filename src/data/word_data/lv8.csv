@@ -17,7 +17,7 @@ word_id,word,source
 7016,computerize,svl
 7017,shipment,svl
 7018,warehouse,svl
-7019,consolodate,svl
+7019,consolidate,svl
 7020,sensor,svl
 7021,bishop,svl
 7022,dignify,svl
@@ -112,7 +112,7 @@ word_id,word,source
 7111,adolescent,svl
 7112,lure,svl
 7113,obscene,svl
-7114,pronography,svl
+7114,pornography,svl
 7115,supervisor,svl
 7116,mumble,svl
 7117,voucher,svl
@@ -241,7 +241,7 @@ word_id,word,source
 7240,hangover,svl
 7241,shellfish,svl
 7242,cleanse,svl
-7243,repotedly,svl
+7243,reportedly,svl
 7244,collide,svl
 7245,runway,svl
 7246,casualty,svl
@@ -596,7 +596,7 @@ word_id,word,source
 7595,fad,svl
 7596,fatality,svl
 7597,fellowship,svl
-7598,footlight,svl
+7598,footlights,svl
 7599,gloom,svl
 7600,goodwill,svl
 7601,hybrid,svl
@@ -719,7 +719,7 @@ word_id,word,source
 7718,obscurity,svl
 7719,persistence,svl
 7720,rarity,svl
-7721,transparancy,svl
+7721,transparency,svl
 7722,urgency,svl
 7723,velocity,svl
 7724,brink,svl
@@ -743,8 +743,8 @@ word_id,word,source
 7742,narrator,svl
 7743,pickpocket,svl
 7744,pilgrim,svl
-7745,plantiff,svl
-7746,practitoner,svl
+7745,plaintiff,svl
+7746,practitioner,svl
 7747,presenter,svl
 7748,realist,svl
 7749,sovereign,svl
@@ -777,7 +777,7 @@ word_id,word,source
 7776,socket,svl
 7777,substitution,svl
 7778,tack,svl
-7779,transcrpit,svl
+7779,transcript,svl
 7780,wrapper,svl
 7781,adverse,svl
 7782,anti,svl
