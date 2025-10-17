@@ -10,9 +10,12 @@ dependencies = [
   "streamlit",
   "langchain",
   "dotenv",
-  "langchain_google_genai"
+  "langchain_google_genai",
+  "fastapi",
+  "uvicorn[standard]",
+  "python-multipart"
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 authors = [
   {name = "Tomohito Amano", email = "amanotomohito040@gmail.com"}
 ]
