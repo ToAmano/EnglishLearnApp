@@ -107,9 +107,13 @@ def render() -> None:
     word = st.text_input("単語を入力", "", key="search_input")
 
     if st.button("検索", key=1):
-        word_id = get_wordid_from_word(word)
-        st.session_state["word_id"] = word_id
+        st.session_state["word_id"] = (
+            get_wordid_from_word(word) if word.strip() else None
+        )
     if "word_id" in st.session_state:
-        print(f"セッションに結果がある :: word_id = {st.session_state['word_id']}")
         word_id = st.session_state["word_id"]
-        show_word_entry(word_id)
+        if not word_id:  # word_id is None (empty input) or 0 (not found)
+            st.warning("該当する単語が見つかりませんでした。")
+        else:
+            print(f"セッションに結果がある :: word_id = {word_id}")
+            show_word_entry(word_id)

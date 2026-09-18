@@ -1,12 +1,21 @@
 import os
 import sqlite3
+from pathlib import Path
 from sqlite3 import Connection
 from typing import Any
+
+# "src/" directory, resolved from this file's own location rather than the
+# current working directory. Used as the base for the default database
+# paths below so the app finds the databases whether it is launched from
+# the repository root or from inside src/.
+_SRC_DIR = Path(__file__).resolve().parents[2]
+_DEFAULT_WORDS_DB_PATH = str(_SRC_DIR / "database" / "words.db")
+_DEFAULT_USER_DB_PATH = str(_SRC_DIR / "database" / "user.db")
 
 
 def get_db_connection() -> Connection:
     """Get a database connection."""
-    db_path: str = os.getenv("WORDS_DB_PATH", "database/words.db")
+    db_path: str = os.getenv("WORDS_DB_PATH", _DEFAULT_WORDS_DB_PATH)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
@@ -14,7 +23,7 @@ def get_db_connection() -> Connection:
 
 def get_user_db_connection() -> Connection:
     """Get a user database connection."""
-    db_path: str = os.getenv("USER_DB_PATH", "database/user.db")
+    db_path: str = os.getenv("USER_DB_PATH", _DEFAULT_USER_DB_PATH)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     return conn
