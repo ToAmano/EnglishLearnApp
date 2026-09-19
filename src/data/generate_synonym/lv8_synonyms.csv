@@ -5599,62 +5599,62 @@ number,word,synonym
 7018,warehouse,stockyard
 7018,warehouse,wholesale outlet
 7018,warehouse,bonded warehouse
-7019,consolodate,unite
-7019,consolodate,merge
-7019,consolodate,combine
-7019,consolodate,join
-7019,consolodate,integrate
-7019,consolodate,amalgamate
-7019,consolodate,fuse
-7019,consolodate,solidify
-7019,consolodate,strengthen
-7019,consolodate,reinforce
-7019,consolodate,concentrate
-7019,consolodate,compact
-7019,consolodate,condense
-7019,consolodate,centralize
-7019,consolodate,pool
-7019,consolodate,connect
-7019,consolodate,link
-7019,consolodate,bring together
-7019,consolodate,group
-7019,consolodate,assemble
-7019,consolodate,federate
-7019,consolodate,incorporate
-7019,consolodate,blend
-7019,consolodate,mix
-7019,consolodate,harden
-7019,consolodate,firm up
-7019,consolodate,make stronger
-7019,consolodate,fortify
-7019,consolodate,intensify
-7019,consolodate,agglomerate
-7019,consolodate,coalesce
-7019,consolodate,cement
-7019,consolodate,conflate
-7019,consolodate,synthesize
-7019,consolodate,unify
-7019,consolodate,marshal
-7019,consolodate,systematize
-7019,consolodate,organize
-7019,consolodate,structure
-7019,consolodate,rationalize
-7019,consolodate,streamline
-7019,consolodate,tighten
-7019,consolodate,buttress
-7019,consolodate,bolster
-7019,consolodate,anchor
-7019,consolodate,secure
-7019,consolodate,bind
-7019,consolodate,compile
-7019,consolodate,collate
-7019,consolodate,mass
-7019,consolodate,aggregate
-7019,consolodate,accumulate
-7019,consolodate,build up
-7019,consolodate,gather
-7019,consolodate,cluster
-7019,consolodate,draw together
+7019,consolidate,unite
+7019,consolidate,merge
+7019,consolidate,combine
+7019,consolidate,join
+7019,consolidate,integrate
+7019,consolidate,amalgamate
+7019,consolidate,fuse
+7019,consolidate,solidify
+7019,consolidate,strengthen
+7019,consolidate,reinforce
+7019,consolidate,concentrate
+7019,consolidate,compact
+7019,consolidate,condense
+7019,consolidate,centralize
+7019,consolidate,pool
+7019,consolidate,connect
+7019,consolidate,link
+7019,consolidate,bring together
+7019,consolidate,group
+7019,consolidate,assemble
+7019,consolidate,federate
+7019,consolidate,incorporate
+7019,consolidate,blend
+7019,consolidate,mix
+7019,consolidate,harden
+7019,consolidate,firm up
+7019,consolidate,make stronger
+7019,consolidate,fortify
+7019,consolidate,intensify
+7019,consolidate,agglomerate
+7019,consolidate,coalesce
+7019,consolidate,cement
+7019,consolidate,conflate
+7019,consolidate,synthesize
+7019,consolidate,unify
+7019,consolidate,marshal
+7019,consolidate,systematize
+7019,consolidate,organize
+7019,consolidate,structure
+7019,consolidate,rationalize
+7019,consolidate,streamline
+7019,consolidate,tighten
+7019,consolidate,buttress
+7019,consolidate,bolster
+7019,consolidate,anchor
+7019,consolidate,secure
+7019,consolidate,bind
+7019,consolidate,compile
+7019,consolidate,collate
+7019,consolidate,mass
+7019,consolidate,aggregate
+7019,consolidate,accumulate
+7019,consolidate,build up
+7019,consolidate,gather
+7019,consolidate,cluster
+7019,consolidate,draw together
 7020,sensor,detector
 7020,sensor,transducer
 7020,sensor,instrument
@@ -28282,47 +28282,47 @@ number,word,synonym
 7113,obscene,condemnable
 7113,obscene,damnable
 7113,obscene,accursed
-7114,pronography,porn
-7114,pronography,adult entertainment
-7114,pronography,adult films
-7114,pronography,smut
-7114,pronography,erotica
-7114,pronography,explicit material
-7114,pronography,hardcore
-7114,pronography,softcore
-7114,pronography,XXX
-7114,pronography,blue movies
-7114,pronography,skin flicks
-7114,pronography,stag films
-7114,pronography,obscene material
-7114,pronography,indecent material
-7114,pronography,sex films
-7114,pronography,sexually explicit content
-7114,pronography,pornographic material
-7114,pronography,x-rated movies
-7114,pronography,adult content
-7114,pronography,risqué films
-7114,pronography,lewd depictions
-7114,pronography,boudoir photography
-7114,pronography,exploitation films
-7114,pronography,sexploitation
-7114,pronography,carnal depictions
-7114,pronography,obscene publications
-7114,pronography,indecent representations
-7114,pronography,lascivious art
-7114,pronography,lurid depictions
-7114,pronography,graphic depictions of sexual acts
-7114,pronography,sexually suggestive material
-7114,pronography,the demimonde
-7114,pronography,the flesh trade
-7114,pronography,visual erotica
-7114,pronography,pornographic art
-7114,pronography,sexual representations
-7114,pronography,sexually graphic content
-7114,pronography,erotic depictions
-7114,pronography,erotic art
-7114,pronography,lurid imagery
-7114,pronography,smutty pictures
+7114,pornography,porn
+7114,pornography,adult entertainment
+7114,pornography,adult films
+7114,pornography,smut
+7114,pornography,erotica
+7114,pornography,explicit material
+7114,pornography,hardcore
+7114,pornography,softcore
+7114,pornography,XXX
+7114,pornography,blue movies
+7114,pornography,skin flicks
+7114,pornography,stag films
+7114,pornography,obscene material
+7114,pornography,indecent material
+7114,pornography,sex films
+7114,pornography,sexually explicit content
+7114,pornography,pornographic material
+7114,pornography,x-rated movies
+7114,pornography,adult content
+7114,pornography,risqué films
+7114,pornography,lewd depictions
+7114,pornography,boudoir photography
+7114,pornography,exploitation films
+7114,pornography,sexploitation
+7114,pornography,carnal depictions
+7114,pornography,obscene publications
+7114,pornography,indecent representations
+7114,pornography,lascivious art
+7114,pornography,lurid depictions
+7114,pornography,graphic depictions of sexual acts
+7114,pornography,sexually suggestive material
+7114,pornography,the demimonde
+7114,pornography,the flesh trade
+7114,pornography,visual erotica
+7114,pornography,pornographic art
+7114,pornography,sexual representations
+7114,pornography,sexually graphic content
+7114,pornography,erotic depictions
+7114,pornography,erotic art
+7114,pornography,lurid imagery
+7114,pornography,smutty pictures
 7115,supervisor,manager
 7115,supervisor,overseer
 7115,supervisor,foreman
@@ -44055,43 +44055,43 @@ number,word,synonym
 7242,cleanse,expiate
 7242,cleanse,rectify
 7242,cleanse,embalm
-7243,repotedly,allegedly
-7243,repotedly,supposedly
-7243,repotedly,ostensibly
-7243,repotedly,reportedly
-7243,repotedly,apparently
-7243,repotedly,seemingly
-7243,repotedly,professedly
-7243,repotedly,avowedly
-7243,repotedly,purportedly
-7243,repotedly,according to reports
-7243,repotedly,it is said
-7243,repotedly,it is alleged
-7243,repotedly,it is rumored
-7243,repotedly,it is believed
-7243,repotedly,as the story goes
-7243,repotedly,on good authority
-7243,repotedly,according to sources
-7243,repotedly,by all accounts
-7243,repotedly,ostensibly
-7243,repotedly,on the face of it
-7243,repotedly,presumedly
-7243,repotedly,putatively
-7243,repotedly,reputedly
-7243,repotedly,as it appears
-7243,repotedly,by repute
-7243,repotedly,as claimed
-7243,repotedly,as stated
-7243,repotedly,nominally
-7243,repotedly,ostensibly
-7243,repotedly,so the story goes
-7243,repotedly,as per sources
-7243,repotedly,it would seem
-7243,repotedly,as is widely known
-7243,repotedly,it is understood
-7243,repotedly,by hearsay
-7243,repotedly,as rumor has it
-7243,repotedly,ostensively
+7243,reportedly,allegedly
+7243,reportedly,supposedly
+7243,reportedly,ostensibly
+7243,reportedly,reportedly
+7243,reportedly,apparently
+7243,reportedly,seemingly
+7243,reportedly,professedly
+7243,reportedly,avowedly
+7243,reportedly,purportedly
+7243,reportedly,according to reports
+7243,reportedly,it is said
+7243,reportedly,it is alleged
+7243,reportedly,it is rumored
+7243,reportedly,it is believed
+7243,reportedly,as the story goes
+7243,reportedly,on good authority
+7243,reportedly,according to sources
+7243,reportedly,by all accounts
+7243,reportedly,ostensibly
+7243,reportedly,on the face of it
+7243,reportedly,presumedly
+7243,reportedly,putatively
+7243,reportedly,reputedly
+7243,reportedly,as it appears
+7243,reportedly,by repute
+7243,reportedly,as claimed
+7243,reportedly,as stated
+7243,reportedly,nominally
+7243,reportedly,ostensibly
+7243,reportedly,so the story goes
+7243,reportedly,as per sources
+7243,reportedly,it would seem
+7243,reportedly,as is widely known
+7243,reportedly,it is understood
+7243,reportedly,by hearsay
+7243,reportedly,as rumor has it
+7243,reportedly,ostensively
 7244,collide,crash
 7244,collide,hit
 7244,collide,smash
@@ -61419,7 +61419,7 @@ number,word,synonym
 7375,juvenile,student
 7375,juvenile,unripe
 7375,juvenile,unsophisticated
-7375,juvenile,naïve
+7375,juvenile,naive
 7375,juvenile,wet behind the ears
 7375,juvenile,in one's salad days
 7375,juvenile,inceptive
@@ -73946,7 +73946,7 @@ number,word,synonym
 7445,unethical,oblivious
 7445,unethical,unaware
 7445,unethical,ignorant
-7445,unethical,naïve
+7445,unethical,naive
 7445,unethical,gullible
 7445,unethical,credulous
 7445,unethical,easily fooled
@@ -83507,7 +83507,7 @@ number,word,synonym
 7595,fad,
 7596,fatality,
 7597,fellowship,
-7598,footlight,
+7598,footlights,
 7599,gloom,
 7600,goodwill,
 7601,hybrid,
@@ -83756,7 +83756,7 @@ number,word,synonym
 7718,obscurity,
 7719,persistence,
 7720,rarity,
-7721,transparancy,
+7721,transparency,
 7722,urgency,
 7723,velocity,
 7724,brink,
@@ -83780,8 +83780,8 @@ number,word,synonym
 7742,narrator,
 7743,pickpocket,
 7744,pilgrim,
-7745,plantiff,
-7746,practitoner,
+7745,plaintiff,
+7746,practitioner,
 7747,presenter,
 7748,realist,
 7749,sovereign,
@@ -83814,7 +83814,7 @@ number,word,synonym
 7776,socket,
 7777,substitution,
 7778,tack,
-7779,transcrpit,
+7779,transcript,
 7780,wrapper,
 7781,adverse,
 7782,anti,

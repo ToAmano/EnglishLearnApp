@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 6001.0,symposium,"The university is hosting a symposium on climate change next month, featuring experts from around the world."
 6001.0,symposium,She presented her research at the international symposium on artificial intelligence.
 6001.0,symposium,Attendance at the symposium is mandatory for all graduate students in the biology department.
@@ -2524,11 +2524,11 @@ number,word,example
 6505.0,swarm,The online forum quickly became a swarm of angry comments and accusations.
 6505.0,swarm,"Locusts can swarm in huge numbers, devastating entire crops in a matter of hours."
 6505.0,swarm,The children swarmed around the ice cream truck as soon as it arrived.
-6506.0,avoidanve,His avoidance of eye contact made it clear he was hiding something.
-6506.0,avoidanve,"The company's tax avoidance strategies were perfectly legal, but ethically questionable."
-6506.0,avoidanve,"She demonstrated complete avoidance of the topic, quickly changing the subject whenever it came up."
-6506.0,avoidanve,My doctor recommended stress avoidance as a key part of managing my high blood pressure.
-6506.0,avoidanve,The politician's avoidance of answering direct questions fueled speculation about his involvement in the scandal.
+6506.0,avoidance,His avoidance of eye contact made it clear he was hiding something.
+6506.0,avoidance,"The company's tax avoidance strategies were perfectly legal, but ethically questionable."
+6506.0,avoidance,"She demonstrated complete avoidance of the topic, quickly changing the subject whenever it came up."
+6506.0,avoidance,My doctor recommended stress avoidance as a key part of managing my high blood pressure.
+6506.0,avoidance,The politician's avoidance of answering direct questions fueled speculation about his involvement in the scandal.
 6507.0,continuity,The company strives for continuity in its leadership to ensure a smooth transition between CEOs.
 6507.0,continuity,"Despite the change in directors, the film maintained a strong sense of continuity from the original novel."
 6507.0,continuity,The historical society works to preserve the continuity of local traditions and customs.
@@ -3254,11 +3254,11 @@ number,word,example
 6651.0,monarchy,"Despite the abolishment of the monarchy decades ago, many people still hold a deep respect for the former royal family."
 6651.0,monarchy,Tourism in the country is heavily reliant on the historical sites associated with the previous monarchy.
 6651.0,monarchy,The debate continues whether a hereditary monarchy is a fair and effective system of governance in the modern world.
-6652.0,mortgate,We finally paid off our mortgage after 30 years.
-6652.0,mortgate,"The bank approved our mortgage application, so we can finally buy our dream home."
-6652.0,mortgate,Rising interest rates are making it difficult for many people to afford a mortgage.
-6652.0,mortgate,"Before buying the property, we need to get pre-approved for a mortgage."
-6652.0,mortgate,She took out a second mortgage on her house to start her own business.
+6652.0,mortgage,We finally paid off our mortgage after 30 years.
+6652.0,mortgage,"The bank approved our mortgage application, so we can finally buy our dream home."
+6652.0,mortgage,Rising interest rates are making it difficult for many people to afford a mortgage.
+6652.0,mortgage,"Before buying the property, we need to get pre-approved for a mortgage."
+6652.0,mortgage,She took out a second mortgage on her house to start her own business.
 6653.0,nationalism,The rise of nationalism in several European countries has led to increased border tensions.
 6653.0,nationalism,Some argue that nationalism is a dangerous ideology that promotes division and conflict.
 6653.0,nationalism,"The World Cup often sparks a wave of nationalism, with fans passionately supporting their home teams."

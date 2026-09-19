@@ -11553,32 +11553,32 @@ number,word,synonym
 11073,orchid,botanical specimen
 11073,orchid,floral specimen
 11073,orchid,plant of the Orchidaceae family
-11074,germinae,sprouts
-11074,germinae,buds
-11074,germinae,shoots
-11074,germinae,seeds
-11074,germinae,embryos
-11074,germinae,offspring
-11074,germinae,descendants
-11074,germinae,progeny
-11074,germinae,scions
-11074,germinae,issue
-11074,germinae,germs
-11074,germinae,beginnings
-11074,germinae,origins
-11074,germinae,sources
-11074,germinae,roots
-11074,germinae,buds
-11074,germinae,new growth
-11074,germinae,developing organisms
-11074,germinae,nascent forms
-11074,germinae,incipient stages
-11074,germinae,primordia
-11074,germinae,rudiments
-11074,germinae,fledglings
-11074,germinae,young plants
-11074,germinae,developing life
-11074,germinae,early forms
+11074,germinate,sprouts
+11074,germinate,buds
+11074,germinate,shoots
+11074,germinate,seeds
+11074,germinate,embryos
+11074,germinate,offspring
+11074,germinate,descendants
+11074,germinate,progeny
+11074,germinate,scions
+11074,germinate,issue
+11074,germinate,germs
+11074,germinate,beginnings
+11074,germinate,origins
+11074,germinate,sources
+11074,germinate,roots
+11074,germinate,buds
+11074,germinate,new growth
+11074,germinate,developing organisms
+11074,germinate,nascent forms
+11074,germinate,incipient stages
+11074,germinate,primordia
+11074,germinate,rudiments
+11074,germinate,fledglings
+11074,germinate,young plants
+11074,germinate,developing life
+11074,germinate,early forms
 11075,conservatory,greenhouse
 11075,conservatory,hothouse
 11075,conservatory,glasshouse
@@ -13074,38 +13074,38 @@ number,word,synonym
 11094,hanger,stirrup
 11094,hanger,davit
 11094,hanger,balk
-11095,pstracism,exclusion
-11095,pstracism,banishment
-11095,pstracism,rejection
-11095,pstracism,shunning
-11095,pstracism,avoidance
-11095,pstracism,isolation
-11095,pstracism,segregation
-11095,pstracism,expulsion
-11095,pstracism,excommunication
-11095,pstracism,ostracization
-11095,pstracism,blacklisting
-11095,pstracism,boycotting
-11095,pstracism,social exclusion
-11095,pstracism,social isolation
-11095,pstracism,marginalization
-11095,pstracism,alienation
-11095,pstracism,disbarment
-11095,pstracism,deportation
-11095,pstracism,exile
-11095,pstracism,casting out
-11095,pstracism,sending to Coventry
-11095,pstracism,putting someone in Coventry
-11095,pstracism,thumbs down
-11095,pstracism,persona non grata
-11095,pstracism,anathematization
-11095,pstracism,proscription
-11095,pstracism,deprivation of rights
-11095,pstracism,social death
-11095,pstracism,civil death
-11095,pstracism,repudiation
-11095,pstracism,denial
-11095,pstracism,disavowal
+11095,ostracism,exclusion
+11095,ostracism,banishment
+11095,ostracism,rejection
+11095,ostracism,shunning
+11095,ostracism,avoidance
+11095,ostracism,isolation
+11095,ostracism,segregation
+11095,ostracism,expulsion
+11095,ostracism,excommunication
+11095,ostracism,ostracization
+11095,ostracism,blacklisting
+11095,ostracism,boycotting
+11095,ostracism,social exclusion
+11095,ostracism,social isolation
+11095,ostracism,marginalization
+11095,ostracism,alienation
+11095,ostracism,disbarment
+11095,ostracism,deportation
+11095,ostracism,exile
+11095,ostracism,casting out
+11095,ostracism,sending to Coventry
+11095,ostracism,putting someone in Coventry
+11095,ostracism,thumbs down
+11095,ostracism,persona non grata
+11095,ostracism,anathematization
+11095,ostracism,proscription
+11095,ostracism,deprivation of rights
+11095,ostracism,social death
+11095,ostracism,civil death
+11095,ostracism,repudiation
+11095,ostracism,denial
+11095,ostracism,disavowal
 11096,permeate,imbue
 11096,permeate,infiltrate
 11096,permeate,penetrate
@@ -27952,45 +27952,45 @@ number,word,synonym
 11186,voluble,able to express oneself easily
 11186,voluble,flowing in speech
 11186,voluble,with a ready flow of speech
-11187,extrovent,outgoing
-11187,extrovent,sociable
-11187,extrovent,gregarious
-11187,extrovent,affable
-11187,extrovent,convivial
-11187,extrovent,amicable
-11187,extrovent,friendly
-11187,extrovent,personable
-11187,extrovent,vivacious
-11187,extrovent,animated
-11187,extrovent,ebullient
-11187,extrovent,effervescent
-11187,extrovent,boisterous
-11187,extrovent,demonstrative
-11187,extrovent,unreserved
-11187,extrovent,forthcoming
-11187,extrovent,open
-11187,extrovent,expressive
-11187,extrovent,communicative
-11187,extrovent,talkative
-11187,extrovent,chatty
-11187,extrovent,loquacious
-11187,extrovent,voluble
-11187,extrovent,expansive
-11187,extrovent,hail-fellow-well-met
-11187,extrovent,life of the party
-11187,extrovent,social butterfly
-11187,extrovent,mixer
-11187,extrovent,people person
-11187,extrovent,extrovertish
-11187,extrovent,extraverted
-11187,extrovent,outgoing personality
-11187,extrovent,gregarious nature
-11187,extrovent,socially oriented
-11187,extrovent,externalizing
-11187,extrovent,outer-directed
-11187,extrovent,one who thrives in social settings
-11187,extrovent,one who gains energy from social interaction
-11187,extrovent,one who is energized by being with people
+11187,extrovert,outgoing
+11187,extrovert,sociable
+11187,extrovert,gregarious
+11187,extrovert,affable
+11187,extrovert,convivial
+11187,extrovert,amicable
+11187,extrovert,friendly
+11187,extrovert,personable
+11187,extrovert,vivacious
+11187,extrovert,animated
+11187,extrovert,ebullient
+11187,extrovert,effervescent
+11187,extrovert,boisterous
+11187,extrovert,demonstrative
+11187,extrovert,unreserved
+11187,extrovert,forthcoming
+11187,extrovert,open
+11187,extrovert,expressive
+11187,extrovert,communicative
+11187,extrovert,talkative
+11187,extrovert,chatty
+11187,extrovert,loquacious
+11187,extrovert,voluble
+11187,extrovert,expansive
+11187,extrovert,hail-fellow-well-met
+11187,extrovert,life of the party
+11187,extrovert,social butterfly
+11187,extrovert,mixer
+11187,extrovert,people person
+11187,extrovert,extrovertish
+11187,extrovert,extraverted
+11187,extrovert,outgoing personality
+11187,extrovert,gregarious nature
+11187,extrovert,socially oriented
+11187,extrovert,externalizing
+11187,extrovert,outer-directed
+11187,extrovert,one who thrives in social settings
+11187,extrovert,one who gains energy from social interaction
+11187,extrovert,one who is energized by being with people
 11188,vouch,affirm
 11188,vouch,assert
 11188,vouch,attest
@@ -59739,28 +59739,28 @@ number,word,synonym
 11420,overrate,boast
 11420,overrate,flaunt
 11420,overrate,show off
-11421,throughbred,purebred
-11421,throughbred,pedigreed
-11421,throughbred,pure-blooded
-11421,throughbred,full-blooded
-11421,throughbred,of good stock
-11421,throughbred,well-bred
-11421,throughbred,blooded
-11421,throughbred,thoroughbred horse
-11421,throughbred,racehorse
-11421,throughbred,courser
-11421,throughbred,stallion
-11421,throughbred,mare
-11421,throughbred,filly
-11421,throughbred,colt
-11421,throughbred,blood horse
-11421,throughbred,equine thoroughbred
-11421,throughbred,of noble lineage
-11421,throughbred,aristocratic
-11421,throughbred,highborn
-11421,throughbred,blue-blooded
-11421,throughbred,of impeccable pedigree
-11421,throughbred,thorough-bred
+11421,thoroughbred,purebred
+11421,thoroughbred,pedigreed
+11421,thoroughbred,pure-blooded
+11421,thoroughbred,full-blooded
+11421,thoroughbred,of good stock
+11421,thoroughbred,well-bred
+11421,thoroughbred,blooded
+11421,thoroughbred,thoroughbred horse
+11421,thoroughbred,racehorse
+11421,thoroughbred,courser
+11421,thoroughbred,stallion
+11421,thoroughbred,mare
+11421,thoroughbred,filly
+11421,thoroughbred,colt
+11421,thoroughbred,blood horse
+11421,thoroughbred,equine thoroughbred
+11421,thoroughbred,of noble lineage
+11421,thoroughbred,aristocratic
+11421,thoroughbred,highborn
+11421,thoroughbred,blue-blooded
+11421,thoroughbred,of impeccable pedigree
+11421,thoroughbred,thorough-bred
 11422,armpit,axilla
 11422,armpit,underarm
 11422,armpit,oxter
@@ -71218,49 +71218,49 @@ number,word,synonym
 11510,copious,brimming
 11510,copious,chock-full
 11510,copious,overwhelming
-11511,peospectus,brochure
-11511,peospectus,booklet
-11511,peospectus,pamphlet
-11511,peospectus,handbook
-11511,peospectus,guide
-11511,peospectus,outline
-11511,peospectus,program
-11511,peospectus,compendium
-11511,peospectus,syllabus
-11511,peospectus,catalog
-11511,peospectus,bulletin
-11511,peospectus,summary
-11511,peospectus,abstract
-11511,peospectus,synopsis
-11511,peospectus,precis
-11511,peospectus,resume
-11511,peospectus,scheme
-11511,peospectus,proposal
-11511,peospectus,plan
-11511,peospectus,draft
-11511,peospectus,presentation
-11511,peospectus,offering circular
-11511,peospectus,offering document
-11511,peospectus,information memorandum
-11511,peospectus,sales literature
-11511,peospectus,marketing material
-11511,peospectus,preliminary document
-11511,peospectus,introductory document
-11511,peospectus,position paper
-11511,peospectus,white paper
-11511,peospectus,feasibility study
-11511,peospectus,business plan
-11511,peospectus,investment overview
-11511,peospectus,road map
-11511,peospectus,design
-11511,peospectus,bluepring
-11511,peospectus,statement of intent
-11511,peospectus,pitch deck
-11511,peospectus,offering statement
-11511,peospectus,registration statement
-11511,peospectus,preliminary prospectus
-11511,peospectus,red herring prospectus
-11511,peospectus,final prospectus
+11511,prospectus,brochure
+11511,prospectus,booklet
+11511,prospectus,pamphlet
+11511,prospectus,handbook
+11511,prospectus,guide
+11511,prospectus,outline
+11511,prospectus,program
+11511,prospectus,compendium
+11511,prospectus,syllabus
+11511,prospectus,catalog
+11511,prospectus,bulletin
+11511,prospectus,summary
+11511,prospectus,abstract
+11511,prospectus,synopsis
+11511,prospectus,precis
+11511,prospectus,resume
+11511,prospectus,scheme
+11511,prospectus,proposal
+11511,prospectus,plan
+11511,prospectus,draft
+11511,prospectus,presentation
+11511,prospectus,offering circular
+11511,prospectus,offering document
+11511,prospectus,information memorandum
+11511,prospectus,sales literature
+11511,prospectus,marketing material
+11511,prospectus,preliminary document
+11511,prospectus,introductory document
+11511,prospectus,position paper
+11511,prospectus,white paper
+11511,prospectus,feasibility study
+11511,prospectus,business plan
+11511,prospectus,investment overview
+11511,prospectus,road map
+11511,prospectus,design
+11511,prospectus,bluepring
+11511,prospectus,statement of intent
+11511,prospectus,pitch deck
+11511,prospectus,offering statement
+11511,prospectus,registration statement
+11511,prospectus,preliminary prospectus
+11511,prospectus,red herring prospectus
+11511,prospectus,final prospectus
 11512,chronology,timeline
 11512,chronology,sequence
 11512,chronology,order
@@ -83871,8 +83871,8 @@ number,word,synonym
 11626,feasibility,glosses
 11626,feasibility,front
 11626,feasibility,fronts
-11626,feasibility,façade
-11626,feasibility,façades
+11626,feasibility,facade
+11626,feasibility,facades
 11626,feasibility,exterior
 11626,feasibility,exteriors
 11626,feasibility,surface
@@ -84789,40 +84789,40 @@ number,word,synonym
 11640,inception,the early stages
 11640,inception,early phase
 11640,inception,initial stage
-11641,intrelude,break
-11641,intrelude,pause
-11641,intrelude,interval
-11641,intrelude,recess
-11641,intrelude,intermission
-11641,intrelude,respite
-11641,intrelude,hiatus
-11641,intrelude,gap
-11641,intrelude,lull
-11641,intrelude,episode
-11641,intrelude,segment
-11641,intrelude,passage
-11641,intrelude,interjection
-11641,intrelude,interpolation
-11641,intrelude,digression
-11641,intrelude,aside
-11641,intrelude,curtain raiser
-11641,intrelude,entr'acte
-11641,intrelude,bridge
-11641,intrelude,transition
-11641,intrelude,interspersion
-11641,intrelude,parenthesis
-11641,intrelude,interposition
-11641,intrelude,intercurrence
-11641,intrelude,breather
-11641,intrelude,morceau
-11641,intrelude,divertissement
-11641,intrelude,intermezzo
-11641,intrelude,offering
-11641,intrelude,short performance
-11641,intrelude,short act
-11641,intrelude,a moment's pause
-11641,intrelude,a space in between
-11641,intrelude,a temporary cessation
+11641,interlude,break
+11641,interlude,pause
+11641,interlude,interval
+11641,interlude,recess
+11641,interlude,intermission
+11641,interlude,respite
+11641,interlude,hiatus
+11641,interlude,gap
+11641,interlude,lull
+11641,interlude,episode
+11641,interlude,segment
+11641,interlude,passage
+11641,interlude,interjection
+11641,interlude,interpolation
+11641,interlude,digression
+11641,interlude,aside
+11641,interlude,curtain raiser
+11641,interlude,entr'acte
+11641,interlude,bridge
+11641,interlude,transition
+11641,interlude,interspersion
+11641,interlude,parenthesis
+11641,interlude,interposition
+11641,interlude,intercurrence
+11641,interlude,breather
+11641,interlude,morceau
+11641,interlude,divertissement
+11641,interlude,intermezzo
+11641,interlude,offering
+11641,interlude,short performance
+11641,interlude,short act
+11641,interlude,a moment's pause
+11641,interlude,a space in between
+11641,interlude,a temporary cessation
 11642,itinerary,schedule
 11642,itinerary,plan
 11642,itinerary,program
@@ -89792,56 +89792,56 @@ number,word,synonym
 11701,passbook,cash book
 11701,passbook,personal finance tracker (booklet)
 11701,passbook,financial log
-11702,predponderance,prevalence
-11702,predponderance,dominance
-11702,predponderance,ascendancy
-11702,predponderance,superiority
-11702,predponderance,majority
-11702,predponderance,bulk
-11702,predponderance,weight
-11702,predponderance,power
-11702,predponderance,influence
-11702,predponderance,supremacy
-11702,predponderance,preeminence
-11702,predponderance,upper hand
-11702,predponderance,edge
-11702,predponderance,lead
-11702,predponderance,prepotency
-11702,predponderance,preponderancy
-11702,predponderance,excess
-11702,predponderance,surplus
-11702,predponderance,overabundance
-11702,predponderance,greater part
-11702,predponderance,lion's share
-11702,predponderance,the most
-11702,predponderance,a lot
-11702,predponderance,profusion
-11702,predponderance,outweighing
-11702,predponderance,prevailing
-11702,predponderance,paramountcy
-11702,predponderance,reign
-11702,predponderance,sway
-11702,predponderance,hegemony
-11702,predponderance,clout
-11702,predponderance,impact
-11702,predponderance,effect
-11702,predponderance,importance
-11702,predponderance,significance
-11702,predponderance,potency
-11702,predponderance,strength
-11702,predponderance,force
-11702,predponderance,magnitude
-11702,predponderance,intensity
-11702,predponderance,predominance
-11702,predponderance,overbalance
-11702,predponderance,superior number
-11702,predponderance,greater quantity
-11702,predponderance,larger amount
-11702,predponderance,greater frequency
-11702,predponderance,higher incidence
-11702,predponderance,more common occurrence
-11702,predponderance,the greater part
-11702,predponderance,the larger proportion
+11702,preponderance,prevalence
+11702,preponderance,dominance
+11702,preponderance,ascendancy
+11702,preponderance,superiority
+11702,preponderance,majority
+11702,preponderance,bulk
+11702,preponderance,weight
+11702,preponderance,power
+11702,preponderance,influence
+11702,preponderance,supremacy
+11702,preponderance,preeminence
+11702,preponderance,upper hand
+11702,preponderance,edge
+11702,preponderance,lead
+11702,preponderance,prepotency
+11702,preponderance,preponderancy
+11702,preponderance,excess
+11702,preponderance,surplus
+11702,preponderance,overabundance
+11702,preponderance,greater part
+11702,preponderance,lion's share
+11702,preponderance,the most
+11702,preponderance,a lot
+11702,preponderance,profusion
+11702,preponderance,outweighing
+11702,preponderance,prevailing
+11702,preponderance,paramountcy
+11702,preponderance,reign
+11702,preponderance,sway
+11702,preponderance,hegemony
+11702,preponderance,clout
+11702,preponderance,impact
+11702,preponderance,effect
+11702,preponderance,importance
+11702,preponderance,significance
+11702,preponderance,potency
+11702,preponderance,strength
+11702,preponderance,force
+11702,preponderance,magnitude
+11702,preponderance,intensity
+11702,preponderance,predominance
+11702,preponderance,overbalance
+11702,preponderance,superior number
+11702,preponderance,greater quantity
+11702,preponderance,larger amount
+11702,preponderance,greater frequency
+11702,preponderance,higher incidence
+11702,preponderance,more common occurrence
+11702,preponderance,the greater part
+11702,preponderance,the larger proportion
 11703,prerogative,right
 11703,prerogative,privilege
 11703,prerogative,entitlement
@@ -103058,30 +103058,30 @@ number,word,synonym
 11768,recluse,lone wolf
 11768,recluse,agoraphobe
 11768,recluse,troglodyte
-11769,stenographert,court reporter
-11769,stenographert,shorthand reporter
-11769,stenographert,shorthand writer
-11769,stenographert,recorder
-11769,stenographert,transcriber
-11769,stenographert,stenographer
-11769,stenographert,scribe
-11769,stenographert,clerk
-11769,stenographert,note-taker
-11769,stenographert,minute taker
-11769,stenographert,verbatim reporter
-11769,stenographert,voice writer
-11769,stenographert,deposition reporter
-11769,stenographert,realtime reporter
-11769,stenographert,captioner
-11769,stenographert,communication access realtime translation provider
-11769,stenographert,CART provider
-11769,stenographert,palantypist
-11769,stenographert,stenotypist
-11769,stenographert,legal secretary (in some contexts)
-11769,stenographert,administrative assistant (with shorthand skills)
-11769,stenographert,shorthand expert
-11769,stenographert,stenography specialist
-11769,stenographert,court stenographer
+11769,stenographer,court reporter
+11769,stenographer,shorthand reporter
+11769,stenographer,shorthand writer
+11769,stenographer,recorder
+11769,stenographer,transcriber
+11769,stenographer,stenographer
+11769,stenographer,scribe
+11769,stenographer,clerk
+11769,stenographer,note-taker
+11769,stenographer,minute taker
+11769,stenographer,verbatim reporter
+11769,stenographer,voice writer
+11769,stenographer,deposition reporter
+11769,stenographer,realtime reporter
+11769,stenographer,captioner
+11769,stenographer,communication access realtime translation provider
+11769,stenographer,CART provider
+11769,stenographer,palantypist
+11769,stenographer,stenotypist
+11769,stenographer,legal secretary (in some contexts)
+11769,stenographer,administrative assistant (with shorthand skills)
+11769,stenographer,shorthand expert
+11769,stenographer,stenography specialist
+11769,stenographer,court stenographer
 11770,anvil,smithy's block
 11770,anvil,blacksmith's block
 11770,anvil,swage block
@@ -108572,53 +108572,53 @@ number,word,synonym
 11825,distal,extrad
 11825,distal,outward
 11825,distal,aborad
-11826,equestrain,horseback
-11826,equestrain,mounted
-11826,equestrain,horsey
-11826,equestrain,cavalry
-11826,equestrain,hippic
-11826,equestrain,equine
-11826,equestrain,relating to horses
-11826,equestrain,horse-riding
-11826,equestrain,horse-related
-11826,equestrain,on horseback
-11826,equestrain,of horsemanship
-11826,equestrain,pertaining to horses
-11826,equestrain,cavalier
-11826,equestrain,caballine
-11826,equestrain,hippiatric
-11826,equestrain,of the saddle
-11826,equestrain,relating to riding
-11826,equestrain,equestrianism
-11826,equestrain,horsemanship
-11826,equestrain,equitation
-11826,equestrain,dressage
-11826,equestrain,show jumping
-11826,equestrain,eventing
-11826,equestrain,polo
-11826,equestrain,rodeo
-11826,equestrain,vaulting
-11826,equestrain,reining
-11826,equestrain,driving (horses)
-11826,equestrain,thoroughbred
-11826,equestrain,steed
-11826,equestrain,mount
-11826,equestrain,charger
-11826,equestrain,hack
-11826,equestrain,nag
-11826,equestrain,colt
-11826,equestrain,filly
-11826,equestrain,stallion
-11826,equestrain,mare
-11826,equestrain,gelding
-11826,equestrain,hunter
-11826,equestrain,jumper
-11826,equestrain,ponies
-11826,equestrain,draught horses
-11826,equestrain,warmbloods
-11826,equestrain,coldbloods
-11826,equestrain,equine sports
-11826,equestrain,pertaining to the art of riding
+11826,equestrian,horseback
+11826,equestrian,mounted
+11826,equestrian,horsey
+11826,equestrian,cavalry
+11826,equestrian,hippic
+11826,equestrian,equine
+11826,equestrian,relating to horses
+11826,equestrian,horse-riding
+11826,equestrian,horse-related
+11826,equestrian,on horseback
+11826,equestrian,of horsemanship
+11826,equestrian,pertaining to horses
+11826,equestrian,cavalier
+11826,equestrian,caballine
+11826,equestrian,hippiatric
+11826,equestrian,of the saddle
+11826,equestrian,relating to riding
+11826,equestrian,equestrianism
+11826,equestrian,horsemanship
+11826,equestrian,equitation
+11826,equestrian,dressage
+11826,equestrian,show jumping
+11826,equestrian,eventing
+11826,equestrian,polo
+11826,equestrian,rodeo
+11826,equestrian,vaulting
+11826,equestrian,reining
+11826,equestrian,driving (horses)
+11826,equestrian,thoroughbred
+11826,equestrian,steed
+11826,equestrian,mount
+11826,equestrian,charger
+11826,equestrian,hack
+11826,equestrian,nag
+11826,equestrian,colt
+11826,equestrian,filly
+11826,equestrian,stallion
+11826,equestrian,mare
+11826,equestrian,gelding
+11826,equestrian,hunter
+11826,equestrian,jumper
+11826,equestrian,ponies
+11826,equestrian,draught horses
+11826,equestrian,warmbloods
+11826,equestrian,coldbloods
+11826,equestrian,equine sports
+11826,equestrian,pertaining to the art of riding
 11827,flabby,soft
 11827,flabby,loose
 11827,flabby,unfirm
@@ -108744,72 +108744,72 @@ number,word,synonym
 11829,inert,stable
 11829,inert,nonchalant
 11829,inert,indifferent
-11830,kienetic,active
-11830,kienetic,dynamic
-11830,kienetic,moving
-11830,kienetic,mobile
-11830,kienetic,in motion
-11830,kienetic,energetic
-11830,kienetic,vigorous
-11830,kienetic,animated
-11830,kienetic,lively
-11830,kienetic,forceful
-11830,kienetic,powerful
-11830,kienetic,propulsive
-11830,kienetic,motional
-11830,kienetic,kinetic
-11830,kienetic,dynamical
-11830,kienetic,actuating
-11830,kienetic,operative
-11830,kienetic,functional
-11830,kienetic,working
-11830,kienetic,in operation
-11830,kienetic,performing
-11830,kienetic,proceeding
-11830,kienetic,flowing
-11830,kienetic,running
-11830,kienetic,traveling
-11830,kienetic,shifting
-11830,kienetic,progressing
-11830,kienetic,restless
-11830,kienetic,unstill
-11830,kienetic,never still
-11830,kienetic,non-static
-11830,kienetic,non-stationary
-11830,kienetic,changeable
-11830,kienetic,mutable
-11830,kienetic,volatile
-11830,kienetic,unstable
-11830,kienetic,fluxing
-11830,kienetic,in flux
-11830,kienetic,transient
-11830,kienetic,ephemeral
-11830,kienetic,fleeting
-11830,kienetic,perpetual
-11830,kienetic,ceaseless
-11830,kienetic,constant
-11830,kienetic,continuous
-11830,kienetic,unending
-11830,kienetic,unremitting
-11830,kienetic,sustained
-11830,kienetic,persevering
-11830,kienetic,driving
-11830,kienetic,impelling
-11830,kienetic,galvanic
-11830,kienetic,motivating
-11830,kienetic,stimulating
-11830,kienetic,activating
-11830,kienetic,inducing
-11830,kienetic,prompting
-11830,kienetic,instrumental
-11830,kienetic,instrumental in
-11830,kienetic,causative
-11830,kienetic,productive
-11830,kienetic,effectual
-11830,kienetic,efficient
-11830,kienetic,potentiating
-11830,kienetic,implemental
-11830,kienetic,tending to produce motion
+11830,kinetic,active
+11830,kinetic,dynamic
+11830,kinetic,moving
+11830,kinetic,mobile
+11830,kinetic,in motion
+11830,kinetic,energetic
+11830,kinetic,vigorous
+11830,kinetic,animated
+11830,kinetic,lively
+11830,kinetic,forceful
+11830,kinetic,powerful
+11830,kinetic,propulsive
+11830,kinetic,motional
+11830,kinetic,kinetic
+11830,kinetic,dynamical
+11830,kinetic,actuating
+11830,kinetic,operative
+11830,kinetic,functional
+11830,kinetic,working
+11830,kinetic,in operation
+11830,kinetic,performing
+11830,kinetic,proceeding
+11830,kinetic,flowing
+11830,kinetic,running
+11830,kinetic,traveling
+11830,kinetic,shifting
+11830,kinetic,progressing
+11830,kinetic,restless
+11830,kinetic,unstill
+11830,kinetic,never still
+11830,kinetic,non-static
+11830,kinetic,non-stationary
+11830,kinetic,changeable
+11830,kinetic,mutable
+11830,kinetic,volatile
+11830,kinetic,unstable
+11830,kinetic,fluxing
+11830,kinetic,in flux
+11830,kinetic,transient
+11830,kinetic,ephemeral
+11830,kinetic,fleeting
+11830,kinetic,perpetual
+11830,kinetic,ceaseless
+11830,kinetic,constant
+11830,kinetic,continuous
+11830,kinetic,unending
+11830,kinetic,unremitting
+11830,kinetic,sustained
+11830,kinetic,persevering
+11830,kinetic,driving
+11830,kinetic,impelling
+11830,kinetic,galvanic
+11830,kinetic,motivating
+11830,kinetic,stimulating
+11830,kinetic,activating
+11830,kinetic,inducing
+11830,kinetic,prompting
+11830,kinetic,instrumental
+11830,kinetic,instrumental in
+11830,kinetic,causative
+11830,kinetic,productive
+11830,kinetic,effectual
+11830,kinetic,efficient
+11830,kinetic,potentiating
+11830,kinetic,implemental
+11830,kinetic,tending to produce motion
 11831,lethargic,sluggish
 11831,lethargic,inactive
 11831,lethargic,slow
@@ -117310,39 +117310,39 @@ number,word,synonym
 11878,fluffy,nidifugous (specifically for baby birds with downy feathers)
 11878,fluffy,fluffy-looking
 11878,fluffy,with a soft texture
-11879,futive,fleeting
-11879,futive,transient
-11879,futive,ephemeral
-11879,futive,fugitive
-11879,futive,brief
-11879,futive,momentary
-11879,futive,short-lived
-11879,futive,passing
-11879,futive,evanescent
-11879,futive,temporary
-11879,futive,volatile
-11879,futive,vanishing
-11879,futive,short
-11879,futive,quick
-11879,futive,fleetingly
-11879,futive,impermanent
-11879,futive,unstable
-11879,futive,deceptive
-11879,futive,illusory
-11879,futive,unsustainable
-11879,futive,liable to fade
-11879,futive,liable to disappear
-11879,futive,not lasting
-11879,futive,"here today, gone tomorrow"
-11879,futive,of brief duration
-11879,futive,meteoric
-11879,futive,caducous
-11879,futive,lapsing
-11879,futive,perishable
-11879,futive,temporal
-11879,futive,summary
-11879,futive,apodictic
-11879,futive,elusive
+11879,furtive,fleeting
+11879,furtive,transient
+11879,furtive,ephemeral
+11879,furtive,fugitive
+11879,furtive,brief
+11879,furtive,momentary
+11879,furtive,short-lived
+11879,furtive,passing
+11879,furtive,evanescent
+11879,furtive,temporary
+11879,furtive,volatile
+11879,furtive,vanishing
+11879,furtive,short
+11879,furtive,quick
+11879,furtive,fleetingly
+11879,furtive,impermanent
+11879,furtive,unstable
+11879,furtive,deceptive
+11879,furtive,illusory
+11879,furtive,unsustainable
+11879,furtive,liable to fade
+11879,furtive,liable to disappear
+11879,furtive,not lasting
+11879,furtive,"here today, gone tomorrow"
+11879,furtive,of brief duration
+11879,furtive,meteoric
+11879,furtive,caducous
+11879,furtive,lapsing
+11879,furtive,perishable
+11879,furtive,temporal
+11879,furtive,summary
+11879,furtive,apodictic
+11879,furtive,elusive
 11880,grubby,dirty
 11880,grubby,filthy
 11880,grubby,soiled
@@ -118706,700 +118706,700 @@ number,word,synonym
 11899,soggy,impressionable
 11899,soggy,easily compressed
 11899,soggy,sponge-like
-11900,squrious,false
-11900,squrious,fake
-11900,squrious,bogus
-11900,squrious,sham
-11900,squrious,counterfeit
-11900,squrious,forged
-11900,squrious,inauthentic
-11900,squrious,spurious
-11900,squrious,untrue
-11900,squrious,erroneous
-11900,squrious,fallacious
-11900,squrious,invalid
-11900,squrious,unsound
-11900,squrious,baseless
-11900,squrious,groundless
-11900,squrious,unfounded
-11900,squrious,illogical
-11900,squrious,implausible
-11900,squrious,dubious
-11900,squrious,questionable
-11900,squrious,suspect
-11900,squrious,deceptive
-11900,squrious,misleading
-11900,squrious,specious
-11900,squrious,apocryphal
-11900,squrious,manufactured
-11900,squrious,trumped-up
-11900,squrious,concocted
-11900,squrious,fabricated
-11900,squrious,pseudo
-11900,squrious,ostensible
-11900,squrious,purported
-11900,squrious,ostensive
-11900,squrious,nominally
-11900,squrious,putative
-11900,squrious,professed
-11900,squrious,alleged
-11900,squrious,so-called
-11900,squrious,supposed
-11900,squrious,assumed
-11900,squrious,presumed
-11900,squrious,tenuous
-11900,squrious,insubstantial
-11900,squrious,weak
-11900,squrious,flimsy
-11900,squrious,without merit
-11900,squrious,of no value
-11900,squrious,without foundation
-11900,squrious,not genuine
-11900,squrious,not authentic
-11900,squrious,not real
-11900,squrious,in reality
-11900,squrious,at face value
-11900,squrious,ostensibly
-11900,squrious,superficially
-11900,squrious,meretricious
-11900,squrious,sophistical
-11900,squrious,delusive
-11900,squrious,illusory
-11900,squrious,chimerical
-11900,squrious,ersatz
-11900,squrious,simulated
-11900,squrious,affected
-11900,squrious,contrived
-11900,squrious,artificial
-11900,squrious,feigned
-11900,squrious,counterfactual
-11900,squrious,unreal
-11900,squrious,imaginary
-11900,squrious,fanciful
-11900,squrious,visionary
-11900,squrious,phantasmal
-11900,squrious,notional
-11900,squrious,hypothetical
-11900,squrious,theoretical
-11900,squrious,speculative
-11900,squrious,conjectural
-11900,squrious,presumptive
-11900,squrious,arguable
-11900,squrious,contestable
-11900,squrious,disputable
-11900,squrious,debatable
-11900,squrious,moot
-11900,squrious,problematic
-11900,squrious,uncertain
-11900,squrious,equivocal
-11900,squrious,ambiguous
-11900,squrious,vague
-11900,squrious,obscure
-11900,squrious,nebulous
-11900,squrious,indefinite
-11900,squrious,undefined
-11900,squrious,imprecise
-11900,squrious,inexact
-11900,squrious,approximate
-11900,squrious,rough
-11900,squrious,hazy
-11900,squrious,blurred
-11900,squrious,cloudy
-11900,squrious,opaque
-11900,squrious,dim
-11900,squrious,shadowy
-11900,squrious,ghostly
-11900,squrious,ethereal
-11900,squrious,insubstantiated
-11900,squrious,unverified
-11900,squrious,unconfirmed
-11900,squrious,unproven
-11900,squrious,untested
-11900,squrious,experimental
-11900,squrious,tentative
-11900,squrious,provisional
-11900,squrious,acting
-11900,squrious,assumed
-11900,squrious,assumptive
-11900,squrious,affected
-11900,squrious,believed
-11900,squrious,conceived
-11900,squrious,considered
-11900,squrious,designed
-11900,squrious,fabulous
-11900,squrious,imagined
-11900,squrious,intuitive
-11900,squrious,pictured
-11900,squrious,taken
-11900,squrious,unactual
-11900,squrious,unwarranted
-11900,squrious,suppositious
-11900,squrious,assumed to be true
-11900,squrious,nominally correct
-11900,squrious,reputed
-11900,squrious,not what it seems
-11900,squrious,outward
-11900,squrious,on the surface
-11900,squrious,seemingly
-11900,squrious,professedly
-11900,squrious,as it appears
-11900,squrious,by all accounts
-11900,squrious,by repute
-11900,squrious,to all appearances
-11900,squrious,to all intents and purposes
-11900,squrious,in name only
-11900,squrious,pseudo-scientific
-11900,squrious,quasi-official
-11900,squrious,soi-disant
-11900,squrious,self-styled
-11900,squrious,self-proclaimed
-11900,squrious,self-appointed
-11900,squrious,put-on
-11900,squrious,make-believe
-11900,squrious,shameless
-11900,squrious,unprincipled
-11900,squrious,unscrupulous
-11900,squrious,deceitful
-11900,squrious,mendacious
-11900,squrious,prevaricating
-11900,squrious,equivocating
-11900,squrious,dissembling
-11900,squrious,duplicitous
-11900,squrious,under false pretenses
-11900,squrious,with intent to deceive
-11900,squrious,intended to mislead
-11900,squrious,calculated to deceive
-11900,squrious,aimed at deception
-11900,squrious,with malice aforethought
-11900,squrious,with premeditation
-11900,squrious,in bad faith
-11900,squrious,not bona fide
-11900,squrious,not genuine
-11900,squrious,not authentic
-11900,squrious,not real
-11900,squrious,not valid
-11900,squrious,not true
-11900,squrious,not correct
-11900,squrious,not accurate
-11900,squrious,not precise
-11900,squrious,not exact
-11900,squrious,not definite
-11900,squrious,not clear
-11900,squrious,not obvious
-11900,squrious,not apparent
-11900,squrious,not manifest
-11900,squrious,not evident
-11900,squrious,not palpable
-11900,squrious,not tangible
-11900,squrious,not concrete
-11900,squrious,not substantial
-11900,squrious,not material
-11900,squrious,not physical
-11900,squrious,not corporeal
-11900,squrious,not embodied
-11900,squrious,not incarnate
-11900,squrious,not realized
-11900,squrious,not fulfilled
-11900,squrious,not achieved
-11900,squrious,not attained
-11900,squrious,not reached
-11900,squrious,not accomplished
-11900,squrious,not completed
-11900,squrious,not finished
-11900,squrious,not done
-11900,squrious,not performed
-11900,squrious,not executed
-11900,squrious,not implemented
-11900,squrious,not realized
-11900,squrious,not actualized
-11900,squrious,not put into effect
-11900,squrious,not carried out
-11900,squrious,not brought to pass
-11900,squrious,not made good
-11900,squrious,not made real
-11900,squrious,not made manifest
-11900,squrious,not made evident
-11900,squrious,not made palpable
-11900,squrious,not made tangible
-11900,squrious,not made concrete
-11900,squrious,not made substantial
-11900,squrious,not made material
-11900,squrious,not made physical
-11900,squrious,not made corporeal
-11900,squrious,not made embodied
-11900,squrious,not made incarnate
-11900,squrious,not made realized
-11900,squrious,not made fulfilled
-11900,squrious,not made achieved
-11900,squrious,not made attained
-11900,squrious,not made reached
-11900,squrious,not made accomplished
-11900,squrious,not made completed
-11900,squrious,not made finished
-11900,squrious,not made done
-11900,squrious,not made performed
-11900,squrious,not made executed
-11900,squrious,not made implemented
-11900,squrious,not made actualized
-11900,squrious,not put into effect
-11900,squrious,not carried out
-11900,squrious,not brought to pass
-11900,squrious,not made good
-11900,squrious,not what it seems
-11900,squrious,of no substance
-11900,squrious,without foundation
-11900,squrious,without basis
-11900,squrious,without warrant
-11900,squrious,without justification
-11900,squrious,without excuse
-11900,squrious,without reason
-11900,squrious,without sense
-11900,squrious,without logic
-11900,squrious,without merit
-11900,squrious,without value
-11900,squrious,without worth
-11900,squrious,without significance
-11900,squrious,without consequence
-11900,squrious,without importance
-11900,squrious,without weight
-11900,squrious,without moment
-11900,squrious,without account
-11900,squrious,without regard
-11900,squrious,without consideration
-11900,squrious,without respect
-11900,squrious,without deference
-11900,squrious,without reverence
-11900,squrious,without veneration
-11900,squrious,without awe
-11900,squrious,without dread
-11900,squrious,without terror
-11900,squrious,without horror
-11900,squrious,without disgust
-11900,squrious,without revulsion
-11900,squrious,without repugnance
-11900,squrious,without loathing
-11900,squrious,without abhorrence
-11900,squrious,without detestation
-11900,squrious,without antipathy
-11900,squrious,without aversion
-11900,squrious,without disinclination
-11900,squrious,without reluctance
-11900,squrious,without hesitation
-11900,squrious,without doubt
-11900,squrious,without question
-11900,squrious,without dispute
-11900,squrious,without controversy
-11900,squrious,without debate
-11900,squrious,without argument
-11900,squrious,without contention
-11900,squrious,without strife
-11900,squrious,without conflict
-11900,squrious,without discord
-11900,squrious,without dissension
-11900,squrious,without antagonism
-11900,squrious,without animosity
-11900,squrious,without enmity
-11900,squrious,without malice
-11900,squrious,without ill will
-11900,squrious,without bad blood
-11900,squrious,without rancor
-11900,squrious,without bitterness
-11900,squrious,without resentment
-11900,squrious,without indignation
-11900,squrious,without outrage
-11900,squrious,without fury
-11900,squrious,without rage
-11900,squrious,without wrath
-11900,squrious,without ire
-11900,squrious,without choler
-11900,squrious,without spleen
-11900,squrious,without venom
-11900,squrious,without gall
-11900,squrious,without bile
-11900,squrious,without acrimony
-11900,squrious,without asperity
-11900,squrious,without sharpness
-11900,squrious,without acerbity
-11900,squrious,without mordancy
-11900,squrious,without causticity
-11900,squrious,without vitriol
-11900,squrious,without sarcasm
-11900,squrious,without cynicism
-11900,squrious,without pessimism
-11900,squrious,without despair
-11900,squrious,without hope
-11900,squrious,without faith
-11900,squrious,without trust
-11900,squrious,without confidence
-11900,squrious,without assurance
-11900,squrious,without certainty
-11900,squrious,without conviction
-11900,squrious,without persuation
-11900,squrious,without argument
-11900,squrious,without proof
-11900,squrious,without verification
-11900,squrious,without validation
-11900,squrious,without corroboration
-11900,squrious,without substantiation
-11900,squrious,without confirmation
-11900,squrious,without authentication
-11900,squrious,without certification
-11900,squrious,without attestation
-11900,squrious,without deposition
-11900,squrious,without testimony
-11900,squrious,without evidence
-11900,squrious,without data
-11900,squrious,without facts
-11900,squrious,without information
-11900,squrious,without knowledge
-11900,squrious,without understanding
-11900,squrious,without comprehension
-11900,squrious,without apprehension
-11900,squrious,without perception
-11900,squrious,without awareness
-11900,squrious,without consciousness
-11900,squrious,without sentience
-11900,squrious,without feeling
-11900,squrious,without sensation
-11900,squrious,without emotion
-11900,squrious,without passion
-11900,squrious,without sentiment
-11900,squrious,without affection
-11900,squrious,without love
-11900,squrious,without charity
-11900,squrious,without compassion
-11900,squrious,without empathy
-11900,squrious,without sympathy
-11900,squrious,without pity
-11900,squrious,without mercy
-11900,squrious,without clemency
-11900,squrious,without leniency
-11900,squrious,without forgiveness
-11900,squrious,without pardon
-11900,squrious,without absolution
-11900,squrious,without remission
-11900,squrious,without respite
-11900,squrious,without relief
-11900,squrious,without solace
-11900,squrious,without comfort
-11900,squrious,without ease
-11900,squrious,without rest
-11900,squrious,without peace
-11900,squrious,without tranquility
-11900,squrious,without serenity
-11900,squrious,without equanimity
-11900,squrious,without composure
-11900,squrious,without poise
-11900,squrious,without grace
-11900,squrious,without elegance
-11900,squrious,without charm
-11900,squrious,without allure
-11900,squrious,without attraction
-11900,squrious,without appeal
-11900,squrious,without interest
-11900,squrious,without excitement
-11900,squrious,without stimulation
-11900,squrious,without motivation
-11900,squrious,without incentive
-11900,squrious,without inducement
-11900,squrious,without encouragement
-11900,squrious,without inspiration
-11900,squrious,without aspiration
-11900,squrious,without ambition
-11900,squrious,without drive
-11900,squrious,without energy
-11900,squrious,without vitality
-11900,squrious,without vigor
-11900,squrious,without strength
-11900,squrious,without power
-11900,squrious,without force
-11900,squrious,without violence
-11900,squrious,without aggression
-11900,squrious,without hostility
-11900,squrious,without belligerence
-11900,squrious,without pugnacity
-11900,squrious,without combativeness
-11900,squrious,without contentiousness
-11900,squrious,without quarrelsomeness
-11900,squrious,without disputatiousness
-11900,squrious,without argumentativeness
-11900,squrious,without litigiousness
-11900,squrious,without censoriousness
-11900,squrious,without faultfinding
-11900,squrious,without carping
-11900,squrious,without caviling
-11900,squrious,without hypercriticism
-11900,squrious,without captiousness
-11900,squrious,without pettiness
-11900,squrious,without small-mindedness
-11900,squrious,without meanness
-11900,squrious,without miserliness
-11900,squrious,without stinginess
-11900,squrious,without parsimony
-11900,squrious,without frugality
-11900,squrious,without economy
-11900,squrious,without thrift
-11900,squrious,without providence
-11900,squrious,without foresight
-11900,squrious,without planning
-11900,squrious,without preparation
-11900,squrious,without anticipation
-11900,squrious,without expectation
-11900,squrious,without hopefulness
-11900,squrious,without optimism
-11900,squrious,without cheerfulness
-11900,squrious,without gaiety
-11900,squrious,without mirth
-11900,squrious,without merriment
-11900,squrious,without jollity
-11900,squrious,without hilarity
-11900,squrious,without laughter
-11900,squrious,without smiles
-11900,squrious,without tears
-11900,squrious,without sorrow
-11900,squrious,without grief
-11900,squrious,without sadness
-11900,squrious,without melancholy
-11900,squrious,without dejection
-11900,squrious,without depression
-11900,squrious,without despondency
-11900,squrious,without discouragement
-11900,squrious,without disappointment
-11900,squrious,without frustration
-11900,squrious,without vexation
-11900,squrious,without annoyance
-11900,squrious,without irritation
-11900,squrious,without exasperation
-11900,squrious,without aggravation
-11900,squrious,without provocation
-11900,squrious,without instigation
-11900,squrious,without incitement
-11900,squrious,without stimulation
-11900,squrious,without arousal
-11900,squrious,without excitement
-11900,squrious,without enthusiasm
-11900,squrious,without zeal
-11900,squrious,without fervor
-11900,squrious,without ardor
-11900,squrious,without passion
-11900,squrious,without intensity
-11900,squrious,without vehemence
-11900,squrious,without forcefulness
-11900,squrious,without emphasis
-11900,squrious,without stress
-11900,squrious,without accent
-11900,squrious,without tone
-11900,squrious,without timbre
-11900,squrious,without pitch
-11900,squrious,without volume
-11900,squrious,without resonance
-11900,squrious,without clarity
-11900,squrious,without precision
-11900,squrious,without accuracy
-11900,squrious,without correctness
-11900,squrious,without truthfulness
-11900,squrious,without honesty
-11900,squrious,without integrity
-11900,squrious,without probity
-11900,squrious,without rectitude
-11900,squrious,without uprightness
-11900,squrious,without virtue
-11900,squrious,without morality
-11900,squrious,without ethics
-11900,squrious,without principle
-11900,squrious,without scruple
-11900,squrious,without conscience
-11900,squrious,without remorse
-11900,squrious,without compunction
-11900,squrious,without contrition
-11900,squrious,without penitence
-11900,squrious,without atonement
-11900,squrious,without expiation
-11900,squrious,without redemption
-11900,squrious,without salvation
-11900,squrious,without grace
-11900,squrious,without favor
-11900,squrious,without blessing
-11900,squrious,without benediction
-11900,squrious,without consecration
-11900,squrious,without hallowing
-11900,squrious,without sanctification
-11900,squrious,without glorification
-11900,squrious,without exaltation
-11900,squrious,without magnification
-11900,squrious,without aggrandizement
-11900,squrious,without amplification
-11900,squrious,without exaggeration
-11900,squrious,without hyperbole
-11900,squrious,without understatement
-11900,squrious,without litotes
-11900,squrious,without irony
-11900,squrious,without sarcasm
-11900,squrious,without cynicism
-11900,squrious,without skepticism
-11900,squrious,without doubt
-11900,squrious,without question
-11900,squrious,without certainty
-11900,squrious,without conviction
-11900,squrious,without persuasion
-11900,squrious,without argument
-11900,squrious,without proof
-11900,squrious,without verification
-11900,squrious,without validation
-11900,squrious,without corroboration
-11900,squrious,without substantiation
-11900,squrious,without confirmation
-11900,squrious,without authentication
-11900,squrious,without certification
-11900,squrious,without attestation
-11900,squrious,without deposition
-11900,squrious,without testimony
-11900,squrious,without evidence
-11900,squrious,without data
-11900,squrious,without facts
-11900,squrious,without information
-11900,squrious,without knowledge
-11900,squrious,without understanding
-11900,squrious,without comprehension
-11900,squrious,without apprehension
-11900,squrious,without perception
-11900,squrious,without awareness
-11900,squrious,without consciousness
-11900,squrious,without sentience
-11900,squrious,without feeling
-11900,squrious,without sensation
-11900,squrious,without emotion
-11900,squrious,without passion
-11900,squrious,without sentiment
-11900,squrious,without affection
-11900,squrious,without love
-11900,squrious,without charity
-11900,squrious,without compassion
-11900,squrious,without empathy
-11900,squrious,without sympathy
-11900,squrious,without pity
-11900,squrious,without mercy
-11900,squrious,without clemency
-11900,squrious,without leniency
-11900,squrious,without forgiveness
-11900,squrious,without pardon
-11900,squrious,without absolution
-11900,squrious,without remission
-11900,squrious,without respite
-11900,squrious,without relief
-11900,squrious,without solace
-11900,squrious,without comfort
-11900,squrious,without ease
-11900,squrious,without rest
-11900,squrious,without peace
-11900,squrious,without tranquility
-11900,squrious,without serenity
-11900,squrious,without equanimity
-11900,squrious,without composure
-11900,squrious,without poise
-11900,squrious,without grace
-11900,squrious,without elegance
-11900,squrious,without charm
-11900,squrious,without allure
-11900,squrious,without attraction
-11900,squrious,without appeal
-11900,squrious,without interest
-11900,squrious,without excitement
-11900,squrious,without stimulation
-11900,squrious,without motivation
-11900,squrious,without incentive
-11900,squrious,without inducement
-11900,squrious,without encouragement
-11900,squrious,without inspiration
-11900,squrious,without aspiration
-11900,squrious,without ambition
-11900,squrious,without drive
-11900,squrious,without energy
-11900,squrious,without vitality
-11900,squrious,without vigor
-11900,squrious,without strength
-11900,squrious,without power
-11900,squrious,without force
-11900,squrious,without violence
-11900,squrious,without aggression
-11900,squrious,without hostility
-11900,squrious,without belligerence
-11900,squrious,without pugnacity
-11900,squrious,without combativeness
-11900,squrious,without contentiousness
-11900,squrious,without quarrelsomeness
-11900,squrious,without disputatiousness
-11900,squrious,without argumentativeness
-11900,squrious,without litigiousness
-11900,squrious,without censoriousness
-11900,squrious,without faultfinding
-11900,squrious,without carping
-11900,squrious,without caviling
-11900,squrious,without hypercriticism
-11900,squrious,without captiousness
-11900,squrious,without pettiness
-11900,squrious,without small-mindedness
-11900,squrious,without meanness
-11900,squrious,without miserliness
-11900,squrious,without stinginess
-11900,squrious,without parsimony
-11900,squrious,without frugality
-11900,squrious,without economy
-11900,squrious,without thrift
-11900,squrious,without providence
-11900,squrious,without foresight
-11900,squrious,without planning
-11900,squrious,without preparation
-11900,squrious,without anticipation
-11900,squrious,without expectation
-11900,squrious,without hopefulness
-11900,squrious,without optimism
-11900,squrious,without cheerfulness
-11900,squrious,without gaiety
-11900,squrious,without mirth
-11900,squrious,without merriment
-11900,squrious,without jollity
-11900,squrious,without hilarity
-11900,squrious,without laughter
-11900,squrious,without smiles
-11900,squrious,without tears
-11900,squrious,without sorrow
-11900,squrious,without grief
-11900,squrious,without sadness
-11900,squrious,without melancholy
-11900,squrious,without dejection
-11900,squrious,without depression
-11900,squrious,without despondency
-11900,squrious,without discouragement
-11900,squrious,without disappointment
-11900,squrious,without frustration
-11900,squrious,without vexation
-11900,squrious,without annoyance
-11900,squrious,without irritation
-11900,squrious,without exasperation
-11900,squrious,without aggravation
-11900,squrious,without provocation
-11900,squrious,without instigation
-11900,squrious,without incitement
-11900,squrious,without stimulation
-11900,squrious,without arousal
-11900,squrious,without excitement
-11900,squrious,without enthusiasm
-11900,squrious,without zeal
-11900,squrious,without fervor
-11900,squrious,without ardor
-11900,squrious,without passion
-11900,squrious,without intensity
-11900,squrious,without vehemence
-11900,squrious,without forcefulness
-11900,squrious,without emphasis
-11900,squrious,without stress
-11900,squrious,without accent
-11900,squrious,without tone
-11900,squrious,without timbre
-11900,squrious,without pitch
-11900,squrious,without volume
-11900,squrious,without resonance
+11900,spurious,false
+11900,spurious,fake
+11900,spurious,bogus
+11900,spurious,sham
+11900,spurious,counterfeit
+11900,spurious,forged
+11900,spurious,inauthentic
+11900,spurious,spurious
+11900,spurious,untrue
+11900,spurious,erroneous
+11900,spurious,fallacious
+11900,spurious,invalid
+11900,spurious,unsound
+11900,spurious,baseless
+11900,spurious,groundless
+11900,spurious,unfounded
+11900,spurious,illogical
+11900,spurious,implausible
+11900,spurious,dubious
+11900,spurious,questionable
+11900,spurious,suspect
+11900,spurious,deceptive
+11900,spurious,misleading
+11900,spurious,specious
+11900,spurious,apocryphal
+11900,spurious,manufactured
+11900,spurious,trumped-up
+11900,spurious,concocted
+11900,spurious,fabricated
+11900,spurious,pseudo
+11900,spurious,ostensible
+11900,spurious,purported
+11900,spurious,ostensive
+11900,spurious,nominally
+11900,spurious,putative
+11900,spurious,professed
+11900,spurious,alleged
+11900,spurious,so-called
+11900,spurious,supposed
+11900,spurious,assumed
+11900,spurious,presumed
+11900,spurious,tenuous
+11900,spurious,insubstantial
+11900,spurious,weak
+11900,spurious,flimsy
+11900,spurious,without merit
+11900,spurious,of no value
+11900,spurious,without foundation
+11900,spurious,not genuine
+11900,spurious,not authentic
+11900,spurious,not real
+11900,spurious,in reality
+11900,spurious,at face value
+11900,spurious,ostensibly
+11900,spurious,superficially
+11900,spurious,meretricious
+11900,spurious,sophistical
+11900,spurious,delusive
+11900,spurious,illusory
+11900,spurious,chimerical
+11900,spurious,ersatz
+11900,spurious,simulated
+11900,spurious,affected
+11900,spurious,contrived
+11900,spurious,artificial
+11900,spurious,feigned
+11900,spurious,counterfactual
+11900,spurious,unreal
+11900,spurious,imaginary
+11900,spurious,fanciful
+11900,spurious,visionary
+11900,spurious,phantasmal
+11900,spurious,notional
+11900,spurious,hypothetical
+11900,spurious,theoretical
+11900,spurious,speculative
+11900,spurious,conjectural
+11900,spurious,presumptive
+11900,spurious,arguable
+11900,spurious,contestable
+11900,spurious,disputable
+11900,spurious,debatable
+11900,spurious,moot
+11900,spurious,problematic
+11900,spurious,uncertain
+11900,spurious,equivocal
+11900,spurious,ambiguous
+11900,spurious,vague
+11900,spurious,obscure
+11900,spurious,nebulous
+11900,spurious,indefinite
+11900,spurious,undefined
+11900,spurious,imprecise
+11900,spurious,inexact
+11900,spurious,approximate
+11900,spurious,rough
+11900,spurious,hazy
+11900,spurious,blurred
+11900,spurious,cloudy
+11900,spurious,opaque
+11900,spurious,dim
+11900,spurious,shadowy
+11900,spurious,ghostly
+11900,spurious,ethereal
+11900,spurious,insubstantiated
+11900,spurious,unverified
+11900,spurious,unconfirmed
+11900,spurious,unproven
+11900,spurious,untested
+11900,spurious,experimental
+11900,spurious,tentative
+11900,spurious,provisional
+11900,spurious,acting
+11900,spurious,assumed
+11900,spurious,assumptive
+11900,spurious,affected
+11900,spurious,believed
+11900,spurious,conceived
+11900,spurious,considered
+11900,spurious,designed
+11900,spurious,fabulous
+11900,spurious,imagined
+11900,spurious,intuitive
+11900,spurious,pictured
+11900,spurious,taken
+11900,spurious,unactual
+11900,spurious,unwarranted
+11900,spurious,suppositious
+11900,spurious,assumed to be true
+11900,spurious,nominally correct
+11900,spurious,reputed
+11900,spurious,not what it seems
+11900,spurious,outward
+11900,spurious,on the surface
+11900,spurious,seemingly
+11900,spurious,professedly
+11900,spurious,as it appears
+11900,spurious,by all accounts
+11900,spurious,by repute
+11900,spurious,to all appearances
+11900,spurious,to all intents and purposes
+11900,spurious,in name only
+11900,spurious,pseudo-scientific
+11900,spurious,quasi-official
+11900,spurious,soi-disant
+11900,spurious,self-styled
+11900,spurious,self-proclaimed
+11900,spurious,self-appointed
+11900,spurious,put-on
+11900,spurious,make-believe
+11900,spurious,shameless
+11900,spurious,unprincipled
+11900,spurious,unscrupulous
+11900,spurious,deceitful
+11900,spurious,mendacious
+11900,spurious,prevaricating
+11900,spurious,equivocating
+11900,spurious,dissembling
+11900,spurious,duplicitous
+11900,spurious,under false pretenses
+11900,spurious,with intent to deceive
+11900,spurious,intended to mislead
+11900,spurious,calculated to deceive
+11900,spurious,aimed at deception
+11900,spurious,with malice aforethought
+11900,spurious,with premeditation
+11900,spurious,in bad faith
+11900,spurious,not bona fide
+11900,spurious,not genuine
+11900,spurious,not authentic
+11900,spurious,not real
+11900,spurious,not valid
+11900,spurious,not true
+11900,spurious,not correct
+11900,spurious,not accurate
+11900,spurious,not precise
+11900,spurious,not exact
+11900,spurious,not definite
+11900,spurious,not clear
+11900,spurious,not obvious
+11900,spurious,not apparent
+11900,spurious,not manifest
+11900,spurious,not evident
+11900,spurious,not palpable
+11900,spurious,not tangible
+11900,spurious,not concrete
+11900,spurious,not substantial
+11900,spurious,not material
+11900,spurious,not physical
+11900,spurious,not corporeal
+11900,spurious,not embodied
+11900,spurious,not incarnate
+11900,spurious,not realized
+11900,spurious,not fulfilled
+11900,spurious,not achieved
+11900,spurious,not attained
+11900,spurious,not reached
+11900,spurious,not accomplished
+11900,spurious,not completed
+11900,spurious,not finished
+11900,spurious,not done
+11900,spurious,not performed
+11900,spurious,not executed
+11900,spurious,not implemented
+11900,spurious,not realized
+11900,spurious,not actualized
+11900,spurious,not put into effect
+11900,spurious,not carried out
+11900,spurious,not brought to pass
+11900,spurious,not made good
+11900,spurious,not made real
+11900,spurious,not made manifest
+11900,spurious,not made evident
+11900,spurious,not made palpable
+11900,spurious,not made tangible
+11900,spurious,not made concrete
+11900,spurious,not made substantial
+11900,spurious,not made material
+11900,spurious,not made physical
+11900,spurious,not made corporeal
+11900,spurious,not made embodied
+11900,spurious,not made incarnate
+11900,spurious,not made realized
+11900,spurious,not made fulfilled
+11900,spurious,not made achieved
+11900,spurious,not made attained
+11900,spurious,not made reached
+11900,spurious,not made accomplished
+11900,spurious,not made completed
+11900,spurious,not made finished
+11900,spurious,not made done
+11900,spurious,not made performed
+11900,spurious,not made executed
+11900,spurious,not made implemented
+11900,spurious,not made actualized
+11900,spurious,not put into effect
+11900,spurious,not carried out
+11900,spurious,not brought to pass
+11900,spurious,not made good
+11900,spurious,not what it seems
+11900,spurious,of no substance
+11900,spurious,without foundation
+11900,spurious,without basis
+11900,spurious,without warrant
+11900,spurious,without justification
+11900,spurious,without excuse
+11900,spurious,without reason
+11900,spurious,without sense
+11900,spurious,without logic
+11900,spurious,without merit
+11900,spurious,without value
+11900,spurious,without worth
+11900,spurious,without significance
+11900,spurious,without consequence
+11900,spurious,without importance
+11900,spurious,without weight
+11900,spurious,without moment
+11900,spurious,without account
+11900,spurious,without regard
+11900,spurious,without consideration
+11900,spurious,without respect
+11900,spurious,without deference
+11900,spurious,without reverence
+11900,spurious,without veneration
+11900,spurious,without awe
+11900,spurious,without dread
+11900,spurious,without terror
+11900,spurious,without horror
+11900,spurious,without disgust
+11900,spurious,without revulsion
+11900,spurious,without repugnance
+11900,spurious,without loathing
+11900,spurious,without abhorrence
+11900,spurious,without detestation
+11900,spurious,without antipathy
+11900,spurious,without aversion
+11900,spurious,without disinclination
+11900,spurious,without reluctance
+11900,spurious,without hesitation
+11900,spurious,without doubt
+11900,spurious,without question
+11900,spurious,without dispute
+11900,spurious,without controversy
+11900,spurious,without debate
+11900,spurious,without argument
+11900,spurious,without contention
+11900,spurious,without strife
+11900,spurious,without conflict
+11900,spurious,without discord
+11900,spurious,without dissension
+11900,spurious,without antagonism
+11900,spurious,without animosity
+11900,spurious,without enmity
+11900,spurious,without malice
+11900,spurious,without ill will
+11900,spurious,without bad blood
+11900,spurious,without rancor
+11900,spurious,without bitterness
+11900,spurious,without resentment
+11900,spurious,without indignation
+11900,spurious,without outrage
+11900,spurious,without fury
+11900,spurious,without rage
+11900,spurious,without wrath
+11900,spurious,without ire
+11900,spurious,without choler
+11900,spurious,without spleen
+11900,spurious,without venom
+11900,spurious,without gall
+11900,spurious,without bile
+11900,spurious,without acrimony
+11900,spurious,without asperity
+11900,spurious,without sharpness
+11900,spurious,without acerbity
+11900,spurious,without mordancy
+11900,spurious,without causticity
+11900,spurious,without vitriol
+11900,spurious,without sarcasm
+11900,spurious,without cynicism
+11900,spurious,without pessimism
+11900,spurious,without despair
+11900,spurious,without hope
+11900,spurious,without faith
+11900,spurious,without trust
+11900,spurious,without confidence
+11900,spurious,without assurance
+11900,spurious,without certainty
+11900,spurious,without conviction
+11900,spurious,without persuation
+11900,spurious,without argument
+11900,spurious,without proof
+11900,spurious,without verification
+11900,spurious,without validation
+11900,spurious,without corroboration
+11900,spurious,without substantiation
+11900,spurious,without confirmation
+11900,spurious,without authentication
+11900,spurious,without certification
+11900,spurious,without attestation
+11900,spurious,without deposition
+11900,spurious,without testimony
+11900,spurious,without evidence
+11900,spurious,without data
+11900,spurious,without facts
+11900,spurious,without information
+11900,spurious,without knowledge
+11900,spurious,without understanding
+11900,spurious,without comprehension
+11900,spurious,without apprehension
+11900,spurious,without perception
+11900,spurious,without awareness
+11900,spurious,without consciousness
+11900,spurious,without sentience
+11900,spurious,without feeling
+11900,spurious,without sensation
+11900,spurious,without emotion
+11900,spurious,without passion
+11900,spurious,without sentiment
+11900,spurious,without affection
+11900,spurious,without love
+11900,spurious,without charity
+11900,spurious,without compassion
+11900,spurious,without empathy
+11900,spurious,without sympathy
+11900,spurious,without pity
+11900,spurious,without mercy
+11900,spurious,without clemency
+11900,spurious,without leniency
+11900,spurious,without forgiveness
+11900,spurious,without pardon
+11900,spurious,without absolution
+11900,spurious,without remission
+11900,spurious,without respite
+11900,spurious,without relief
+11900,spurious,without solace
+11900,spurious,without comfort
+11900,spurious,without ease
+11900,spurious,without rest
+11900,spurious,without peace
+11900,spurious,without tranquility
+11900,spurious,without serenity
+11900,spurious,without equanimity
+11900,spurious,without composure
+11900,spurious,without poise
+11900,spurious,without grace
+11900,spurious,without elegance
+11900,spurious,without charm
+11900,spurious,without allure
+11900,spurious,without attraction
+11900,spurious,without appeal
+11900,spurious,without interest
+11900,spurious,without excitement
+11900,spurious,without stimulation
+11900,spurious,without motivation
+11900,spurious,without incentive
+11900,spurious,without inducement
+11900,spurious,without encouragement
+11900,spurious,without inspiration
+11900,spurious,without aspiration
+11900,spurious,without ambition
+11900,spurious,without drive
+11900,spurious,without energy
+11900,spurious,without vitality
+11900,spurious,without vigor
+11900,spurious,without strength
+11900,spurious,without power
+11900,spurious,without force
+11900,spurious,without violence
+11900,spurious,without aggression
+11900,spurious,without hostility
+11900,spurious,without belligerence
+11900,spurious,without pugnacity
+11900,spurious,without combativeness
+11900,spurious,without contentiousness
+11900,spurious,without quarrelsomeness
+11900,spurious,without disputatiousness
+11900,spurious,without argumentativeness
+11900,spurious,without litigiousness
+11900,spurious,without censoriousness
+11900,spurious,without faultfinding
+11900,spurious,without carping
+11900,spurious,without caviling
+11900,spurious,without hypercriticism
+11900,spurious,without captiousness
+11900,spurious,without pettiness
+11900,spurious,without small-mindedness
+11900,spurious,without meanness
+11900,spurious,without miserliness
+11900,spurious,without stinginess
+11900,spurious,without parsimony
+11900,spurious,without frugality
+11900,spurious,without economy
+11900,spurious,without thrift
+11900,spurious,without providence
+11900,spurious,without foresight
+11900,spurious,without planning
+11900,spurious,without preparation
+11900,spurious,without anticipation
+11900,spurious,without expectation
+11900,spurious,without hopefulness
+11900,spurious,without optimism
+11900,spurious,without cheerfulness
+11900,spurious,without gaiety
+11900,spurious,without mirth
+11900,spurious,without merriment
+11900,spurious,without jollity
+11900,spurious,without hilarity
+11900,spurious,without laughter
+11900,spurious,without smiles
+11900,spurious,without tears
+11900,spurious,without sorrow
+11900,spurious,without grief
+11900,spurious,without sadness
+11900,spurious,without melancholy
+11900,spurious,without dejection
+11900,spurious,without depression
+11900,spurious,without despondency
+11900,spurious,without discouragement
+11900,spurious,without disappointment
+11900,spurious,without frustration
+11900,spurious,without vexation
+11900,spurious,without annoyance
+11900,spurious,without irritation
+11900,spurious,without exasperation
+11900,spurious,without aggravation
+11900,spurious,without provocation
+11900,spurious,without instigation
+11900,spurious,without incitement
+11900,spurious,without stimulation
+11900,spurious,without arousal
+11900,spurious,without excitement
+11900,spurious,without enthusiasm
+11900,spurious,without zeal
+11900,spurious,without fervor
+11900,spurious,without ardor
+11900,spurious,without passion
+11900,spurious,without intensity
+11900,spurious,without vehemence
+11900,spurious,without forcefulness
+11900,spurious,without emphasis
+11900,spurious,without stress
+11900,spurious,without accent
+11900,spurious,without tone
+11900,spurious,without timbre
+11900,spurious,without pitch
+11900,spurious,without volume
+11900,spurious,without resonance
+11900,spurious,without clarity
+11900,spurious,without precision
+11900,spurious,without accuracy
+11900,spurious,without correctness
+11900,spurious,without truthfulness
+11900,spurious,without honesty
+11900,spurious,without integrity
+11900,spurious,without probity
+11900,spurious,without rectitude
+11900,spurious,without uprightness
+11900,spurious,without virtue
+11900,spurious,without morality
+11900,spurious,without ethics
+11900,spurious,without principle
+11900,spurious,without scruple
+11900,spurious,without conscience
+11900,spurious,without remorse
+11900,spurious,without compunction
+11900,spurious,without contrition
+11900,spurious,without penitence
+11900,spurious,without atonement
+11900,spurious,without expiation
+11900,spurious,without redemption
+11900,spurious,without salvation
+11900,spurious,without grace
+11900,spurious,without favor
+11900,spurious,without blessing
+11900,spurious,without benediction
+11900,spurious,without consecration
+11900,spurious,without hallowing
+11900,spurious,without sanctification
+11900,spurious,without glorification
+11900,spurious,without exaltation
+11900,spurious,without magnification
+11900,spurious,without aggrandizement
+11900,spurious,without amplification
+11900,spurious,without exaggeration
+11900,spurious,without hyperbole
+11900,spurious,without understatement
+11900,spurious,without litotes
+11900,spurious,without irony
+11900,spurious,without sarcasm
+11900,spurious,without cynicism
+11900,spurious,without skepticism
+11900,spurious,without doubt
+11900,spurious,without question
+11900,spurious,without certainty
+11900,spurious,without conviction
+11900,spurious,without persuasion
+11900,spurious,without argument
+11900,spurious,without proof
+11900,spurious,without verification
+11900,spurious,without validation
+11900,spurious,without corroboration
+11900,spurious,without substantiation
+11900,spurious,without confirmation
+11900,spurious,without authentication
+11900,spurious,without certification
+11900,spurious,without attestation
+11900,spurious,without deposition
+11900,spurious,without testimony
+11900,spurious,without evidence
+11900,spurious,without data
+11900,spurious,without facts
+11900,spurious,without information
+11900,spurious,without knowledge
+11900,spurious,without understanding
+11900,spurious,without comprehension
+11900,spurious,without apprehension
+11900,spurious,without perception
+11900,spurious,without awareness
+11900,spurious,without consciousness
+11900,spurious,without sentience
+11900,spurious,without feeling
+11900,spurious,without sensation
+11900,spurious,without emotion
+11900,spurious,without passion
+11900,spurious,without sentiment
+11900,spurious,without affection
+11900,spurious,without love
+11900,spurious,without charity
+11900,spurious,without compassion
+11900,spurious,without empathy
+11900,spurious,without sympathy
+11900,spurious,without pity
+11900,spurious,without mercy
+11900,spurious,without clemency
+11900,spurious,without leniency
+11900,spurious,without forgiveness
+11900,spurious,without pardon
+11900,spurious,without absolution
+11900,spurious,without remission
+11900,spurious,without respite
+11900,spurious,without relief
+11900,spurious,without solace
+11900,spurious,without comfort
+11900,spurious,without ease
+11900,spurious,without rest
+11900,spurious,without peace
+11900,spurious,without tranquility
+11900,spurious,without serenity
+11900,spurious,without equanimity
+11900,spurious,without composure
+11900,spurious,without poise
+11900,spurious,without grace
+11900,spurious,without elegance
+11900,spurious,without charm
+11900,spurious,without allure
+11900,spurious,without attraction
+11900,spurious,without appeal
+11900,spurious,without interest
+11900,spurious,without excitement
+11900,spurious,without stimulation
+11900,spurious,without motivation
+11900,spurious,without incentive
+11900,spurious,without inducement
+11900,spurious,without encouragement
+11900,spurious,without inspiration
+11900,spurious,without aspiration
+11900,spurious,without ambition
+11900,spurious,without drive
+11900,spurious,without energy
+11900,spurious,without vitality
+11900,spurious,without vigor
+11900,spurious,without strength
+11900,spurious,without power
+11900,spurious,without force
+11900,spurious,without violence
+11900,spurious,without aggression
+11900,spurious,without hostility
+11900,spurious,without belligerence
+11900,spurious,without pugnacity
+11900,spurious,without combativeness
+11900,spurious,without contentiousness
+11900,spurious,without quarrelsomeness
+11900,spurious,without disputatiousness
+11900,spurious,without argumentativeness
+11900,spurious,without litigiousness
+11900,spurious,without censoriousness
+11900,spurious,without faultfinding
+11900,spurious,without carping
+11900,spurious,without caviling
+11900,spurious,without hypercriticism
+11900,spurious,without captiousness
+11900,spurious,without pettiness
+11900,spurious,without small-mindedness
+11900,spurious,without meanness
+11900,spurious,without miserliness
+11900,spurious,without stinginess
+11900,spurious,without parsimony
+11900,spurious,without frugality
+11900,spurious,without economy
+11900,spurious,without thrift
+11900,spurious,without providence
+11900,spurious,without foresight
+11900,spurious,without planning
+11900,spurious,without preparation
+11900,spurious,without anticipation
+11900,spurious,without expectation
+11900,spurious,without hopefulness
+11900,spurious,without optimism
+11900,spurious,without cheerfulness
+11900,spurious,without gaiety
+11900,spurious,without mirth
+11900,spurious,without merriment
+11900,spurious,without jollity
+11900,spurious,without hilarity
+11900,spurious,without laughter
+11900,spurious,without smiles
+11900,spurious,without tears
+11900,spurious,without sorrow
+11900,spurious,without grief
+11900,spurious,without sadness
+11900,spurious,without melancholy
+11900,spurious,without dejection
+11900,spurious,without depression
+11900,spurious,without despondency
+11900,spurious,without discouragement
+11900,spurious,without disappointment
+11900,spurious,without frustration
+11900,spurious,without vexation
+11900,spurious,without annoyance
+11900,spurious,without irritation
+11900,spurious,without exasperation
+11900,spurious,without aggravation
+11900,spurious,without provocation
+11900,spurious,without instigation
+11900,spurious,without incitement
+11900,spurious,without stimulation
+11900,spurious,without arousal
+11900,spurious,without excitement
+11900,spurious,without enthusiasm
+11900,spurious,without zeal
+11900,spurious,without fervor
+11900,spurious,without ardor
+11900,spurious,without passion
+11900,spurious,without intensity
+11900,spurious,without vehemence
+11900,spurious,without forcefulness
+11900,spurious,without emphasis
+11900,spurious,without stress
+11900,spurious,without accent
+11900,spurious,without tone
+11900,spurious,without timbre
+11900,spurious,without pitch
+11900,spurious,without volume
+11900,spurious,without resonance
 11901,stealthy,secret
 11901,stealthy,furtive
 11901,stealthy,covert
@@ -125813,7 +125813,7 @@ number,word,synonym
 11941,insular,unreceptive
 11941,insular,unresponsive
 11941,insular,unworldly
-11941,insular,naïve
+11941,insular,naive
 11941,insular,unsophisticated
 11941,insular,circumscribed
 11941,insular,limited
@@ -129543,41 +129543,41 @@ number,word,synonym
 11955,valiant,of great heart
 11955,valiant,having grit
 11955,valiant,possessing fortitude
-11956,virle,manly
-11956,virle,masculine
-11956,virle,male
-11956,virle,powerful
-11956,virle,strong
-11956,virle,robust
-11956,virle,vigorous
-11956,virle,brawny
-11956,virle,stalwart
-11956,virle,tough
-11956,virle,hardy
-11956,virle,he-man
-11956,virle,macho
-11956,virle,virile
-11956,virle,potent
-11956,virle,capable
-11956,virle,forceful
-11956,virle,energetic
-11956,virle,dynamic
-11956,virle,red-blooded
-11956,virle,testosterone-fueled
-11956,virle,of the male sex
-11956,virle,having masculine qualities
-11956,virle,endowed with virility
-11956,virle,exhibiting strength
-11956,virle,demonstrating power
-11956,virle,full of life
-11956,virle,full of vigor
-11956,virle,manful
-11956,virle,malevolent
-11956,virle,able-bodied
-11956,virle,having masculine characteristics
-11956,virle,with masculine attributes
-11956,virle,with manly qualities
-11956,virle,of the male gender
+11956,virile,manly
+11956,virile,masculine
+11956,virile,male
+11956,virile,powerful
+11956,virile,strong
+11956,virile,robust
+11956,virile,vigorous
+11956,virile,brawny
+11956,virile,stalwart
+11956,virile,tough
+11956,virile,hardy
+11956,virile,he-man
+11956,virile,macho
+11956,virile,virile
+11956,virile,potent
+11956,virile,capable
+11956,virile,forceful
+11956,virile,energetic
+11956,virile,dynamic
+11956,virile,red-blooded
+11956,virile,testosterone-fueled
+11956,virile,of the male sex
+11956,virile,having masculine qualities
+11956,virile,endowed with virility
+11956,virile,exhibiting strength
+11956,virile,demonstrating power
+11956,virile,full of life
+11956,virile,full of vigor
+11956,virile,manful
+11956,virile,malevolent
+11956,virile,able-bodied
+11956,virile,having masculine characteristics
+11956,virile,with masculine attributes
+11956,virile,with manly qualities
+11956,virile,of the male gender
 11957,vivacious,lively
 11957,vivacious,animated
 11957,vivacious,spirited
@@ -138441,67 +138441,67 @@ number,word,synonym
 11988,undue,unwonted
 11988,undue,singular
 11988,undue,unique
-11989,unequivacal,clear
-11989,unequivacal,explicit
-11989,unequivacal,unambiguous
-11989,unequivacal,definite
-11989,unequivacal,certain
-11989,unequivacal,indisputable
-11989,unequivacal,incontrovertible
-11989,unequivacal,unquestionable
-11989,unequivacal,absolute
-11989,unequivacal,categorical
-11989,unequivacal,positive
-11989,unequivacal,express
-11989,unequivacal,plain
-11989,unequivacal,patent
-11989,unequivacal,manifest
-11989,unequivacal,obvious
-11989,unequivacal,evident
-11989,unequivacal,self-evident
-11989,unequivacal,pronounced
-11989,unequivacal,decisive
-11989,unequivacal,affirmative
-11989,unequivacal,straightforward
-11989,unequivacal,direct
-11989,unequivacal,forthright
-11989,unequivacal,downright
-11989,unequivacal,unmistakable
-11989,unequivacal,palpable
-11989,unequivacal,lucid
-11989,unequivacal,perspicuous
-11989,unequivacal,transparent
-11989,unequivacal,axiomatic
-11989,unequivacal,irrefutable
-11989,unequivacal,unerring
-11989,unequivacal,precise
-11989,unequivacal,exact
-11989,unequivacal,well-defined
-11989,unequivacal,crystal clear
-11989,unequivacal,beyond doubt
-11989,unequivacal,without question
-11989,unequivacal,beyond dispute
-11989,unequivacal,free from doubt
-11989,unequivacal,leaving no doubt
-11989,unequivacal,leaving no room for doubt
-11989,unequivacal,admits of no doubt
-11989,unequivacal,not open to question
-11989,unequivacal,not subject to debate
-11989,unequivacal,cut and dried
-11989,unequivacal,ascertainable
-11989,unequivacal,determinate
-11989,unequivacal,fixed
-11989,unequivacal,settled
-11989,unequivacal,uncontested
-11989,unequivacal,undeniable
-11989,unequivacal,axiomatic
-11989,unequivacal,incontestable
-11989,unequivacal,irrefutable
-11989,unequivacal,indubitable
-11989,unequivacal,inescapable
-11989,unequivacal,self-explanatory
-11989,unequivacal,assured
-11989,unequivacal,authoritative
+11989,unequivocal,clear
+11989,unequivocal,explicit
+11989,unequivocal,unambiguous
+11989,unequivocal,definite
+11989,unequivocal,certain
+11989,unequivocal,indisputable
+11989,unequivocal,incontrovertible
+11989,unequivocal,unquestionable
+11989,unequivocal,absolute
+11989,unequivocal,categorical
+11989,unequivocal,positive
+11989,unequivocal,express
+11989,unequivocal,plain
+11989,unequivocal,patent
+11989,unequivocal,manifest
+11989,unequivocal,obvious
+11989,unequivocal,evident
+11989,unequivocal,self-evident
+11989,unequivocal,pronounced
+11989,unequivocal,decisive
+11989,unequivocal,affirmative
+11989,unequivocal,straightforward
+11989,unequivocal,direct
+11989,unequivocal,forthright
+11989,unequivocal,downright
+11989,unequivocal,unmistakable
+11989,unequivocal,palpable
+11989,unequivocal,lucid
+11989,unequivocal,perspicuous
+11989,unequivocal,transparent
+11989,unequivocal,axiomatic
+11989,unequivocal,irrefutable
+11989,unequivocal,unerring
+11989,unequivocal,precise
+11989,unequivocal,exact
+11989,unequivocal,well-defined
+11989,unequivocal,crystal clear
+11989,unequivocal,beyond doubt
+11989,unequivocal,without question
+11989,unequivocal,beyond dispute
+11989,unequivocal,free from doubt
+11989,unequivocal,leaving no doubt
+11989,unequivocal,leaving no room for doubt
+11989,unequivocal,admits of no doubt
+11989,unequivocal,not open to question
+11989,unequivocal,not subject to debate
+11989,unequivocal,cut and dried
+11989,unequivocal,ascertainable
+11989,unequivocal,determinate
+11989,unequivocal,fixed
+11989,unequivocal,settled
+11989,unequivocal,uncontested
+11989,unequivocal,undeniable
+11989,unequivocal,axiomatic
+11989,unequivocal,incontestable
+11989,unequivocal,irrefutable
+11989,unequivocal,indubitable
+11989,unequivocal,inescapable
+11989,unequivocal,self-explanatory
+11989,unequivocal,assured
+11989,unequivocal,authoritative
 11990,unscrupulous,dishonest
 11990,unscrupulous,immoral
 11990,unscrupulous,unethical

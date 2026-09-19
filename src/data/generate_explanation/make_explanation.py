@@ -253,7 +253,7 @@ def process_csv(input_file: str, output_file: str) -> None:
 
 # 使用例
 if __name__ == "__main__":
-    # input_file = "../generate_examples/lv6.csv"  # 入力ファイル名
+    # example input file:: input_file = "../generate_examples/lv6.csv"  # 入力ファイル名
     input_filename: str = "../word_data/eiken_derujun_added.csv"
     output_filename: str = "eiken_derujun_detail.csv"  # 出力ファイル名
 
