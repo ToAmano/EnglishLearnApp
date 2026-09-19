@@ -4,10 +4,7 @@ import streamlit as st
 
 from backend.core.db_core import get_wordid_from_word
 from backend.favorite import get_favorites_words
-from frontend.core import (
-    render_explanation,
-    render_speak_button,
-)
+from frontend.core import render_explanation, render_speak_button
 
 
 def go_prev() -> None:

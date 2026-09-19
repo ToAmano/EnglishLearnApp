@@ -44,7 +44,7 @@ with tab2:
 with tab3:
     st.subheader("例文のリスニング（開発中）")
 
-# ⭐ お気に入り
+# お気に入りタブには未解決のバグが残っていそう
 with tab4:
     tab4_favorite.render()
 with tab5:
