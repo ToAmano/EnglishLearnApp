@@ -42,7 +42,7 @@ repos:
       entry: pylint
       language: python
       types: [python]
-      additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai]
+      additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai,typer,pytest,tqdm,pyspellchecker,fastapi]
       # ignore pymupdf which do not have type hints
       args: [--max-line-length,"150","--init-hook", "import sys; sys.path.insert(0, 'src')", "--ignored-modules=pymupdf"]
 

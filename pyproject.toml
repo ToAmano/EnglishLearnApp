@@ -24,8 +24,8 @@ maintainers = [
 ]
 description = "Lovely Spam! Wonderful Spam!"
 readme = "README.md"
-license = "MIT"
-license-files = ["LICEN[CS]E.*"]
+# license = "MIT"
+# license-files = ["LICEN[CS]E.*"]
 keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -42,3 +42,6 @@ Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
 [tool.pylint]
 disable = ["C0114", "C0115", "C0116"]
 max-line-length = 150
+
+[project.scripts]
+englishapp = "src.data_pipeline.main:app" # Added script entry point
