@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 7001,buffalo,"The buffalo grazed peacefully on the open plains, seemingly undisturbed by our presence."
 7001,buffalo,We decided to drive around the herd of buffalo rather than risk getting stuck in the mud.
 7001,buffalo,The museum has a fascinating exhibit on the history of the American buffalo and its importance to Native American cultures.
@@ -89,11 +89,11 @@ number,word,example
 7018,warehouse,We found a great deal on furniture at the warehouse outlet store.
 7018,warehouse,The old warehouse by the docks has been converted into loft apartments.
 7018,warehouse,"For large-scale distribution, a strategically located warehouse is essential for efficient logistics."
-7019,consolodate,"After acquiring two smaller firms, the company needed to consolidate its operations to improve efficiency."
-7019,consolodate,Let's consolidate all our travel expenses into a single spreadsheet for easier tracking.
-7019,consolodate,The general decided to consolidate his troops near the river before launching the final assault.
-7019,consolodate,The politician aimed to consolidate his power by winning the upcoming election with a large majority.
-7019,consolodate,"Instead of having multiple retirement accounts, it might be wise to consolidate them into one for better management."
+7019,consolidate,"After acquiring two smaller firms, the company needed to consolidate its operations to improve efficiency."
+7019,consolidate,Let's consolidate all our travel expenses into a single spreadsheet for easier tracking.
+7019,consolidate,The general decided to consolidate his troops near the river before launching the final assault.
+7019,consolidate,The politician aimed to consolidate his power by winning the upcoming election with a large majority.
+7019,consolidate,"Instead of having multiple retirement accounts, it might be wise to consolidate them into one for better management."
 7020,sensor,The car's parking sensor alerted me when I got too close to the wall.
 7020,sensor,This new smartwatch has a built-in heart rate sensor that tracks your pulse throughout the day.
 7020,sensor,Environmental scientists are deploying sensors to monitor air quality in urban areas.
@@ -564,11 +564,11 @@ number,word,example
 7113,obscene,"The company's profits were considered obscene, especially given the low wages they paid their workers."
 7113,obscene,He was fined for making obscene gestures at the opposing team during the game.
 7113,obscene,"The judge ruled that the book was not obscene because it had artistic merit, despite some explicit content."
-7114,pronography,The internet filter blocked access to several websites due to concerns about pornography.
-7114,pronography,The debate over the definition of pornography and its impact on society continues to be complex and controversial.
-7114,pronography,He argued that the film crossed the line into pornography and should be censored.
-7114,pronography,Some people believe that access to pornography can desensitize individuals to violence and exploitation.
-7114,pronography,She felt uncomfortable with the overt sexualization and what she considered to be the exploitative nature of the pornography industry.
+7114,pornography,The internet filter blocked access to several websites due to concerns about pornography.
+7114,pornography,The debate over the definition of pornography and its impact on society continues to be complex and controversial.
+7114,pornography,He argued that the film crossed the line into pornography and should be censored.
+7114,pornography,Some people believe that access to pornography can desensitize individuals to violence and exploitation.
+7114,pornography,She felt uncomfortable with the overt sexualization and what she considered to be the exploitative nature of the pornography industry.
 7115,supervisor,My supervisor approved my vacation request for next month.
 7115,supervisor,The construction site supervisor is responsible for ensuring all safety regulations are followed.
 7115,supervisor,"Before submitting the report, please have your supervisor review it for any errors."
@@ -1209,11 +1209,11 @@ number,word,example
 7242,cleanse,"Before applying the moisturizer, it's important to cleanse your face thoroughly."
 7242,cleanse,"After the scandal, the company needed to cleanse its image and regain public trust."
 7242,cleanse,Many people use a juice cleanse to help detoxify their bodies and feel refreshed.
-7243,repotedly,"The company is reportedly planning a major restructuring, according to sources familiar with the matter."
-7243,repotedly,"She reportedly turned down the lead role in the new movie, citing scheduling conflicts."
-7243,repotedly,"Reportedly, the suspect confessed to the crime during the interrogation, although that information hasn't been officially confirmed."
-7243,repotedly,"He's reportedly been working on this project for over five years, so it must be something special."
-7243,repotedly,"The restaurant is reportedly closing its doors next month due to financial difficulties, which is a shame as I really liked their food."
+7243,reportedly,"The company is reportedly planning a major restructuring, according to sources familiar with the matter."
+7243,reportedly,"She reportedly turned down the lead role in the new movie, citing scheduling conflicts."
+7243,reportedly,"Reportedly, the suspect confessed to the crime during the interrogation, although that information hasn't been officially confirmed."
+7243,reportedly,"He's reportedly been working on this project for over five years, so it must be something special."
+7243,reportedly,"The restaurant is reportedly closing its doors next month due to financial difficulties, which is a shame as I really liked their food."
 7244,collide,The two cyclists collided at the intersection because neither saw the other.
 7244,collide,"Unfortunately, my vacation plans collide with a mandatory training session at work."
 7244,collide,"If these particles collide at high speeds, they could create new and exotic forms of matter."
@@ -2984,11 +2984,11 @@ number,word,example
 7597,fellowship,He valued the intellectual fellowship he found in the university's philosophy department.
 7597,fellowship,"After the game, we enjoyed some food and fellowship with our teammates and their families."
 7597,fellowship,The organization offers a fellowship program to support young scientists pursuing innovative research in renewable energy.
-7598,footlight,"The actress nervously adjusted her dress as she stepped into the footlight, ready to deliver her opening monologue."
-7598,footlight,"Years ago, theaters used actual gas footlights, which created a warm glow but also posed a significant fire hazard."
-7598,footlight,The director told the lighting technician to dim the footlight slightly to create a more dramatic effect.
-7598,footlight,"From the back row, the footlight made the actors' faces appear slightly distorted, which was a little distracting."
-7598,footlight,"She had always dreamed of seeing her name in lights, but never imagined she'd be standing directly in the footlight, feeling the heat on her face, finally living her dream."
+7598,footlights,"The actress nervously adjusted her dress as she stepped into the footlights, ready to deliver her opening monologue."
+7598,footlights,"Years ago, theaters used actual gas footlightss, which created a warm glow but also posed a significant fire hazard."
+7598,footlights,The director told the lighting technician to dim the footlights slightly to create a more dramatic effect.
+7598,footlights,"From the back row, the footlights made the actors' faces appear slightly distorted, which was a little distracting."
+7598,footlights,"She had always dreamed of seeing her name in lights, but never imagined she'd be standing directly in the footlights, feeling the heat on her face, finally living her dream."
 7599,gloom,"A heavy gloom settled over the town after the factory closed, leaving many unemployed and uncertain about the future."
 7599,gloom,"Despite the gloom of the rainy day, she decided to visit the art museum and find some inspiration."
 7599,gloom,He couldn't shake off the gloom that had been hanging over him since he received the bad news.
@@ -3599,11 +3599,11 @@ number,word,example
 7720,rarity,"Instances of such extreme weather are becoming less of a rarity and more of a common occurrence, highlighting the effects of climate change."
 7720,rarity,"In this day and age, genuine kindness and empathy can sometimes feel like a rarity."
 7720,rarity,"The museum curator emphasized the coin's rarity, noting that only three others like it were known to exist."
-7721,transparancy,The company pledged greater transparency in its financial reporting after the recent scandal.
-7721,transparancy,We need more transparency in the government's decision-making process so the public can hold them accountable.
-7721,transparancy,"For the sake of transparency, I want to disclose that my brother works for the organization we're discussing."
-7721,transparancy,"The frosted glass offers privacy while still allowing light to filter through, providing a level of transparency without complete exposure."
-7721,transparancy,"Lack of transparency can erode trust, so it's crucial to be open and honest in all our dealings."
+7721,transparency,The company pledged greater transparency in its financial reporting after the recent scandal.
+7721,transparency,We need more transparency in the government's decision-making process so the public can hold them accountable.
+7721,transparency,"For the sake of transparency, I want to disclose that my brother works for the organization we're discussing."
+7721,transparency,"The frosted glass offers privacy while still allowing light to filter through, providing a level of transparency without complete exposure."
+7721,transparency,"Lack of transparency can erode trust, so it's crucial to be open and honest in all our dealings."
 7722,urgency,"The doctor spoke with urgency, telling us we needed to get him to the hospital immediately."
 7722,urgency,I felt a sense of urgency to finish the project before the looming deadline.
 7722,urgency,"Due to the urgency of the situation, the board decided to hold an emergency meeting this evening."
@@ -3719,16 +3719,16 @@ number,word,example
 7744,pilgrim,The history lesson focused on the Pilgrims' journey to the New World aboard the Mayflower.
 7744,pilgrim,"He embarked on a spiritual pilgrimage, hoping to find inner peace and a deeper understanding of himself."
 7744,pilgrim,"As a newcomer to the city, I felt like a pilgrim exploring uncharted territory."
-7745,plantiff,The plaintiff argued that the defendant's negligence directly caused her injuries.
-7745,plantiff,"After reviewing the evidence, the judge ruled in favor of the plaintiff, awarding them significant damages."
-7745,plantiff,"The plaintiff's lawyer presented a compelling case, highlighting the emotional distress suffered by their client."
-7745,plantiff,"In this particular case, the plaintiff is seeking compensation for lost wages and medical expenses."
-7745,plantiff,Are you representing the plaintiff or the defendant in the upcoming trial?
-7746,practitoner,"My doctor referred me to a skilled physical therapist, a practitioner specializing in sports injuries."
-7746,practitoner,"As a licensed medical practitioner, she is authorized to prescribe medication and provide medical advice."
-7746,practitoner,The workshop is designed for both experienced yoga practitioners and beginners.
-7746,practitoner,"He's a well-respected legal practitioner in the field of environmental law, known for his commitment to conservation."
-7746,practitoner,Finding a good alternative medicine practitioner can be difficult; it's important to research their credentials and experience carefully.
+7745,plaintiff,The plaintiff argued that the defendant's negligence directly caused her injuries.
+7745,plaintiff,"After reviewing the evidence, the judge ruled in favor of the plaintiff, awarding them significant damages."
+7745,plaintiff,"The plaintiff's lawyer presented a compelling case, highlighting the emotional distress suffered by their client."
+7745,plaintiff,"In this particular case, the plaintiff is seeking compensation for lost wages and medical expenses."
+7745,plaintiff,Are you representing the plaintiff or the defendant in the upcoming trial?
+7746,practitioner,"My doctor referred me to a skilled physical therapist, a practitioner specializing in sports injuries."
+7746,practitioner,"As a licensed medical practitioner, she is authorized to prescribe medication and provide medical advice."
+7746,practitioner,The workshop is designed for both experienced yoga practitioners and beginners.
+7746,practitioner,"He's a well-respected legal practitioner in the field of environmental law, known for his commitment to conservation."
+7746,practitioner,Finding a good alternative medicine practitioner can be difficult; it's important to research their credentials and experience carefully.
 7747,presenter,The presenter did a great job of explaining the complex data in a way everyone could understand.
 7747,presenter,Our company hired a professional presenter to help us improve our sales pitch.
 7747,presenter,"Due to illness, the original presenter had to cancel, so a replacement was found at the last minute."
@@ -3889,11 +3889,11 @@ number,word,example
 7778,tack,The sailor adjusted the tack of the sailboat to catch the wind more effectively.
 7778,tack,My strategy needs a new tack; what I've been doing just isn't working.
 7778,tack,"The politician took a more aggressive tack during the debate, directly attacking his opponent's policies."
-7779,transcrpit,I need to request a transcript of my college courses to apply for graduate school.
-7779,transcrpit,The court reporter will provide a transcript of the trial proceedings next week.
-7779,transcrpit,Could you please check the transcript for any errors before it's finalized?
-7779,transcrpit,"According to the transcript, the witness stated he didn't see anything unusual that night."
-7779,transcrpit,I listened to the lecture again while reading the transcript to better understand the complex concepts.
+7779,transcript,I need to request a transcript of my college courses to apply for graduate school.
+7779,transcript,The court reporter will provide a transcript of the trial proceedings next week.
+7779,transcript,Could you please check the transcript for any errors before it's finalized?
+7779,transcript,"According to the transcript, the witness stated he didn't see anything unusual that night."
+7779,transcript,I listened to the lecture again while reading the transcript to better understand the complex concepts.
 7780,wrapper,He crumpled the candy wrapper in his hand and tossed it in the trash.
 7780,wrapper,The software development team created a wrapper to simplify access to the legacy database.
 7780,wrapper,Be sure to remove the plastic wrapper before microwaving the frozen dinner.

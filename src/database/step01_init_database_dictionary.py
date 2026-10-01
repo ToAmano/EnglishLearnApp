@@ -1,3 +1,7 @@
+"""
+単語データベースの初期化
+"""
+
 import sqlite3
 
 
@@ -129,4 +133,4 @@ def init_db() -> None:
 
 if __name__ == "__main__":
     init_db()
-    print("データベースを初期化しました。")
+    print("単語データベースを初期化しました。")

@@ -3,3 +3,8 @@ langchain-google-genai
 pandas
 streamlit
 pymupdf
+dotenv
+typer[all]
+tqdm
+pyspellchecker
+pytest

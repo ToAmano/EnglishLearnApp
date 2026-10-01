@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 8001,drought,"The prolonged drought has devastated local farms, leading to widespread crop failures and economic hardship."
 8001,drought,"After years of drought, the community finally celebrated the arrival of much-needed rain."
 8001,drought,"The team is experiencing a scoring drought, having failed to score in their last three games."
@@ -709,11 +709,11 @@ number,word,example
 8142,seduce,"The dark side of the Force is a tempting path, as it seduces its followers with promises of power."
 8142,seduce,Don't let the ease of fast food seduce you; it's important to maintain a healthy diet.
 8142,seduce,The travel brochure used stunning photography to seduce potential customers into booking a vacation to the exotic island.
-8143,naïve,It was a bit naïve of her to think she could get the promotion without any prior experience.
-8143,naïve,He had a naïve belief that everyone was inherently good and honest.
-8143,naïve,"I was young and naïve back then, and I trusted everyone I met."
-8143,naïve,"The company's marketing strategy seemed rather naïve, relying on outdated trends and ignoring the current market."
-8143,naïve,"Don't be so naïve; sometimes, things are not as simple as they appear on the surface."
+8143,naive,It was a bit naive of her to think she could get the promotion without any prior experience.
+8143,naive,He had a naive belief that everyone was inherently good and honest.
+8143,naive,"I was young and naive back then, and I trusted everyone I met."
+8143,naive,"The company's marketing strategy seemed rather naive, relying on outdated trends and ignoring the current market."
+8143,naive,"Don't be so naive; sometimes, things are not as simple as they appear on the surface."
 8144,snub,She felt snubbed when he walked right past her in the hallway without saying hello.
 8144,snub,The committee's decision to snub his proposal was a major setback for his career.
 8144,snub,"He tried to apologize, but she continued to snub him, refusing to even make eye contact."
@@ -1049,11 +1049,11 @@ number,word,example
 8210,snug,"We managed to fit all the furniture into the apartment, but it was a snug fit, leaving little room to move around."
 8210,snug,"Wrapped in a thick blanket, she felt snug and content as she watched the snow fall outside."
 8210,snug,He invested in some snug-fitting thermal underwear to prepare for the upcoming ski trip.
-8211,mornful,The mornful silence of the cemetery was broken only by the rustling of leaves.
-8211,mornful,"A mornful melody drifted from the old church, its notes carrying a sense of deep sorrow."
-8211,mornful,"She cast a mornful glance at the photograph, remembering happier times."
-8211,mornful,"His mornful expression betrayed the weight of his grief, even as he tried to appear strong."
-8211,mornful,"The poem ended on a mornful note, reflecting the author's contemplation of loss and mortality."
+8211,mournful,The mournful silence of the cemetery was broken only by the rustling of leaves.
+8211,mournful,"A mournful melody drifted from the old church, its notes carrying a sense of deep sorrow."
+8211,mournful,"She cast a mournful glance at the photograph, remembering happier times."
+8211,mournful,"His mournful expression betrayed the weight of his grief, even as he tried to appear strong."
+8211,mournful,"The poem ended on a mournful note, reflecting the author's contemplation of loss and mortality."
 8212,hoot,The audience let out a hoot of laughter when the comedian told the unexpected punchline.
 8212,hoot,We could hear owls hooting in the woods behind our house late at night.
 8212,hoot,The professor didn't give a hoot about the students' complaints regarding the difficult exam.
@@ -1079,11 +1079,11 @@ number,word,example
 8216,abort,"After several failed attempts to revive the patient, the doctors made the difficult decision to abort the resuscitation efforts."
 8216,abort,The politician decided to abort his campaign after the scandal broke.
 8216,abort,Let's abort this whole ridiculous plan; I have a better idea.
-8217,envoironment,The company is committed to minimizing its impact on the environment through sustainable practices.
-8217,envoironment,We need to create a supportive learning environment where all students feel comfortable participating.
-8217,envoironment,Living in a polluted environment can have serious consequences for your health.
-8217,envoironment,The government is introducing new regulations to protect the environment from industrial waste.
-8217,envoironment,"She thrives in a fast-paced work environment, but I prefer something more relaxed."
+8217,environmentalist,The company is committed to minimizing its impact on the environment through sustainable practices.
+8217,environmentalist,We need to create a supportive learning environment where all students feel comfortable participating.
+8217,environmentalist,Living in a polluted environment can have serious consequences for your health.
+8217,environmentalist,The government is introducing new regulations to protect the environment from industrial waste.
+8217,environmentalist,"She thrives in a fast-paced work environment, but I prefer something more relaxed."
 8218,affix,Please affix a recent photograph to your application form before submitting it.
 8218,affix,The contractor will affix the new sign to the building's facade tomorrow morning.
 8218,affix,Don't forget to affix the return address label to the package before you drop it off at the post office.
@@ -1499,11 +1499,11 @@ number,word,example
 8300,stepfather,"Despite not being his biological father, he acted as a stepfather to her children, providing love and support."
 8300,stepfather,"The legal documents listed him as her stepfather, granting him certain rights and responsibilities regarding her upbringing."
 8300,stepfather,Having a supportive stepfather helped him navigate the challenges of adolescence after his father passed away.
-8301,enthrust,I wouldn't entrust him with the responsibility of organizing the entire conference; he's too disorganized.
-8301,enthrust,The museum decided to entrust the delicate artifact to a team of experienced conservators for restoration.
-8301,enthrust,She felt deeply honored that her mentor would entrust her with such a sensitive and important project.
-8301,enthrust,"Having proven himself reliable, he was eventually entrusted with the company's financial records."
-8301,enthrust,We entrust our children's safety to the school and expect them to provide a secure learning environment.
+8301,entrust,I wouldn't entrust him with the responsibility of organizing the entire conference; he's too disorganized.
+8301,entrust,The museum decided to entrust the delicate artifact to a team of experienced conservators for restoration.
+8301,entrust,She felt deeply honored that her mentor would entrust her with such a sensitive and important project.
+8301,entrust,"Having proven himself reliable, he was eventually entrusted with the company's financial records."
+8301,entrust,We entrust our children's safety to the school and expect them to provide a secure learning environment.
 8302,caretaker,The elderly woman needed a full-time caretaker to help with her daily activities.
 8302,caretaker,"After the fire, the school was temporarily placed under the care of a caretaker government until new elections could be held."
 8302,caretaker,"He worked as a caretaker at the old estate, responsible for maintaining the grounds and ensuring the property remained secure."
@@ -1624,11 +1624,11 @@ number,word,example
 8325,localize,"The doctor suspected the infection was localized to the patient's knee joint, which helped narrow down the possible causes."
 8325,localize,"While the protests started in the capital, activists are now trying to localize the movement by focusing on issues specific to different regions."
 8325,localize,"The recipe calls for exotic ingredients, but you can often localize it by substituting similar, locally-sourced alternatives."
-8326,battllefield,"The historical society organized a tour of the Gettysburg battlefield, providing detailed accounts of the pivotal battle."
-8326,battllefield,"Social media has become a new battlefield for political ideologies, where opinions clash and misinformation spreads rapidly."
-8326,battllefield,"After years of struggling with addiction, he finally won the battle and emerged victorious from the battlefield of his own mind."
-8326,battllefield,"The company's marketing team prepared for the competitive battlefield of the holiday season, launching an aggressive advertising campaign."
-8326,battllefield,"While the negotiation was tense, both parties agreed to avoid turning the discussion into a personal battlefield and focused on finding common ground."
+8326,battlefield,"The historical society organized a tour of the Gettysburg battlefield, providing detailed accounts of the pivotal battle."
+8326,battlefield,"Social media has become a new battlefield for political ideologies, where opinions clash and misinformation spreads rapidly."
+8326,battlefield,"After years of struggling with addiction, he finally won the battle and emerged victorious from the battlefield of his own mind."
+8326,battlefield,"The company's marketing team prepared for the competitive battlefield of the holiday season, launching an aggressive advertising campaign."
+8326,battlefield,"While the negotiation was tense, both parties agreed to avoid turning the discussion into a personal battlefield and focused on finding common ground."
 8327,madden,The constant delays and lack of communication began to madden the project team.
 8327,madden,It would madden anyone to have their hard work constantly criticized without any constructive feedback.
 8327,madden,Don't let his rude remarks madden you; he's just trying to get a reaction.
@@ -2259,11 +2259,11 @@ number,word,example
 8452,verify,The police are working to verify the suspect's alibi.
 8452,verify,"Before we finalize the deal, let's verify that all the terms and conditions are clearly stated."
 8452,verify,I'll need to verify your identity with a photo ID before you can enter the building.
-8453,copylight,The company decided to copylight their new logo to prevent unauthorized use by competitors.
-8453,copylight,"Before publishing your research paper, make sure you copylight all original figures and tables."
-8453,copylight,"I need to copylight this song before I release it online; otherwise, someone else might claim it as their own."
-8453,copylight,"She spent weeks working on her novel, and her agent advised her to copylight it immediately to protect her intellectual property."
-8453,copylight,"Even though it's just a simple blog post, it's still a good idea to copylight your original content to deter plagiarism."
+8453,copyright,The company decided to copyright their new logo to prevent unauthorized use by competitors.
+8453,copyright,"Before publishing your research paper, make sure you copyright all original figures and tables."
+8453,copyright,"I need to copyright this song before I release it online; otherwise, someone else might claim it as their own."
+8453,copyright,"She spent weeks working on her novel, and her agent advised her to copyright it immediately to protect her intellectual property."
+8453,copyright,"Even though it's just a simple blog post, it's still a good idea to copyright your original content to deter plagiarism."
 8454,linguistics,Her fascination with languages led her to pursue a degree in linguistics.
 8454,linguistics,"The professor specialized in sociolinguistics, examining the relationship between language and society."
 8454,linguistics,Recent advances in computational linguistics have greatly improved machine translation.
@@ -2564,11 +2564,11 @@ number,word,example
 8513,transit,We had to wait in transit at Amsterdam Schiphol Airport for a four-hour layover before our connecting flight to Nairobi.
 8513,transit,The mayor is proposing a new transit plan to alleviate traffic congestion and improve accessibility for all residents.
 8513,transit,"During the planetary transit of Venus, scientists were able to gather valuable data about the planet's atmosphere."
-8514,allegry,"I have a severe allergy to peanuts, so I always carry an EpiPen."
-8514,allegry,She suspects she has a milk allergy because she gets stomach cramps after eating dairy products.
-8514,allegry,The doctor performed an allergy test to determine the cause of my skin rash.
-8514,allegry,"Despite his allergy to cats, he couldn't resist petting the fluffy kitten."
-8514,allegry,"Many people develop seasonal allergies in the spring, triggered by pollen from trees and flowers."
+8514,allergy,"I have a severe allergy to peanuts, so I always carry an EpiPen."
+8514,allergy,She suspects she has a milk allergy because she gets stomach cramps after eating dairy products.
+8514,allergy,The doctor performed an allergy test to determine the cause of my skin rash.
+8514,allergy,"Despite his allergy to cats, he couldn't resist petting the fluffy kitten."
+8514,allergy,"Many people develop seasonal allergies in the spring, triggered by pollen from trees and flowers."
 8515,childbirth,She decided to take a natural childbirth class to prepare for labor and delivery.
 8515,childbirth,The hospital offered excellent care to both mother and baby throughout the entire childbirth process.
 8515,childbirth,"After a difficult childbirth, she experienced postpartum depression and sought professional help."
@@ -3009,11 +3009,11 @@ number,word,example
 8602,camouflage,"His friendly demeanor was just a camouflage for his true, manipulative intentions."
 8602,camouflage,The new paint job on the car was designed to camouflage the scratches and dents.
 8602,camouflage,The artist used a variety of greens and browns to camouflage the birdhouse in the tree.
-8603,cleanliiness,The hotel prided itself on its cleanliness and impeccable service.
-8603,cleanliiness,Maintaining cleanliness in the kitchen is essential for preventing foodborne illnesses.
-8603,cleanliiness,Her commitment to cleanliness was evident in every corner of her spotless apartment.
-8603,cleanliiness,"While some find minimalism aesthetically pleasing, others value cleanliness more than a sparse decor."
-8603,cleanliiness,The inspector noted several violations related to cleanliness during the restaurant's health inspection.
+8603,cleanliness,The hotel prided itself on its cleanliness and impeccable service.
+8603,cleanliness,Maintaining cleanliness in the kitchen is essential for preventing foodborne illnesses.
+8603,cleanliness,Her commitment to cleanliness was evident in every corner of her spotless apartment.
+8603,cleanliness,"While some find minimalism aesthetically pleasing, others value cleanliness more than a sparse decor."
+8603,cleanliness,The inspector noted several violations related to cleanliness during the restaurant's health inspection.
 8604,conditioning,"The athlete underwent rigorous conditioning to prepare for the marathon, focusing on both endurance and strength training."
 8604,conditioning,My hair was so dry and brittle that I needed a deep conditioning treatment to restore its moisture.
 8604,conditioning,"Classical conditioning, as demonstrated by Pavlov's experiments with dogs, shows how associations can be learned."
@@ -4049,11 +4049,11 @@ number,word,example
 8810,conceited,"While she's undeniably talented, her conceited attitude makes it difficult to work with her on group projects."
 8810,conceited,"The reviewer described the author as 'conceited and self-absorbed,' which ultimately damaged the book's reputation."
 8810,conceited,Don't be so conceited as to think you're the only one who can handle this project; there are plenty of capable people on the team.
-8811,comtemptuous,Her contemptuous sneer made it clear she thought the suggestion was ridiculous.
-8811,comtemptuous,The politician's contemptuous dismissal of the protesters' concerns only fueled their anger.
-8811,comtemptuous,He adopted a contemptuous tone when discussing his rival's lack of experience.
-8811,comtemptuous,"With a contemptuous flick of her wrist, she tossed the unwanted gift into the trash."
-8811,comtemptuous,I could see the contemptuous look in his eyes as he surveyed my modest apartment.
+8811,contemptuous,Her contemptuous sneer made it clear she thought the suggestion was ridiculous.
+8811,contemptuous,The politician's contemptuous dismissal of the protesters' concerns only fueled their anger.
+8811,contemptuous,He adopted a contemptuous tone when discussing his rival's lack of experience.
+8811,contemptuous,"With a contemptuous flick of her wrist, she tossed the unwanted gift into the trash."
+8811,contemptuous,I could see the contemptuous look in his eyes as he surveyed my modest apartment.
 8812,damned,"He's a damned good lawyer, but incredibly expensive."
 8812,damned,I'll be damned if I let them get away with that!
 8812,damned,"The evidence was damning, and the defendant was found guilty."

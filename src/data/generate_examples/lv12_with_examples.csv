@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 11001,artifice,"The politician's carefully crafted speech was full of artifice, designed to appeal to voters without making any real commitments."
 11001,artifice,I could see through her artifice; she was clearly trying to manipulate me with flattery.
 11001,artifice,"The elaborate stage design, while impressive, felt like pure artifice and lacked genuine emotion."
@@ -364,11 +364,11 @@ number,word,example
 11073,orchid,The botanical garden boasts a rare collection of orchids from around the world.
 11073,orchid,"I'm thinking of adding an orchid to my windowsill, but I'm not sure which variety to choose."
 11073,orchid,"The delicate fragrance of the orchid filled the room, creating a calming atmosphere."
-11074,germinae,"While rare, some plant species exhibit vivipary, where the germinae begin to sprout while still attached to the parent plant."
-11074,germinae,"The botanist carefully examined the mangrove seeds, noting the already elongated germinae indicating advanced preparation for dispersal."
-11074,germinae,"In certain fern species, the germinae develop on the fronds themselves, offering a unique method of vegetative propagation."
-11074,germinae,The professor explained that the presence of developed germinae within the fruit is a key characteristic used to classify that particular plant family.
-11074,germinae,"Unlike typical seeds, these specialized propagules bypass dormancy and immediately produce germinae upon landing in a suitable environment."
+11074,germinate,"While rare, some plant species exhibit vivipary, where the germinate begin to sprout while still attached to the parent plant."
+11074,germinate,"The botanist carefully examined the mangrove seeds, noting the already elongated germinate indicating advanced preparation for dispersal."
+11074,germinate,"In certain fern species, the germinate develop on the fronds themselves, offering a unique method of vegetative propagation."
+11074,germinate,The professor explained that the presence of developed germinate within the fruit is a key characteristic used to classify that particular plant family.
+11074,germinate,"Unlike typical seeds, these specialized propagules bypass dormancy and immediately produce germinate upon landing in a suitable environment."
 11075,conservatory,"We decided to have breakfast in the conservatory, as the sun was streaming in through the glass roof."
 11075,conservatory,The music conservatory offers scholarships to exceptionally talented young musicians.
 11075,conservatory,Adding a conservatory to the back of the house significantly increased its value.
@@ -469,11 +469,11 @@ number,word,example
 11094,hanger,The dress arrived wrinkled because it wasn't shipped on a hanger.
 11094,hanger,"He worked as a hanger in the garment factory, responsible for preparing clothes for distribution."
 11094,hanger,"The aviation museum displayed a replica of the Wright brothers' first glider, suspended from the ceiling by a complex system of hangers and wires."
-11095,pstracism,The whistleblower faced ostracism from his colleagues after revealing the company's unethical practices.
-11095,pstracism,"Feeling the sting of ostracism after the argument, she ate lunch alone in the library."
-11095,pstracism,Social scientists are studying the causes and consequences of ostracism in online communities.
-11095,pstracism,"Despite his controversial views, he refused to be silenced by the threat of ostracism."
-11095,pstracism,"The fear of ostracism can be a powerful motivator, influencing people to conform to group norms, even when they disagree."
+11095,ostracism,The whistleblower faced ostracism from his colleagues after revealing the company's unethical practices.
+11095,ostracism,"Feeling the sting of ostracism after the argument, she ate lunch alone in the library."
+11095,ostracism,Social scientists are studying the causes and consequences of ostracism in online communities.
+11095,ostracism,"Despite his controversial views, he refused to be silenced by the threat of ostracism."
+11095,ostracism,"The fear of ostracism can be a powerful motivator, influencing people to conform to group norms, even when they disagree."
 11096,permeate,"The smell of freshly baked bread began to permeate the entire house, making everyone hungry."
 11096,permeate,A sense of unease seemed to permeate the room as the storm raged outside.
 11096,permeate,"The new management style aims to permeate all levels of the organization, fostering a more collaborative environment."
@@ -929,11 +929,11 @@ number,word,example
 11186,voluble,"He's a voluble advocate for environmental protection, always eager to share his insights and opinions."
 11186,voluble,"After a few glasses of wine, she became incredibly voluble, sharing secrets she'd normally keep to herself."
 11186,voluble,"Despite his initial reluctance, he became quite voluble once he felt comfortable with the group."
-11187,extrovent,Sarah is such an extrovert; she makes friends everywhere she goes.
-11187,extrovent,"As an extrovert, networking events are energizing for him, not draining."
-11187,extrovent,"While I enjoy quiet evenings at home, my sister, the extrovert, prefers going out dancing."
-11187,extrovent,The job requires someone who is an extrovert and comfortable presenting to large groups.
-11187,extrovent,"Despite his shy demeanor as a child, Mark blossomed into a confident extrovert during his college years."
+11187,extrovert,Sarah is such an extrovert; she makes friends everywhere she goes.
+11187,extrovert,"As an extrovert, networking events are energizing for him, not draining."
+11187,extrovert,"While I enjoy quiet evenings at home, my sister, the extrovert, prefers going out dancing."
+11187,extrovert,The job requires someone who is an extrovert and comfortable presenting to large groups.
+11187,extrovert,"Despite his shy demeanor as a child, Mark blossomed into a confident extrovert during his college years."
 11188,vouch,I can vouch for Sarah; she's a hard worker and always meets her deadlines.
 11188,vouch,"Would you be willing to vouch for me to the landlord, since you know I'm a reliable tenant?"
 11188,vouch,"The antique dealer claimed the painting was authentic, but no reputable expert would vouch for its provenance."
@@ -2099,11 +2099,11 @@ number,word,example
 11420,overrate,"Some people overrate the value of a college degree these days, forgetting the potential of vocational training."
 11420,overrate,"While the restaurant is good, I think it's a bit overrated considering the prices and the wait times."
 11420,overrate,"Analysts often overrate short-term gains, failing to account for long-term market trends."
-11421,throughbred,"The wealthy family only raced thoroughbred horses, believing in their superior speed and lineage."
-11421,throughbred,"After years of careful breeding, the ranch finally produced a prize-winning thoroughbred stallion."
-11421,throughbred,"She's a thoroughbred athlete, excelling in every sport she tries because of her natural talent and dedication."
-11421,throughbred,You can tell by its powerful build and graceful movements that this dog is a thoroughbred German Shepherd.
-11421,throughbred,"Despite the high cost, owning a thoroughbred can be incredibly rewarding, especially if you're passionate about equestrian sports."
+11421,thoroughbred,"The wealthy family only raced thoroughbred horses, believing in their superior speed and lineage."
+11421,thoroughbred,"After years of careful breeding, the ranch finally produced a prize-winning thoroughbred stallion."
+11421,thoroughbred,"She's a thoroughbred athlete, excelling in every sport she tries because of her natural talent and dedication."
+11421,thoroughbred,You can tell by its powerful build and graceful movements that this dog is a thoroughbred German Shepherd.
+11421,thoroughbred,"Despite the high cost, owning a thoroughbred can be incredibly rewarding, especially if you're passionate about equestrian sports."
 11422,armpit,"He dabbed at his armpit with a tissue, trying to discreetly deal with the sweat."
 11422,armpit,The deodorant promises 48-hour protection against armpit odor.
 11422,armpit,"During the yoga pose, she felt a sharp pain in her armpit, indicating a possible muscle strain."
@@ -2549,11 +2549,11 @@ number,word,example
 11510,copious,"She took copious notes during the lecture, filling several pages with detailed information."
 11510,copious,"The author's copious research is evident throughout the book, making it a definitive work on the subject."
 11510,copious,"He apologized profusely, offering copious reasons for his lateness, though none seemed particularly convincing."
-11511,peospectus,"Before you invest, make sure to thoroughly read the company's prospectus to understand the risks involved."
-11511,peospectus,The university sent me a prospectus outlining all the available courses and accommodation options.
-11511,peospectus,"I glanced through the prospectus, but I need to do more research before deciding which investment fund to choose."
-11511,peospectus,Have you seen the prospectus for the new housing development? The floor plans look amazing.
-11511,peospectus,"The lawyer advised us to examine the prospectus carefully, paying particular attention to the disclaimers and legal jargon."
+11511,prospectus,"Before you invest, make sure to thoroughly read the company's prospectus to understand the risks involved."
+11511,prospectus,The university sent me a prospectus outlining all the available courses and accommodation options.
+11511,prospectus,"I glanced through the prospectus, but I need to do more research before deciding which investment fund to choose."
+11511,prospectus,Have you seen the prospectus for the new housing development? The floor plans look amazing.
+11511,prospectus,"The lawyer advised us to examine the prospectus carefully, paying particular attention to the disclaimers and legal jargon."
 11512,chronology,"The museum exhibit presented the artist's work in chronological order, starting with his earliest sketches and ending with his final masterpiece."
 11512,chronology,Understanding the chronology of events leading up to the American Civil War is crucial for grasping the complexities of the conflict.
 11512,chronology,I'm having trouble following the plot of this book; the author jumps around in time so much that the chronology is completely confusing.
@@ -3199,11 +3199,11 @@ number,word,example
 11640,inception,The movie 'Inception' is about planting an idea in someone's mind through their dreams.
 11640,inception,"From its inception, the organization aimed to promote sustainable living within the community."
 11640,inception,The band's inception came about during a chance encounter at a local music festival.
-11641,intrelude,The band played a short instrumental interlude between the two main sets to give the lead singer a break.
-11641,intrelude,"After a tense debate, the professor provided a humorous anecdote as an interlude to lighten the mood."
-11641,intrelude,"The heavy rain provided a brief interlude in our camping trip, forcing us to stay inside and play cards."
-11641,intrelude,The quiet piano interlude in the middle of the symphony was a beautiful contrast to the preceding orchestral piece.
-11641,intrelude,"Life is full of challenges, but it's important to cherish the moments of peace and joy as a welcome interlude."
+11641,interlude,The band played a short instrumental interlude between the two main sets to give the lead singer a break.
+11641,interlude,"After a tense debate, the professor provided a humorous anecdote as an interlude to lighten the mood."
+11641,interlude,"The heavy rain provided a brief interlude in our camping trip, forcing us to stay inside and play cards."
+11641,interlude,The quiet piano interlude in the middle of the symphony was a beautiful contrast to the preceding orchestral piece.
+11641,interlude,"Life is full of challenges, but it's important to cherish the moments of peace and joy as a welcome interlude."
 11642,itinerary,"Before we book the flights, can you please share your proposed itinerary with me so I can review it?"
 11642,itinerary,"The travel agent provided a detailed itinerary outlining all our flights, hotels, and planned excursions."
 11642,itinerary,Our hiking itinerary for the week includes climbing three different peaks in the mountain range.
@@ -3504,11 +3504,11 @@ number,word,example
 11701,passbook,"Back in the day, before online banking, you had to physically update your passbook to keep track of your savings."
 11701,passbook,Could you please confirm the last entry in your passbook matches our records for account verification?
 11701,passbook,"Despite the prevalence of digital statements, my grandmother still prefers to keep her passbook meticulously organized."
-11702,predponderance,There's a preponderance of evidence suggesting that climate change is accelerating.
-11702,predponderance,The committee noticed a preponderance of male applicants for the engineering positions.
-11702,predponderance,"Despite the chef's efforts to balance the flavors, there was a preponderance of salt in the soup."
-11702,predponderance,"Given the preponderance of negative reviews, I'm hesitant to see that movie."
-11702,predponderance,"The town has a preponderance of older residents, which presents unique challenges for local services."
+11702,preponderance,There's a preponderance of evidence suggesting that climate change is accelerating.
+11702,preponderance,The committee noticed a preponderance of male applicants for the engineering positions.
+11702,preponderance,"Despite the chef's efforts to balance the flavors, there was a preponderance of salt in the soup."
+11702,preponderance,"Given the preponderance of negative reviews, I'm hesitant to see that movie."
+11702,preponderance,"The town has a preponderance of older residents, which presents unique challenges for local services."
 11703,prerogative,"It's the manager's prerogative to decide who gets the promotion, so we'll have to wait and see."
 11703,prerogative,"While I appreciate your input, it's my prerogative as the homeowner to choose the paint color."
 11703,prerogative,"She felt it was her prerogative to ask personal questions, even though they hadn't known each other long."
@@ -3839,11 +3839,11 @@ number,word,example
 11768,recluse,"She admired the hermit's peaceful existence, though she knew she could never be a complete recluse."
 11768,recluse,"While he enjoyed his solitude, he wasn't a complete recluse; he still went grocery shopping once a week."
 11768,recluse,The old mansion on the hill was rumored to be inhabited by a wealthy recluse who had cut himself off from society decades ago.
-11769,stenographert,The court stenographer meticulously recorded every word spoken during the trial.
-11769,stenographert,"My grandmother worked as a stenographer for a large law firm in the 1950s, a job that required incredible speed and accuracy."
-11769,stenographert,"Before audio recording became commonplace, a stenographer was essential for documenting meetings and depositions."
-11769,stenographert,Hiring a skilled stenographer is crucial for accurately capturing the nuances of complex legal proceedings.
-11769,stenographert,"While stenography isn't as widely used as it once was, some professions still value the expertise of a trained stenographer."
+11769,stenographer,The court stenographer meticulously recorded every word spoken during the trial.
+11769,stenographer,"My grandmother worked as a stenographer for a large law firm in the 1950s, a job that required incredible speed and accuracy."
+11769,stenographer,"Before audio recording became commonplace, a stenographer was essential for documenting meetings and depositions."
+11769,stenographer,Hiring a skilled stenographer is crucial for accurately capturing the nuances of complex legal proceedings.
+11769,stenographer,"While stenography isn't as widely used as it once was, some professions still value the expertise of a trained stenographer."
 11770,anvil,"The blacksmith struck the hot metal repeatedly on the anvil, shaping it with skillful blows."
 11770,anvil,"Figuratively speaking, the constant criticism was an anvil tied to his dreams, weighing him down."
 11770,anvil,The cartoon featured a classic scene where a character was flattened by a falling anvil.
@@ -4124,11 +4124,11 @@ number,word,example
 11825,distal,"Compared to the proximal humerus fracture, a distal humerus fracture can be more challenging to treat surgically."
 11825,distal,"During laparoscopic surgery, the surgeon carefully manipulated the distal end of the instrument to avoid damaging surrounding tissues."
 11825,distal,"The pain seemed to originate in my shoulder, but I was also experiencing referred pain in the distal part of my arm, near the elbow."
-11826,equestrain,The equestrian team practiced diligently in preparation for the regional championships.
-11826,equestrain,"She has a natural talent for equestrian sports, particularly dressage."
-11826,equestrain,The park offers miles of equestrian trails for horseback riding enthusiasts.
-11826,equestrain,My daughter is taking equestrian lessons; she dreams of one day owning her own horse.
-11826,equestrain,The historical society is hosting an equestrian demonstration to showcase traditional riding techniques.
+11826,equestrian,The equestrian team practiced diligently in preparation for the regional championships.
+11826,equestrian,"She has a natural talent for equestrian sports, particularly dressage."
+11826,equestrian,The park offers miles of equestrian trails for horseback riding enthusiasts.
+11826,equestrian,My daughter is taking equestrian lessons; she dreams of one day owning her own horse.
+11826,equestrian,The historical society is hosting an equestrian demonstration to showcase traditional riding techniques.
 11827,flabby,"After weeks of inactivity, his muscles felt flabby and weak."
 11827,flabby,The editor felt the novel's plot was flabby and needed to be tightened up.
 11827,flabby,I'm trying to tone my flabby arms by doing more weightlifting.
@@ -4144,11 +4144,11 @@ number,word,example
 11829,inert,"The proposed solution remained inert, failing to address the core issues of the problem."
 11829,inert,We need a catalyst to activate this inert material and initiate the reaction.
 11829,inert,"Despite repeated attempts to engage him in the conversation, he remained inert and unresponsive."
-11830,kienetic,The kinetic energy of the speeding bullet was enough to shatter the thick glass.
-11830,kienetic,"We studied the kinetic theory of gases in chemistry, which explains how molecular motion relates to temperature and pressure."
-11830,kienetic,"Her dance performance was a whirlwind of kinetic energy, leaving the audience breathless."
-11830,kienetic,"The sculpture was designed to be kinetic, with moving parts that responded to the wind."
-11830,kienetic,Understanding the kinetic chain is crucial for athletes to prevent injuries and optimize performance.
+11830,kinetic,The kinetic energy of the speeding bullet was enough to shatter the thick glass.
+11830,kinetic,"We studied the kinetic theory of gases in chemistry, which explains how molecular motion relates to temperature and pressure."
+11830,kinetic,"Her dance performance was a whirlwind of kinetic energy, leaving the audience breathless."
+11830,kinetic,"The sculpture was designed to be kinetic, with moving parts that responded to the wind."
+11830,kinetic,Understanding the kinetic chain is crucial for athletes to prevent injuries and optimize performance.
 11831,lethargic,"After a week of fighting off the flu, I still feel incredibly lethargic and have trouble getting out of bed."
 11831,lethargic,The humid weather always makes me feel lethargic and unmotivated to exercise.
 11831,lethargic,The doctor suspects the patient's lethargic behavior might be a side effect of the new medication.
@@ -4389,11 +4389,11 @@ number,word,example
 11878,fluffy,"The chef whipped the cream until it was light and fluffy, perfect for topping the chocolate cake."
 11878,fluffy,"Despite its fluffy appearance, the Samoyed is a working dog breed with a surprisingly strong build."
 11878,fluffy,"The clouds were so fluffy and white, they looked like giant cotton balls floating across the clear blue sky."
-11879,futive,The fugitive escaped from custody after a daring nighttime breakout.
-11879,futive,"Despite the extensive search, the fugitive remained elusive, prompting authorities to widen their investigation."
-11879,futive,"Knowing his past actions made him a fugitive, he decided to assume a new identity and start over in a different country."
-11879,futive,"The news report detailed the crimes committed by the fugitive, emphasizing the danger he posed to the public."
-11879,futive,"After years of living as a fugitive, he finally surrendered to the authorities, hoping for a reduced sentence."
+11879,furtive,The fugitive escaped from custody after a daring nighttime breakout.
+11879,furtive,"Despite the extensive search, the fugitive remained elusive, prompting authorities to widen their investigation."
+11879,furtive,"Knowing his past actions made him a fugitive, he decided to assume a new identity and start over in a different country."
+11879,furtive,"The news report detailed the crimes committed by the fugitive, emphasizing the danger he posed to the public."
+11879,furtive,"After years of living as a fugitive, he finally surrendered to the authorities, hoping for a reduced sentence."
 11880,grubby,The toddler's grubby hands left fingerprints all over the freshly cleaned windows.
 11880,grubby,"He found an old, grubby coin under the floorboards while renovating the house."
 11880,grubby,"Despite her best efforts, the mechanic's overalls always looked grubby by the end of the day."
@@ -4494,11 +4494,11 @@ number,word,example
 11899,soggy,The garden was so soggy after the heavy rain that it was impossible to walk through without sinking into the mud.
 11899,soggy,The reviewer criticized the restaurant's pizza for having a soggy crust due to excessive sauce.
 11899,soggy,"Despite my best efforts to dry them, the flyers I was handing out became soggy in the downpour, making them difficult to distribute."
-11900,squrious,"The detective dismissed the anonymous tip as spurious, given its lack of credible evidence and obvious biases."
-11900,squrious,"Her claim that she won the lottery seemed spurious to me, especially since she's always trying to scam people."
-11900,squrious,"The website was flagged for containing spurious information about medical treatments, potentially endangering those who relied on it."
-11900,squrious,"After a careful examination of the documents, the auditor determined that several of the financial transactions were spurious and needed further investigation."
-11900,squrious,Don't be fooled by those online ads promising instant wealth; most of them are spurious and designed to steal your personal information.
+11900,spurious,"The detective dismissed the anonymous tip as spurious, given its lack of credible evidence and obvious biases."
+11900,spurious,"Her claim that she won the lottery seemed spurious to me, especially since she's always trying to scam people."
+11900,spurious,"The website was flagged for containing spurious information about medical treatments, potentially endangering those who relied on it."
+11900,spurious,"After a careful examination of the documents, the auditor determined that several of the financial transactions were spurious and needed further investigation."
+11900,spurious,Don't be fooled by those online ads promising instant wealth; most of them are spurious and designed to steal your personal information.
 11901,stealthy,"The cat moved with a stealthy grace, stalking its prey in the tall grass."
 11901,stealthy,He made a stealthy attempt to grab the last cookie from the jar when he thought no one was looking.
 11901,stealthy,The government employed stealthy surveillance techniques to monitor potential threats to national security.
@@ -4774,11 +4774,11 @@ number,word,example
 11955,valiant,"She gave a valiant attempt to fix the broken computer, even though she had no experience with electronics."
 11955,valiant,It was a valiant but ultimately unsuccessful struggle to save the old community center from demolition.
 11955,valiant,"I think it's valiant of you to stand up for what you believe in, even when it's unpopular."
-11956,virle,"I've never heard the word ""virle"" used before; are you sure you're spelling it correctly?"
-11956,virle,"Could you please clarify the meaning of ""virle""? I'm not familiar with that term in this context."
-11956,virle,"Perhaps ""virle"" is a technical term specific to a certain field, as it doesn't seem to be in common usage."
-11956,virle,"My online dictionary doesn't recognize ""virle""; could it be a regional dialect or a misspelling?"
-11956,virle,"Given that ""virle"" is not a recognized word in standard English, could you provide more information about its origin or intended meaning?"
+11956,virile,"I've never heard the word ""virile"" used before; are you sure you're spelling it correctly?"
+11956,virile,"Could you please clarify the meaning of ""virile""? I'm not familiar with that term in this context."
+11956,virile,"Perhaps ""virile"" is a technical term specific to a certain field, as it doesn't seem to be in common usage."
+11956,virile,"My online dictionary doesn't recognize ""virile""; could it be a regional dialect or a misspelling?"
+11956,virile,"Given that ""virile"" is not a recognized word in standard English, could you provide more information about its origin or intended meaning?"
 11957,vivacious,"Her vivacious personality made her the life of the party, always ready with a joke or a lively story."
 11957,vivacious,"Despite her age, Grandma still possesses a vivacious spirit and a contagious enthusiasm for life."
 11957,vivacious,"The actress gave a vivacious performance, captivating the audience with her energy and charisma."
@@ -4939,11 +4939,11 @@ number,word,example
 11988,undue,"The judge dismissed the appeal, stating that the prosecution had not demonstrated any undue prejudice against the defendant."
 11988,undue,"While I appreciate your concern, I think you're giving this situation undue attention; it's really not that serious."
 11988,undue,The investigation found no evidence of undue favoritism in the awarding of the contract.
-11989,unequivacal,"The company issued an unequivocal apology for the data breach, promising to take immediate steps to prevent future incidents."
-11989,unequivacal,Her answer was unequivocal: she would not be attending the conference under any circumstances.
-11989,unequivacal,The evidence presented in court provided unequivocal proof of the defendant's guilt.
-11989,unequivacal,"When I asked him if he was happy with his new job, he gave me an unequivocal 'yes!' with a big smile."
-11989,unequivacal,The doctor's recommendation was unequivocal – he needed surgery as soon as possible.
+11989,unequivocal,"The company issued an unequivocal apology for the data breach, promising to take immediate steps to prevent future incidents."
+11989,unequivocal,Her answer was unequivocal: she would not be attending the conference under any circumstances.
+11989,unequivocal,The evidence presented in court provided unequivocal proof of the defendant's guilt.
+11989,unequivocal,"When I asked him if he was happy with his new job, he gave me an unequivocal 'yes!' with a big smile."
+11989,unequivocal,The doctor's recommendation was unequivocal – he needed surgery as soon as possible.
 11990,unscrupulous,The unscrupulous salesman sold me a car that was clearly unsafe.
 11990,unscrupulous,I wouldn't trust him with a dime; he's known for his unscrupulous business practices.
 11990,unscrupulous,The newspaper exposed the company's unscrupulous methods of avoiding taxes.

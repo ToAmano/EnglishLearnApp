@@ -8,6 +8,9 @@ repos:
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-json
+        # tsconfig*.json is JSONC (allows comments), which the strict JSON
+        # parser used here rejects.
+        exclude: ^src/frontend_react/tsconfig.*\.json$
     -   id: check-added-large-files
         args: ["--maxkb=50000"] # large files for word examples
     - id: check-toml
@@ -26,13 +29,14 @@ repos:
   hooks:
     - id: mypy
       args: [--ignore-missing-imports, --strict]
+      additional_dependencies: [fastapi]
 - repo: https://github.com/PyCQA/flake8
   rev: "7.2.0"
   hooks:
   - id: flake8
     # max-line-length setting is the same as black
     # commit cannot be done when cyclomatic complexity is more than 10.
-    args: [--max-line-length, "150", --ignore=E402,--ignore=E800, --max-complexity, "10", --max-expression-complexity=7, --max-cognitive-complexity=7]
+    args: [--max-line-length, "150", --ignore=E402,--ignore=E800,--ignore=W503, --max-complexity, "10", --max-expression-complexity=7, --max-cognitive-complexity=7]
     additional_dependencies: [flake8-bugbear, flake8-builtins, flake8-eradicate, pep8-naming, flake8-expression-complexity, flake8-cognitive-complexity]
 - repo: https://github.com/pylint-dev/pylint
   rev: v3.3.7
@@ -42,7 +46,7 @@ repos:
       entry: pylint
       language: python
       types: [python]
-      additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai]
+      additional_dependencies: [pandas,streamlit,langchain,dotenv,langchain_google_genai,typer,pytest,tqdm,pyspellchecker,fastapi]
       # ignore pymupdf which do not have type hints
       args: [--max-line-length,"150","--init-hook", "import sys; sys.path.insert(0, 'src')", "--ignored-modules=pymupdf"]
 

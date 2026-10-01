@@ -22,8 +22,8 @@ word_id,word,source
 11021,iniquity,svl
 11022,decorum,svl
 11023,belie,svl
-11024,quary,svl
-11025,bilow,svl
+11024,quay,svl
+11025,billow,svl
 11026,capricious,svl
 11027,bode,svl
 11028,auspicious,svl
@@ -72,7 +72,7 @@ word_id,word,source
 11071,forfeit,svl
 11072,breadwinner,svl
 11073,orchid,svl
-11074,germinae,svl
+11074,germinate,svl
 11075,conservatory,svl
 11076,sheath,svl
 11077,inlaid,svl
@@ -93,7 +93,7 @@ word_id,word,source
 11092,haphazard,svl
 11093,patter,svl
 11094,hangar,svl
-11095,pstracism,svl
+11095,ostracism,svl
 11096,permeate,svl
 11097,despotic,svl
 11098,roundup,svl
@@ -136,7 +136,7 @@ word_id,word,source
 11135,aegis,svl
 11136,domicile,svl
 11137,beseech,svl
-11138,dilke,svl
+11138,dike,svl
 11139,orator,svl
 11140,canvass,svl
 11141,plebiscite,svl
@@ -185,7 +185,7 @@ word_id,word,source
 11184,twitter,svl
 11185,interminable,svl
 11186,voluble,svl
-11187,extrovent,svl
+11187,extrovert,svl
 11188,vouch,svl
 11189,cavalry,svl
 11190,amble,svl
@@ -419,7 +419,7 @@ word_id,word,source
 11418,subterranean,svl
 11419,mercenary,svl
 11420,overrate,svl
-11421,throughbred,svl
+11421,thoroughbred,svl
 11422,armpit,svl
 11423,scruffy,svl
 11424,panhandle,svl
@@ -509,7 +509,7 @@ word_id,word,source
 11508,oscillate,svl
 11509,peruse,svl
 11510,copious,svl
-11511,peospectus,svl
+11511,prospectus,svl
 11512,chronology,svl
 11513,pique,svl
 11514,lagoon,svl
@@ -532,13 +532,13 @@ word_id,word,source
 11531,terrestrial,svl
 11532,whet,svl
 11533,amphibian,svl
-11534,fung,svl
+11534,dung,svl
 11535,ewe,svl
 11536,fauna,svl
 11537,gill,svl
 11538,leech,svl
 11539,maggot,svl
-11540,membrance,svl
+11540,membrane,svl
 11541,muzzle,svl
 11542,plumage,svl
 11543,quail,svl
@@ -639,7 +639,7 @@ word_id,word,source
 11638,vector,svl
 11639,zodiac,svl
 11640,inception,svl
-11641,intrelude,svl
+11641,interlude,svl
 11642,itinerary,svl
 11643,solstice,svl
 11644,zenith,svl
@@ -700,7 +700,7 @@ word_id,word,source
 11699,offshoot,svl
 11700,onus,svl
 11701,passbook,svl
-11702,predponderance,svl
+11702,preponderance,svl
 11703,prerogative,svl
 11704,proviso,svl
 11705,quorum,svl
@@ -767,7 +767,7 @@ word_id,word,source
 11766,hermit,svl
 11767,manipulator,svl
 11768,recluse,svl
-11769,stenographert,svl
+11769,stenographer,svl
 11770,anvil,svl
 11771,barrow,svl
 11772,bridle,svl
@@ -824,11 +824,11 @@ word_id,word,source
 11823,callous,svl
 11824,disheveled,svl
 11825,distal,svl
-11826,equestrain,svl
+11826,equestrian,svl
 11827,flabby,svl
 11828,gaunt,svl
 11829,inert,svl
-11830,kienetic,svl
+11830,kinetic,svl
 11831,lethargic,svl
 11832,listless,svl
 11833,lusty,svl
@@ -877,7 +877,7 @@ word_id,word,source
 11876,derelict,svl
 11877,earthen,svl
 11878,fluffy,svl
-11879,futive,svl
+11879,furtive,svl
 11880,grubby,svl
 11881,hackneyed,svl
 11882,homogeneous,svl
@@ -898,7 +898,7 @@ word_id,word,source
 11897,salient,svl
 11898,sodden,svl
 11899,soggy,svl
-11900,squrious,svl
+11900,spurious,svl
 11901,stealthy,svl
 11902,stuffy,svl
 11903,threadbare,svl
@@ -954,7 +954,7 @@ word_id,word,source
 11953,truant,svl
 11954,uncouth,svl
 11955,valiant,svl
-11956,virle,svl
+11956,virile,svl
 11957,vivacious,svl
 11958,abject,svl
 11959,agrarian,svl
@@ -987,7 +987,7 @@ word_id,word,source
 11986,stupendous,svl
 11987,succinct,svl
 11988,undue,svl
-11989,unequivacal,svl
+11989,unequivocal,svl
 11990,unscrupulous,svl
 11991,vehement,svl
 11992,wanton,svl

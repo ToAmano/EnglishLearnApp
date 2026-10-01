@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 10001,nominal,"The company charged a nominal fee for the service, just enough to cover their costs."
 10001,nominal,"Although he was the team captain in name, his role was largely nominal, as the other players made most of the decisions."
 10001,nominal,"The increase in taxes this year is nominal, only about 0.5 percent."
@@ -494,11 +494,11 @@ number,word,example
 10099,troupe,"After years of performing together, the comedy troupe felt more like a family than colleagues."
 10099,troupe,The circus troupe's daring aerialists captivated the audience with their breathtaking stunts.
 10099,troupe,We need to hire a more experienced troupe of movers to handle these delicate antiques.
-10100,ordinane,The city council passed an ordinance restricting overnight parking on residential streets.
-10100,ordinane,"According to the local ordinance, all dogs must be kept on a leash in public parks."
-10100,ordinane,The new zoning ordinance aims to promote sustainable development within the city limits.
-10100,ordinane,"Before building the extension, we need to check if it complies with all the building ordinances."
-10100,ordinane,Violating the noise ordinance after 10 PM can result in a hefty fine.
+10100,ordinance,The city council passed an ordinance restricting overnight parking on residential streets.
+10100,ordinance,"According to the local ordinance, all dogs must be kept on a leash in public parks."
+10100,ordinance,The new zoning ordinance aims to promote sustainable development within the city limits.
+10100,ordinance,"Before building the extension, we need to check if it complies with all the building ordinances."
+10100,ordinance,Violating the noise ordinance after 10 PM can result in a hefty fine.
 10101,placate,"Hoping to placate his crying toddler, Mark offered him a cookie and a favorite toy."
 10101,placate,"The company issued a public apology, hoping to placate investors after the disappointing quarterly results."
 10101,placate,"She tried to placate her roommate by doing all the dishes, but the underlying tension remained."
@@ -2969,11 +2969,11 @@ number,word,example
 10594,womb,
 10594,womb,
 10594,womb,
-10595,brabado,
-10595,brabado,
-10595,brabado,
-10595,brabado,
-10595,brabado,
+10595,bravado,
+10595,bravado,
+10595,bravado,
+10595,bravado,
+10595,bravado,
 10596,clamor,
 10596,clamor,
 10596,clamor,
@@ -3484,11 +3484,11 @@ number,word,example
 10697,complicity,
 10697,complicity,
 10697,complicity,
-10698,cnfederate,
-10698,cnfederate,
-10698,cnfederate,
-10698,cnfederate,
-10698,cnfederate,
+10698,confederate,
+10698,confederate,
+10698,confederate,
+10698,confederate,
+10698,confederate,
 10699,contingency,
 10699,contingency,
 10699,contingency,
@@ -4074,11 +4074,11 @@ number,word,example
 10815,testimonial,
 10815,testimonial,
 10815,testimonial,
-10816,thelogical,
-10816,thelogical,
-10816,thelogical,
-10816,thelogical,
-10816,thelogical,
+10816,theological,
+10816,theological,
+10816,theological,
+10816,theological,
+10816,theological,
 10817,uncanny,
 10817,uncanny,
 10817,uncanny,
@@ -4419,11 +4419,11 @@ number,word,example
 10884,impeccable,
 10884,impeccable,
 10884,impeccable,
-10885,improverished,
-10885,improverished,
-10885,improverished,
-10885,improverished,
-10885,improverished,
+10885,impoverished,
+10885,impoverished,
+10885,impoverished,
+10885,impoverished,
+10885,impoverished,
 10886,indelible,
 10886,indelible,
 10886,indelible,

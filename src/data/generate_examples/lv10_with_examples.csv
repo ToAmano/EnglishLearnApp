@@ -1,4 +1,4 @@
-number,word,example
+word_id,word,example
 9001,tactic,The lawyer's tactic of repeatedly objecting was clearly meant to frustrate the witness.
 9001,tactic,Our sales team is trying a new tactic this quarter: offering free consultations to potential clients.
 9001,tactic,"He tried to distract me with flattery, but I saw through his obvious tactic."
@@ -99,11 +99,11 @@ number,word,example
 9020,aftermath,Cleaning up the debris was just part of the aftermath; rebuilding the community would take much longer.
 9020,aftermath,The government is still assessing the economic aftermath of the financial crisis.
 9020,aftermath,"After the argument, an awkward silence filled the room, a common aftermath of their disagreements."
-9021,turbulance,"The airplane experienced moderate turbulence as it passed through the storm clouds, causing the beverage cart to rattle."
-9021,turbulance,His sudden departure from the company caused a period of turbulence in the stock market.
-9021,turbulance,The social and political turbulence of the 1960s led to significant changes in American society.
-9021,turbulance,"I felt a bit of turbulence in my stomach before the big presentation, but I managed to calm myself down."
-9021,turbulance,Scientists are studying the turbulence within the sun's corona to better understand solar flares.
+9021,turbulence,"The airplane experienced moderate turbulence as it passed through the storm clouds, causing the beverage cart to rattle."
+9021,turbulence,His sudden departure from the company caused a period of turbulence in the stock market.
+9021,turbulence,The social and political turbulence of the 1960s led to significant changes in American society.
+9021,turbulence,"I felt a bit of turbulence in my stomach before the big presentation, but I managed to calm myself down."
+9021,turbulence,Scientists are studying the turbulence within the sun's corona to better understand solar flares.
 9022,peacekeeping,The UN's peacekeeping efforts in the region have been hampered by a lack of resources and political will.
 9022,peacekeeping,"After the ceasefire agreement, the deployment of peacekeeping troops was crucial to maintaining stability."
 9022,peacekeeping,"She's interested in a career in international relations, specifically focusing on peacekeeping operations."
@@ -739,11 +739,11 @@ number,word,example
 9148,allure,"I understand the allure of social media, but I think it's important to disconnect sometimes and focus on the real world."
 9148,allure,The detective was immune to the suspect's charm; his practiced allure had no effect.
 9148,allure,What is the allure of this particular artist that makes their work so highly sought after?
-9149,transcent,The artist hoped her work would transcent mere decoration and evoke deeper emotions in the viewer.
-9149,transcent,"For the grieving family, the outpouring of community support helped to transcent their feelings of isolation and despair."
-9149,transcent,Great leaders often transcent their own personal ambitions to serve the greater good of their people.
-9149,transcent,"His performance was so captivating; he seemed to transcent the limitations of the stage, becoming the character entirely."
-9149,transcent,"The novel's themes of love and loss transcent cultural boundaries, resonating with readers from all walks of life."
+9149,transcend,The artist hoped her work would transcend mere decoration and evoke deeper emotions in the viewer.
+9149,transcend,"For the grieving family, the outpouring of community support helped to transcend their feelings of isolation and despair."
+9149,transcend,Great leaders often transcend their own personal ambitions to serve the greater good of their people.
+9149,transcend,"His performance was so captivating; he seemed to transcend the limitations of the stage, becoming the character entirely."
+9149,transcend,"The novel's themes of love and loss transcend cultural boundaries, resonating with readers from all walks of life."
 9150,melodramatic,"Her reaction to the spilled coffee was a bit melodramatic; it was just a stain, not the end of the world."
 9150,melodramatic,"The play was entertaining, but the acting felt overly melodramatic, especially during the death scene."
 9150,melodramatic,"Don't be so melodramatic! You only have a slight cold, you're not dying."
@@ -979,11 +979,11 @@ number,word,example
 9196,bustle,"The nurses bustled around the emergency room, attending to the injured after the accident."
 9196,bustle,"With the holidays approaching, the shopping mall was filled with a festive bustle as people searched for gifts."
 9196,bustle,"Despite the initial bustle of activity, the project eventually stalled due to lack of funding."
-9197,cultery,Could you please set the table? The cutlery is in the drawer next to the sink.
-9197,cultery,"For the formal dinner, we'll be using the silver cutlery, so please handle it with care."
-9197,cultery,I'm not sure which piece of cutlery to use for the salad; is it the smaller fork or the one on the outside?
-9197,cultery,"The restaurant offers a wide variety of dishes, but the cutlery feels a bit cheap for the price point."
-9197,cultery,"After the picnic, we need to make sure we collect all the cutlery so we don't leave anything behind."
+9197,cutlery,Could you please set the table? The cutlery is in the drawer next to the sink.
+9197,cutlery,"For the formal dinner, we'll be using the silver cutlery, so please handle it with care."
+9197,cutlery,I'm not sure which piece of cutlery to use for the salad; is it the smaller fork or the one on the outside?
+9197,cutlery,"The restaurant offers a wide variety of dishes, but the cutlery feels a bit cheap for the price point."
+9197,cutlery,"After the picnic, we need to make sure we collect all the cutlery so we don't leave anything behind."
 9198,fanatic,"He's a real fitness fanatic, working out at the gym every single day without fail."
 9198,fanatic,The political debate quickly devolved into a shouting match between fanatics on both sides of the issue.
 9198,fanatic,My aunt is a cleaning fanatic; you could eat off her floors.
@@ -2134,11 +2134,11 @@ number,word,example
 9427,retard,Applying a cold compress can help retard the swelling after an injury.
 9427,retard,The lack of funding significantly retarded the project's completion.
 9427,retard,The new regulations are designed to retard the spread of misinformation online.
-9428,asthema,"As the day wore on, the athlete's asthma began to flare up, making it difficult for him to maintain his pace."
-9428,asthema,The doctor explained that managing asthma requires a combination of medication and avoiding triggers like pollen and smoke.
-9428,asthema,"Despite having asthma since childhood, she has learned to manage her condition and live a full, active life."
-9428,asthema,"The increasing levels of air pollution in the city are exacerbating asthma symptoms for many residents, especially children."
-9428,asthema,"He keeps his inhaler close by, as his asthma can be triggered by sudden changes in temperature or humidity."
+9428,asthma,"As the day wore on, the athlete's asthma began to flare up, making it difficult for him to maintain his pace."
+9428,asthma,The doctor explained that managing asthma requires a combination of medication and avoiding triggers like pollen and smoke.
+9428,asthma,"Despite having asthma since childhood, she has learned to manage her condition and live a full, active life."
+9428,asthma,"The increasing levels of air pollution in the city are exacerbating asthma symptoms for many residents, especially children."
+9428,asthma,"He keeps his inhaler close by, as his asthma can be triggered by sudden changes in temperature or humidity."
 9429,punk,"The punk band's music was raw, energetic, and full of anti-establishment sentiments."
 9429,punk,Don't be such a punk; stand up for yourself and tell him what you really think.
 9429,punk,"She had a punk phase in high school, complete with brightly colored hair and ripped jeans."
@@ -2974,11 +2974,11 @@ number,word,example
 9595,grievance,He aired his grievances about the new company policy during the town hall meeting.
 9595,grievance,"Filing a grievance is the first step in resolving a workplace dispute, so make sure you understand the procedure."
 9595,grievance,"Despite my repeated attempts to address the issue, my grievance regarding the faulty product remains unresolved."
-9596,heatache,I've had a headache all day; I think it's from staring at the computer screen for too long.
-9596,heatache,She gets a headache every time she drinks red wine.
-9596,heatache,The loud music at the concert gave me a terrible headache.
-9596,heatache,"If you have a persistent headache, you should consult with your doctor to rule out any underlying medical conditions."
-9596,heatache,Taking a break and drinking some water often helps alleviate a mild headache.
+9596,heartache,I've had a headache all day; I think it's from staring at the computer screen for too long.
+9596,heartache,She gets a headache every time she drinks red wine.
+9596,heartache,The loud music at the concert gave me a terrible headache.
+9596,heartache,"If you have a persistent headache, you should consult with your doctor to rule out any underlying medical conditions."
+9596,heartache,Taking a break and drinking some water often helps alleviate a mild headache.
 9597,heartbreak,The news of their divorce filled her with a deep sense of heartbreak.
 9597,heartbreak,"After the breakup, she spent weeks recovering from the heartbreak."
 9597,heartbreak,"He poured his heartbreak into his music, writing songs about love and loss."
@@ -3139,11 +3139,11 @@ number,word,example
 9628,commencement,I'm so proud of my sister; I'm attending her commencement ceremony next week.
 9628,commencement,"Upon the commencement of the concert, the crowd erupted in applause."
 9628,commencement,"The judge declared the commencement of the trial, and the lawyers presented their opening arguments."
-9629,comtemplation,"The artist spent hours in quiet contemplation, sketching ideas in her notebook."
-9629,comtemplation,"After a long and stressful day, a quiet cup of tea offers a moment for peaceful contemplation."
-9629,comtemplation,"The board's decision is currently under contemplation, and we expect an announcement next week."
-9629,comtemplation,"He entered a state of deep contemplation, trying to understand the meaning of his dream."
-9629,comtemplation,"During our hike, we paused at the summit for contemplation, marveling at the breathtaking view and reflecting on our journey."
+9629,contemplation,"The artist spent hours in quiet contemplation, sketching ideas in her notebook."
+9629,contemplation,"After a long and stressful day, a quiet cup of tea offers a moment for peaceful contemplation."
+9629,contemplation,"The board's decision is currently under contemplation, and we expect an announcement next week."
+9629,contemplation,"He entered a state of deep contemplation, trying to understand the meaning of his dream."
+9629,contemplation,"During our hike, we paused at the summit for contemplation, marveling at the breathtaking view and reflecting on our journey."
 9630,generality,"While the speaker made some interesting points, his argument relied too heavily on generality and lacked specific evidence."
 9630,generality,"In generality, people tend to support policies that benefit them directly, but there are always exceptions."
 9630,generality,"I know this is a generality, but teenagers are often stereotyped as being glued to their phones."
@@ -3169,11 +3169,11 @@ number,word,example
 9634,nuance,"The art critic appreciated the subtle nuance of color in the painting, which added depth and emotion."
 9634,nuance,"While the two reports seem to agree on the surface, there are important nuances in their recommendations that should be considered."
 9634,nuance,"It's hard to explain the nuance, but there's a subtle difference in the way she treats me compared to her other friends."
-9635,prthodoxy,The company's orthodoxy regarding remote work was challenged when younger employees demanded more flexibility.
-9635,prthodoxy,"While I respect tradition, I think clinging too tightly to orthodoxy can stifle innovation and progress."
-9635,prthodoxy,Her unconventional approach to painting often clashed with the prevailing orthodoxy in the art world.
-9635,prthodoxy,"Despite the scientific evidence, some people still adhere to the orthodoxy of a flat Earth."
-9635,prthodoxy,"Breaking with political orthodoxy, the senator proposed a bipartisan solution to the healthcare crisis."
+9635,orthodoxy,The company's orthodoxy regarding remote work was challenged when younger employees demanded more flexibility.
+9635,orthodoxy,"While I respect tradition, I think clinging too tightly to orthodoxy can stifle innovation and progress."
+9635,orthodoxy,Her unconventional approach to painting often clashed with the prevailing orthodoxy in the art world.
+9635,orthodoxy,"Despite the scientific evidence, some people still adhere to the orthodoxy of a flat Earth."
+9635,orthodoxy,"Breaking with political orthodoxy, the senator proposed a bipartisan solution to the healthcare crisis."
 9636,parenthesis,The author used a parenthesis to add extra information about the character's background.
 9636,parenthesis,"I wasn't sure what the phrase in parenthesis meant, so I looked it up online."
 9636,parenthesis,Can you remove the unnecessary information in parenthesis to make the sentence flow better?
@@ -3379,11 +3379,11 @@ number,word,example
 9676,lather,"The horse was covered in a lather of sweat after the long, strenuous ride."
 9676,lather,"She got into quite a lather about the missing documents, but they were eventually found safe and sound."
 9676,lather,"To properly clean your hands, make sure to lather with soap for at least twenty seconds."
-9677,liasion,She acted as a liaison between the marketing and sales departments to ensure a consistent message.
-9677,liasion,"Our company has a close liaison with several universities, allowing us to access cutting-edge research."
-9677,liasion,The police are working in liaison with the FBI to solve the kidnapping case.
-9677,liasion,A good project manager is essential for liaison with the client and keeping them updated on progress.
-9677,liasion,The cultural liaison officer is responsible for fostering understanding and cooperation between the embassy and local communities.
+9677,liaison,She acted as a liaison between the marketing and sales departments to ensure a consistent message.
+9677,liaison,"Our company has a close liaison with several universities, allowing us to access cutting-edge research."
+9677,liaison,The police are working in liaison with the FBI to solve the kidnapping case.
+9677,liaison,A good project manager is essential for liaison with the client and keeping them updated on progress.
+9677,liaison,The cultural liaison officer is responsible for fostering understanding and cooperation between the embassy and local communities.
 9678,magnificence,The sheer magnificence of the Taj Mahal left us speechless.
 9678,magnificence,"We were awestruck by the magnificence of the Grand Canyon, especially at sunset."
 9678,magnificence,"Despite its age, the cathedral still retains a certain magnificence that draws visitors from all over the world."
@@ -3739,11 +3739,11 @@ number,word,example
 9748,concealment,The artist used clever brushstrokes to achieve the concealment of imperfections in the portrait.
 9748,concealment,"Despite their best efforts at concealment, the children's laughter gave away their hiding place."
 9748,concealment,Tax evasion often involves the illegal concealment of income from the authorities.
-9749,façade,"The hotel's grand façade, with its ornate carvings and towering columns, hinted at the luxury within."
-9749,façade,"Despite his cheerful façade, I could sense a deep sadness in his eyes."
-9749,façade,"The company maintained a façade of environmental responsibility, but their actual practices told a different story."
-9749,façade,The old theater's façade is being carefully restored to its original glory.
-9749,façade,"Behind the friendly façade, he was secretly plotting against his colleagues."
+9749,facade,"The hotel's grand facade, with its ornate carvings and towering columns, hinted at the luxury within."
+9749,facade,"Despite his cheerful facade, I could sense a deep sadness in his eyes."
+9749,facade,"The company maintained a facade of environmental responsibility, but their actual practices told a different story."
+9749,facade,The old theater's facade is being carefully restored to its original glory.
+9749,facade,"Behind the friendly facade, he was secretly plotting against his colleagues."
 9750,facet,"The article explored every facet of the proposed legislation, leaving no stone unturned."
 9750,facet,Her personality has so many facets; sometimes she's outgoing and other times quite reserved.
 9750,facet,"Dealing with the public is just one facet of my job, but it's often the most challenging."
@@ -4309,11 +4309,11 @@ number,word,example
 9862,eerie,
 9862,eerie,
 9862,eerie,
-9863,expecteant,
-9863,expecteant,
-9863,expecteant,
-9863,expecteant,
-9863,expecteant,
+9863,expectant,
+9863,expectant,
+9863,expectant,
+9863,expectant,
+9863,expectant,
 9864,fraught,
 9864,fraught,
 9864,fraught,
@@ -4669,11 +4669,11 @@ number,word,example
 9934,secretive,
 9934,secretive,
 9934,secretive,
-9935,sheeepish,
-9935,sheeepish,
-9935,sheeepish,
-9935,sheeepish,
-9935,sheeepish,
+9935,sheepish,
+9935,sheepish,
+9935,sheepish,
+9935,sheepish,
+9935,sheepish,
 9936,sterling,
 9936,sterling,
 9936,sterling,

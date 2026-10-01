@@ -2,6 +2,7 @@
 from typing import Any
 
 from backend.core.db_core import get_db_connection
+from backend.search_count import increment_search_count
 
 
 def get_explanation(word_id: int) -> Any | None:
@@ -13,4 +14,6 @@ def get_explanation(word_id: int) -> Any | None:
     )
     row = cursor.fetchone()
     conn.close()
+    # If search found, increment search count
+    increment_search_count(word_id)
     return row[0] if row else None

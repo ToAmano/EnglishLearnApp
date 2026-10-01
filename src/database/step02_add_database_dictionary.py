@@ -16,7 +16,7 @@ def insert_words_from_csv(csv_path: str, db_path: str = "words.db") -> None:
 
     # データ挿入
     for _, row in df.iterrows():
-        # print(f"word_id: {row['word_id']}, word: {row['word']}")
+        # for debug :: print(f"word_id: {row['word_id']}, word: {row['word']}")
         try:
             cursor.execute(
                 "INSERT INTO words (word_id, word, source) VALUES (?, ?, ?);",
@@ -67,7 +67,7 @@ def insert_explanations_from_csv(
     # データ挿入
     for _, row in df.iterrows():
         try:
-            # print(f"word_id: {row['word_id']}, word: {row['explanation']}")
+            # for debug :: print(f"word_id: {row['word_id']}, word: {row['explanation']}")
             if if_ignore:
                 cursor.execute(
                     "INSERT OR IGNORE INTO word_explanations (word_id, explanation) VALUES (?, ?);",

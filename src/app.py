@@ -10,7 +10,13 @@ streamlit run app.py
 import streamlit as st
 from dotenv import load_dotenv
 
-from frontend import tab1_search, tab4_favorite, tab5_wordbatch, tab6_wordcard
+from frontend import (
+    tab1_search,
+    tab4_favorite,
+    tab5_wordbatch,
+    tab6_wordcard,
+    tab8_sentence_composition,
+)
 
 load_dotenv()
 
@@ -21,7 +27,7 @@ USER_ID = "default_user"
 # Streamlit UI
 st.title("📖 英語辞書アプリ")
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+tab1, tab2, tab3, tab4, tab5, tab6, tab8 = st.tabs(
     [
         "🔍 単語検索",
         "📝 単語テスト",
@@ -29,6 +35,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
         "⭐ お気に入り",
         "📘 単語バッチ確認モード",
         "🃏 単語カードモード",
+        "✍️ 瞬間英作文",
     ]
 )
 
@@ -44,10 +51,13 @@ with tab2:
 with tab3:
     st.subheader("例文のリスニング（開発中）")
 
-# ⭐ お気に入り
+# お気に入りタブには未解決のバグが残っていそう
 with tab4:
     tab4_favorite.render()
 with tab5:
     tab5_wordbatch.render()
 with tab6:
     tab6_wordcard.render()
+
+with tab8:
+    tab8_sentence_composition.render(USER_ID)
