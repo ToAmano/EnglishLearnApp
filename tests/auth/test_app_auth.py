@@ -14,6 +14,8 @@ from backend.favorite import get_favorites_words
 from backend.practice_history import list_attempts
 from backend.users import get_or_create_google_user
 
+APP_PATH = Path(__file__).resolve().parents[2] / "src" / "app.py"
+
 
 def test_unconfigured_app_stops_before_tabs(tmp_path: Path) -> None:
     with patch.dict(
@@ -24,7 +26,7 @@ def test_unconfigured_app_stops_before_tabs(tmp_path: Path) -> None:
         },
     ):
         with patch("streamlit.secrets", {}):
-            app = AppTest.from_file("src/app.py").run()
+            app = AppTest.from_file(APP_PATH).run()
     assert not app.exception
     assert app.error
     assert not app.tabs
@@ -54,7 +56,7 @@ def test_authenticated_app_saves_for_current_account(
         {"USER_DB_PATH": str(tmp_path / "user.db"), "WORDS_DB_PATH": str(dictionary)},
     ):
         with patch("streamlit.secrets", auth_settings), patch("streamlit.user", user):
-            app = AppTest.from_file("src/app.py").run()
+            app = AppTest.from_file(APP_PATH).run()
             assert not app.exception
             first = get_or_create_google_user("account-a")
             app.button(key=f"tab6__{first}_favorite_hello").click().run()
