@@ -1,9 +1,7 @@
 from typing import List
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-
-from backend.favorite import get_favorites_words
 
 app = FastAPI()
 
@@ -21,12 +19,8 @@ app.add_middleware(
 
 @app.get("/api/favorites", response_model=List[str])
 def read_favorites() -> List[str]:
-    """
-    Endpoint to get the list of favorite words.
-    """
-    favorites: List[str] = get_favorites_words()
-    return favorites
-
-
-# To run this API, use the following command in your terminal:
-# uvicorn src.api:app --reload
+    """API向け認証を導入するまではユーザーデータを公開しない。"""
+    raise HTTPException(
+        status_code=403,
+        detail="Use the authenticated Streamlit app. API authentication is not configured.",
+    )

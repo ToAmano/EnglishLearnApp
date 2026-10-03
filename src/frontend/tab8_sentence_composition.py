@@ -125,7 +125,7 @@ def render_content(user_id: str) -> None:
     render_history(user_id)
 
 
-def render(user_id: str = "default_user") -> None:
+def render(user_id: str) -> None:
     st.header("✍️ 瞬間英作文")
     st.caption("回答を保存して振り返りましょう。再挑戦の回答は別の履歴として残ります。")
     try:

@@ -179,3 +179,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# OIDC secrets and execution notes
+**/.streamlit/secrets.toml
+.superpowers/

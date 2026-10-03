@@ -19,11 +19,11 @@ def go_next(num_favorites: int) -> None:
         st.session_state["favorite_card_index"] += 1
 
 
-def render() -> None:
+def render(user_id: str) -> None:
     """Renders the favorite words tab with a card-like interface."""
     st.subheader("お気に入りの単語")
 
-    favorite_words: List[str] = sorted(get_favorites_words())
+    favorite_words: List[str] = sorted(get_favorites_words(user_id))
     num_favorites = len(favorite_words)
 
     if (

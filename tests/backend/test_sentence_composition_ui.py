@@ -21,7 +21,7 @@ class CompositionUITests(unittest.TestCase):
                 os.environ, {"USER_DB_PATH": str(Path(directory) / "user.db")}
             ):
                 app = AppTest.from_string(
-                    "from frontend.tab8_sentence_composition import render\nrender()"
+                    "from frontend.tab8_sentence_composition import render\nrender('test-user')"
                 )
                 app.run()
                 self.assertFalse(app.exception)
@@ -29,10 +29,10 @@ class CompositionUITests(unittest.TestCase):
                 app.button[1].click().run()
                 self.assertFalse(app.exception)
                 self.assertTrue(app.text_area[0].disabled)
-                attempts = list_attempts("default_user", "sentence_composition")
+                attempts = list_attempts("test-user", "sentence_composition")
                 self.assertEqual(len(attempts), 1)
                 app = AppTest.from_string(
-                    "from frontend.tab8_sentence_composition import render\nrender()"
+                    "from frontend.tab8_sentence_composition import render\nrender('test-user')"
                 )
                 app.run()
                 app.button(
@@ -43,6 +43,6 @@ class CompositionUITests(unittest.TestCase):
                 app.text_area[0].input("Every morning, I drink coffee.")
                 app.button[1].click().run()
                 self.assertFalse(app.exception)
-                attempts = list_attempts("default_user", "sentence_composition")
+                attempts = list_attempts("test-user", "sentence_composition")
                 self.assertEqual(len(attempts), 2)
                 self.assertEqual(attempts[0].retry_of, attempts[1].attempt_id)

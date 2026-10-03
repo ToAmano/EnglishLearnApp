@@ -20,7 +20,7 @@ from frontend.core import (
 )
 
 
-def show_word_entry(word_id: int) -> None:
+def show_word_entry(word_id: int, user_id: str) -> None:
     """詳細説明の表示 (一時的に先頭に表示)"""
     word: str = get_word_from_wordid(word_id)
     search_count: int = get_search_count(word_id)
@@ -33,8 +33,8 @@ def show_word_entry(word_id: int) -> None:
     # --- 音声読み上げボタン（Web Speech API）
     render_speak_button(word)
 
-    show_status(word, "tab1_")  # 単語の状態表示
-    show_favorite(word)  # お気に入りボタン
+    show_status(word, "tab1_", user_id)  # 単語の状態表示
+    show_favorite(word, "tab1_", user_id)  # お気に入りボタン
 
     render_explanation(word_id)
 
@@ -102,7 +102,7 @@ def show_example(word_id: int) -> None:
                 st.warning(f"音声再生できません: {e}")
 
 
-def render() -> None:
+def render(user_id: str) -> None:
     st.subheader("単語を検索")
     word = st.text_input("単語を入力", "", key="search_input")
 
@@ -112,4 +112,4 @@ def render() -> None:
     if "word_id" in st.session_state:
         print(f"セッションに結果がある :: word_id = {st.session_state['word_id']}")
         word_id = st.session_state["word_id"]
-        show_word_entry(word_id)
+        show_word_entry(word_id, user_id)

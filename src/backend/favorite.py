@@ -1,35 +1,41 @@
-from typing import List
+"""アカウント別のお気に入り。旧favoritesは後日の引き継ぎ用に保持する。"""
+
+from contextlib import closing
 
 from backend.core.db_core import get_user_db_connection
 
 
-def is_favorited(word: str) -> bool:
-    """Check if the word is favorited"""
-    conn = get_user_db_connection()
-    cur = conn.cursor()
-    cur.execute("SELECT 1 FROM favorites WHERE word = ?", (word,))
-    exists = cur.fetchone() is not None
-    conn.close()
-    return exists
+def is_favorited(word: str, user_id: str) -> bool:
+    with closing(get_user_db_connection()) as conn:
+        return (
+            conn.execute(
+                "SELECT 1 FROM user_favorites WHERE user_id = ? AND word = ?",
+                (user_id, word),
+            ).fetchone()
+            is not None
+        )
 
 
-def toggle_favorite(word: str) -> None:
-    """Change the state of favorited for the word"""
-    conn = get_user_db_connection()
-    cur = conn.cursor()
-    if is_favorited(word):
-        cur.execute("DELETE FROM favorites WHERE word = ?", (word,))
-    else:
-        cur.execute("INSERT INTO favorites (word) VALUES (?)", (word,))
-    conn.commit()
-    conn.close()
+def toggle_favorite(word: str, user_id: str) -> None:
+    with closing(get_user_db_connection()) as conn:
+        with conn:
+            # 読み取りと更新を同じ書き込みトランザクションにする。
+            conn.execute("BEGIN IMMEDIATE")
+            deleted = conn.execute(
+                "DELETE FROM user_favorites WHERE user_id = ? AND word = ?",
+                (user_id, word),
+            )
+            if not deleted.rowcount:
+                conn.execute(
+                    "INSERT INTO user_favorites(user_id, word) VALUES (?, ?)",
+                    (user_id, word),
+                )
 
 
-def get_favorites_words() -> List[str]:
-    """Get all the favorited words"""
-    conn = get_user_db_connection()
-    cursor = conn.cursor()
-    cursor.execute("SELECT word FROM favorites")
-    favorite_words: List[str] = [row[0] for row in cursor.fetchall()]  # list of words
-    conn.close()
-    return favorite_words
+def get_favorites_words(user_id: str) -> list[str]:
+    with closing(get_user_db_connection()) as conn:
+        rows = conn.execute(
+            "SELECT word FROM user_favorites WHERE user_id = ? ORDER BY word",
+            (user_id,),
+        ).fetchall()
+    return [str(row["word"]) for row in rows]

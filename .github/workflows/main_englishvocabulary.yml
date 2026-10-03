@@ -32,10 +32,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+      - name: Verify authentication and deployment startup
+        run: |
+          pip install fastapi httpx
+          PYTHONPATH=src pytest tests/backend tests/auth tests/deployment -q
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: zip release.zip ./* -r -x 'venv/*' '*.pyc' '*/__pycache__/*' '*/.streamlit/secrets.toml'
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
@@ -72,9 +75,16 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_41AC4854B914421AADE7A50C84BA22E9 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_00030EB7661F430C87C11C7BBB47FDD6 }}
 
+      - name: Configure remote dependency build
+        uses: azure/appservice-settings@v1
+        with:
+          app-name: 'EnglishVocabulary'
+          app-settings-json: '[{"name":"SCM_DO_BUILD_DURING_DEPLOYMENT","value":"true","slotSetting":false}]'
+
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
           app-name: 'EnglishVocabulary'
           slot-name: 'Production'
+          startup-command: 'bash startup.sh'

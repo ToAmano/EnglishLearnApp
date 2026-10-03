@@ -1,7 +1,7 @@
 langchain
 langchain-google-genai
 pandas
-streamlit
+streamlit[auth]>=1.45.0
 pymupdf
 dotenv
 typer[all]

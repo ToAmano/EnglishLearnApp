@@ -1,3 +1,5 @@
+import sqlite3
+
 import streamlit as st
 import streamlit.components.v1 as components
 
@@ -6,39 +8,39 @@ from backend.favorite import is_favorited, toggle_favorite
 from backend.vocab_status import get_vocab_status, set_vocab_status
 
 
-def show_status(word: str, prefix: str) -> None:
-    status = get_vocab_status(word)
-    word_status_key: str = f"{prefix}_vocab_status_card_{word}"
-    st.session_state.setdefault(
-        word_status_key, status
-    )  # セッションに初期値がなければ設定
-    print(f"status = {status}")
+def _save_status(word: str, user_id: str, key: str) -> None:
+    try:
+        set_vocab_status(word, str(st.session_state[key]), user_id)
+    except sqlite3.Error:
+        st.error("習得状態を保存できませんでした。DBの設定を確認してください。")
+        st.stop()
 
-    # UI 表示
-    new_status = st.selectbox(
+
+def show_status(word: str, prefix: str, user_id: str) -> None:
+    status = get_vocab_status(word, user_id)
+    key = f"{prefix}_{user_id}_vocab_status_{word}"
+    # DBの値を各タブに反映し、保存は操作したウィジェットのcallbackのみで行う。
+    st.session_state[key] = status
+    st.selectbox(
         "📘 単語の習得状態を選択",
         ["unknown", "passive", "active"],
-        key=word_status_key,
+        key=key,
+        on_change=_save_status,
+        args=(word, user_id, key),
         help="この単語の習得状態を選択してください。",
     )
-    if new_status != status:
-        print(f"new_status = {new_status}")
-        set_vocab_status(word, new_status)
-        st.success(f"「{word}」の語彙状態を「{new_status}」に更新しました！")
 
 
-def show_favorite(word: str) -> None:
-    """favorite button"""
+def show_favorite(word: str, prefix: str, user_id: str) -> None:
+    """呼び出し元とアカウントごとにキーを分ける。"""
     _, col2 = st.columns([4, 1])
     with col2:
-        if is_favorited(word):
-            if st.button("⭐", key=f"fav_remove_{word}", help="お気に入り解除"):
-                toggle_favorite(word)
-                st.rerun()
-        else:
-            if st.button("☆", key=f"fav_add_{word}", help="お気に入り追加"):
-                toggle_favorite(word)
-                st.rerun()
+        favorited = is_favorited(word, user_id)
+        label = "⭐" if favorited else "☆"
+        help_text = "お気に入り解除" if favorited else "お気に入り追加"
+        if st.button(label, key=f"{prefix}_{user_id}_favorite_{word}", help=help_text):
+            toggle_favorite(word, user_id)
+            st.rerun()
 
 
 def speak_word_automatically(word: str) -> None:

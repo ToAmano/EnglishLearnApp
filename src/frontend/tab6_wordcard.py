@@ -48,7 +48,7 @@ def on_change_start_index() -> None:
     print("スタート位置が変更されました。カードインデックスをリセットしました。")
 
 
-def render() -> None:
+def render(user_id: str) -> None:
     st.title("🃏 単語カードモード")
 
     sort_mode = st.radio(
@@ -96,8 +96,8 @@ def render() -> None:
             # --- 音声読み上げボタン（Web Speech API）
             render_speak_button(word)
 
-            show_status(word, "tab6_")  # 単語状態の表示
-            show_favorite(word)  # お気に入りボタン
+            show_status(word, "tab6_", user_id)  # 単語状態の表示
+            show_favorite(word, "tab6_", user_id)  # お気に入りボタン
 
             with st.expander("意味を見る"):
                 st.write(f"- 意味: {row['meaning']}")
