@@ -16,7 +16,6 @@ from frontend.core import (
     render_speak_button,
     show_favorite,
     show_status,
-    speak_word_automatically,
 )
 
 
@@ -27,8 +26,6 @@ def show_word_entry(word_id: int, user_id: str) -> None:
 
     st.markdown(f"### 🔤 {word}")
     st.caption(f" word_id: {word_id} /検索回数: {search_count}")
-    # 自動読み上げ用のJSコードを埋め込み
-    speak_word_automatically(word)
 
     # --- 音声読み上げボタン（Web Speech API）
     render_speak_button(word)

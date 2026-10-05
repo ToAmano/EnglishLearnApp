@@ -7,7 +7,6 @@ from frontend.core import (
     render_speak_button,
     show_favorite,
     show_status,
-    speak_word_automatically,
 )
 
 BATCH_SIZE = 100  # 一度に読み込む単語数
@@ -90,11 +89,9 @@ def render(user_id: str) -> None:
             st.markdown("### 🔤 英単語カード")
             st.markdown(f"## **{row['word']}**")
             st.caption(f" word_id: {word_id} /検索回数: {search_count}")
-            # 自動読み上げ用のJSコードを埋め込み
-            speak_word_automatically(word)
 
             # --- 音声読み上げボタン（Web Speech API）
-            render_speak_button(word)
+            render_speak_button(word, autoplay=True)
 
             show_status(word, "tab6_", user_id)  # 単語状態の表示
             show_favorite(word, "tab6_", user_id)  # お気に入りボタン

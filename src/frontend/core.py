@@ -1,11 +1,11 @@
 import sqlite3
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 from backend.explanation import get_explanation
 from backend.favorite import is_favorited, toggle_favorite
 from backend.vocab_status import get_vocab_status, set_vocab_status
+from frontend.speech import render_speech
 
 
 def _save_status(word: str, user_id: str, key: str) -> None:
@@ -43,31 +43,9 @@ def show_favorite(word: str, prefix: str, user_id: str) -> None:
             st.rerun()
 
 
-def speak_word_automatically(word: str) -> None:
-    """ページ表示時に自動的に音声読み上げを行う"""
-    components.html(
-        f"""
-        <script>
-            const utterance = new SpeechSynthesisUtterance("{word}");
-            utterance.lang = "en-US";
-            speechSynthesis.cancel();
-            speechSynthesis.speak(utterance);
-        </script>
-        """,
-        height=0,
-    )  # 高さ0でコンポーネントとしては見せない
-
-
-def render_speak_button(word: str) -> None:
-    """クリックで音声読み上げボタンを表示"""
-    components.html(
-        f"""
-        <button onclick="const u = new SpeechSynthesisUtterance('{word}'); u.lang='en-US'; speechSynthesis.speak(u);">
-            🔊 発音を聞く
-        </button>
-        """,
-        height=50,
-    )
+def render_speak_button(word: str, autoplay: bool = False) -> None:
+    """英語音声の選択と試聴。"""
+    render_speech(word, autoplay)
 
 
 def render_explanation(word_id: int) -> None:
