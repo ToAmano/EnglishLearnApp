@@ -155,7 +155,7 @@ word_id,word,source
 154,about,svl
 155,her,svl
 156,ask,svl
-157,iif,svl
+157,if,svl
 158,your,svl
 159,phone,svl
 160,number,svl
@@ -639,7 +639,7 @@ word_id,word,source
 638,summer,svl
 639,autumn,svl
 640,midnight,svl
-641,eening,svl
+641,evening,svl
 642,Sunday,svl
 643,Monday,svl
 644,Tuesday,svl
@@ -952,7 +952,7 @@ word_id,word,source
 951,sleepy,svl
 952,slow,svl
 953,special,svl
-954,true ,svl
+954,true,svl
 955,useful,svl
 956,weak,svl
 957,wise,svl

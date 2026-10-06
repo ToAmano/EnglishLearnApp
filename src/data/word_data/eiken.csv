@@ -1,5 +1,5 @@
 word_id,word,source
-20001,thrive ,eiken
+20001,thrive,eiken
 20002,grind,eiken
 20003,confiscate,eiken
 20004,derive,eiken
@@ -703,7 +703,7 @@ word_id,word,source
 20702,retrieve,eiken
 20703,fuel,eiken
 20704,halt,eiken
-20705,heed ,eiken
+20705,heed,eiken
 20706,expand,eiken
 20707,forebode,eiken
 20708,clarify,eiken
@@ -782,7 +782,7 @@ word_id,word,source
 20781,defame,eiken
 20782,mediate,eiken
 20783,meditate,eiken
-20783,contemplate,eiken
+20789,contemplate,eiken
 20784,deteriorate,eiken
 20785,decay,eiken
 20786,adorn,eiken
@@ -917,7 +917,7 @@ word_id,word,source
 20916,garble,eiken
 20917,flourish,eiken
 20918,dart,eiken
-20919,diversity,eiken
+20919,diversify,eiken
 20920,rationale,eiken
 20921,restraint,eiken
 20922,stem,eiken
@@ -1036,7 +1036,7 @@ word_id,word,source
 21035,guise,eiken
 21036,pretense,eiken
 21037,morsel,eiken
-21038,ratio ,eiken
+21038,ratio,eiken
 21039,modicum,eiken
 21040,intervention,eiken
 21041,collision,eiken
@@ -1072,7 +1072,7 @@ word_id,word,source
 21071,gradient,eiken
 21072,hemisphere,eiken
 21073,attic,eiken
-21074,coverage,eiken
+21074,cove,eiken
 21075,pasture,eiken
 21076,auditorium,eiken
 21077,niche,eiken
@@ -1670,7 +1670,7 @@ word_id,word,source
 21669,perpetrator,eiken
 21670,accomplice,eiken
 21671,complicity,eiken
-21672,plead,eiken
+21672,plea,eiken
 21673,condemnation,eiken
 21674,deliberation,eiken
 21675,acquittal,eiken

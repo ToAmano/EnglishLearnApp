@@ -699,7 +699,7 @@ word_id,word,source
 1698,thief,svl
 1699,walker,svl
 1700,sir,svl
-1701,hilo,svl
+1701,kilo,svl
 1702,kilogram,svl
 1703,ton,svl
 1704,millimeter,svl
@@ -911,7 +911,7 @@ word_id,word,source
 1910,equal,svl
 1911,exact,svl
 1912,exciting,svl
-1913,false ,svl
+1913,false,svl
 1914,female,svl
 1915,following,svl
 1916,foolish,svl

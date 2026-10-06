@@ -14,7 +14,7 @@ word_id,word,source
 8013,crumble,svl
 8014,quartz,svl
 8015,ore,svl
-8016,gunpower,svl
+8016,gunpowder,svl
 8017,badger,svl
 8018,deteriorate,svl
 8019,contaminant,svl
@@ -122,7 +122,7 @@ word_id,word,source
 8121,interrogate,svl
 8122,unidentified,svl
 8123,metro,svl
-8124,dictatorship ,svl
+8124,dictatorship,svl
 8125,intimidate,svl
 8126,stereotype,svl
 8127,patriotism,svl
@@ -287,7 +287,7 @@ word_id,word,source
 8286,distill,svl
 8287,prohibition,svl
 8288,tribunal,svl
-8289,diverge ,svl
+8289,diverge,svl
 8290,verdict,svl
 8291,intern,svl
 8292,doze,svl
@@ -345,7 +345,7 @@ word_id,word,source
 8344,monopolize,svl
 8345,petroleum,svl
 8346,phenomenal,svl
-8347,moor ,svl
+8347,moor,svl
 8348,steamboat,svl
 8349,hazy,svl
 8350,gravestone,svl
@@ -453,7 +453,7 @@ word_id,word,source
 8452,verify,svl
 8453,copyright,svl
 8454,linguistics,svl
-8455,programmer ,svl
+8455,programmer,svl
 8456,browse,svl
 8457,specification,svl
 8458,knockout,svl
@@ -556,7 +556,7 @@ word_id,word,source
 8555,punctuation,svl
 8556,sequel,svl
 8557,sonata,svl
-8558,beta ,svl
+8558,beta,svl
 8559,canon,svl
 8560,carol,svl
 8561,coherence,svl
@@ -744,7 +744,7 @@ word_id,word,source
 8743,negotiator,svl
 8744,posterity,svl
 8745,snob,svl
-8746,spokesperson ,svl
+8746,spokesperson,svl
 8747,subscriber,svl
 8748,adornment,svl
 8749,barometer,svl
@@ -835,7 +835,7 @@ word_id,word,source
 8834,compulsive,svl
 8835,connected,svl
 8836,crimson,svl
-8837,devoid ,svl
+8837,devoid,svl
 8838,erroneous,svl
 8839,fishy,svl
 8840,floating,svl

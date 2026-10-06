@@ -33,10 +33,10 @@ word_id,word,source
 13798,aerial cable,supervocab
 13799,aerodynamics,supervocab
 13800,affecting,supervocab
-13801,afﬁliated company,supervocab
-13802,afﬁnity,supervocab
-13803,afﬂicted with,supervocab
-13804,afﬂuent,supervocab
+13801,affiliated company,supervocab
+13802,affinity,supervocab
+13803,afflicted with,supervocab
+13804,affluent,supervocab
 13805,agent orange,supervocab
 13806,aggravated,supervocab
 13807,agnosticism,supervocab
@@ -86,7 +86,7 @@ word_id,word,source
 13851,arrant,supervocab
 13852,art nouveau,supervocab
 13853,arthropod,supervocab
-13854,artiﬁcial insemination,supervocab
+13854,artificial insemination,supervocab
 13855,ascending order,supervocab
 13856,asexual reproduction,supervocab
 13857,asphyxiate,supervocab
@@ -108,7 +108,7 @@ word_id,word,source
 13873,avatar,supervocab
 13874,back on,supervocab
 13875,back tax,supervocab
-13876,bafﬂed,supervocab
+13876,baffled,supervocab
 13877,balance of payment,supervocab
 13878,baleful,supervocab
 13879,balkanization,supervocab
@@ -126,7 +126,7 @@ word_id,word,source
 13891,be angling for,supervocab
 13892,be decked out,supervocab
 13893,be dying for,supervocab
-13894,be ﬁred up for,supervocab
+13894,be fired up for,supervocab
 13895,be gunning for,supervocab
 13896,be hemmed in by,supervocab
 13897,be itching for,supervocab
@@ -174,7 +174,7 @@ word_id,word,source
 13939,bodily secretion,supervocab
 13940,body fat percentage,supervocab
 13941,body mass index,supervocab
-13942,bona ﬁde,supervocab
+13942,bona fide,supervocab
 13943,bone marrow bank,supervocab
 13944,bone up on,supervocab
 13945,booked for,supervocab
@@ -197,7 +197,7 @@ word_id,word,source
 13962,break into,supervocab
 13963,breathe a into b,supervocab
 13964,breeze through,supervocab
-13965,brieﬁng,supervocab
+13965,briefing,supervocab
 13966,bring a around to b,supervocab
 13967,bring off,supervocab
 13968,bring out,supervocab
@@ -223,7 +223,7 @@ word_id,word,source
 13988,calorimeter,supervocab
 13989,cam gear,supervocab
 13990,came out,supervocab
-13991,camouﬂage,supervocab
+13991,camouflage,supervocab
 13992,cancel out,supervocab
 13993,canker sore,supervocab
 13994,cantankerous,supervocab
@@ -254,14 +254,14 @@ word_id,word,source
 14019,castration,supervocab
 14020,cataract induction,supervocab
 14021,categorical imperative,supervocab
-14022,catﬁsh,supervocab
+14022,catfish,supervocab
 14023,catharsis,supervocab
 14024,cathode-ray tube,supervocab
 14025,catholicism,supervocab
 14026,caucasoid,supervocab
 14027,cave in to,supervocab
 14028,caviling,supervocab
-14029,cease-ﬁre,supervocab
+14029,cease-fire,supervocab
 14030,cedar pollen allergy,supervocab
 14031,celestial body,supervocab
 14032,centrifugal dehydrator,supervocab
@@ -298,7 +298,7 @@ word_id,word,source
 14063,civilian control,supervocab
 14064,clamorous,supervocab
 14065,clamp down on,supervocab
-14066,classiﬁed ad,supervocab
+14066,classified ad,supervocab
 14067,clean up,supervocab
 14068,clerical error,supervocab
 14069,cliffhanger election,supervocab
@@ -337,7 +337,7 @@ word_id,word,source
 14102,con man,supervocab
 14103,concur with,supervocab
 14104,confederate,supervocab
-14105,conﬁrmed,supervocab
+14105,confirmed,supervocab
 14106,conform to,supervocab
 14107,confounded,supervocab
 14108,confucianism,supervocab
@@ -430,15 +430,15 @@ word_id,word,source
 14195,death with dignity,supervocab
 14196,debauchery,supervocab
 14197,debenture,supervocab
-14198,debrieﬁng,supervocab
+14198,debriefing,supervocab
 14199,debt waiver,supervocab
 14200,decimal point,supervocab
 14201,decorous,supervocab
 14202,deep ecology,supervocab
 14203,defer to,supervocab
-14204,deﬁcit-ridden company,supervocab
-14205,deﬁlement,supervocab
-14206,deﬂect,supervocab
+14204,deficit-ridden company,supervocab
+14205,defilement,supervocab
+14206,deflect,supervocab
 14207,degrading,supervocab
 14208,deify,supervocab
 14209,deism,supervocab
@@ -473,7 +473,7 @@ word_id,word,source
 14238,die down,supervocab
 14239,die out,supervocab
 14240,differential equation,supervocab
-14241,difﬁdent,supervocab
+14241,diffident,supervocab
 14242,diffusion current,supervocab
 14243,dig up,supervocab
 14244,diglossia,supervocab
@@ -498,7 +498,7 @@ word_id,word,source
 14263,doleful,supervocab
 14264,doomed,supervocab
 14265,dormant volcano,supervocab
-14266,dorsal ﬁn,supervocab
+14266,dorsal fin,supervocab
 14267,double up,supervocab
 14268,down under,supervocab
 14269,downtime,supervocab
@@ -517,7 +517,7 @@ word_id,word,source
 14282,earmark,supervocab
 14283,earthquake-proof construction,supervocab
 14284,eat into,supervocab
-14285,ebb and ﬂow,supervocab
+14285,ebb and flow,supervocab
 14286,ebullient,supervocab
 14287,ecofeminism,supervocab
 14288,economic blockade,supervocab
@@ -535,7 +535,7 @@ word_id,word,source
 14300,electric scalpel,supervocab
 14301,electrocardiogram,supervocab
 14302,electrolysis,supervocab
-14303,electromagnetic ﬁeld,supervocab
+14303,electromagnetic field,supervocab
 14304,elementary particle,supervocab
 14305,elevation above sea level,supervocab
 14306,eleventh-hour,supervocab
@@ -628,62 +628,62 @@ word_id,word,source
 14393,ferret out,supervocab
 14394,festoon,supervocab
 14395,fetishism,supervocab
-14396,ﬁasco,supervocab
-14397,ﬁctional,supervocab
-14398,ﬁctitious,supervocab
-14399,ﬁddle with,supervocab
-14400,ﬁdgety,supervocab
-14401,ﬁeld,supervocab
-14402,ﬁeld study,supervocab
-14403,ﬁgure out,supervocab
-14404,ﬁle,supervocab
-14405,ﬁlial piety,supervocab
-14406,ﬁlibuster,supervocab
-14407,ﬁlter out,supervocab
-14408,ﬁlthy,supervocab
-14409,ﬁnancial meltdown,supervocab
-14410,ﬁnicky,supervocab
-14411,ﬁre away,supervocab
-14412,ﬁre off,supervocab
-14413,ﬁre up,supervocab
-14414,ﬁrst-aid kit,supervocab
-14415,ﬁscal investment and loan payment,supervocab
-14416,ﬁscal policy,supervocab
-14417,ﬁsh for,supervocab
-14418,ﬁssion,supervocab
-14419,ﬁxation,supervocab
-14420,ﬁxed assets,supervocab
-14421,ﬁxed star,supervocab
-14422,ﬁzzle out,supervocab
-14423,ﬂabbergasted,supervocab
-14424,ﬂake out,supervocab
-14425,ﬂamboyant,supervocab
-14426,ﬂappers,supervocab
-14427,ﬂare up,supervocab
-14428,ﬂashy,supervocab
-14429,ﬂat,supervocab
-14430,ﬂaunt,supervocab
-14431,ﬂeece,supervocab
-14432,ﬂeeting,supervocab
-14433,ﬂight,supervocab
-14434,ﬂighty,supervocab
-14435,ﬂimsy,supervocab
-14436,ﬂinch,supervocab
-14437,ﬂip through,supervocab
-14438,ﬂippant,supervocab
-14439,ﬂirt with,supervocab
-14440,ﬂoat,supervocab
-14441,ﬂoating ice,supervocab
-14442,ﬂooding,supervocab
-14443,ﬂora and fauna,supervocab
-14444,ﬂourish,supervocab
-14445,ﬂout,supervocab
-14446,ﬂuorescent lamp,supervocab
+14396,fiasco,supervocab
+14397,fictional,supervocab
+14398,fictitious,supervocab
+14399,fiddle with,supervocab
+14400,fidgety,supervocab
+14401,field,supervocab
+14402,field study,supervocab
+14403,figure out,supervocab
+14404,file,supervocab
+14405,filial piety,supervocab
+14406,filibuster,supervocab
+14407,filter out,supervocab
+14408,filthy,supervocab
+14409,financial meltdown,supervocab
+14410,finicky,supervocab
+14411,fire away,supervocab
+14412,fire off,supervocab
+14413,fire up,supervocab
+14414,first-aid kit,supervocab
+14415,fiscal investment and loan payment,supervocab
+14416,fiscal policy,supervocab
+14417,fish for,supervocab
+14418,fission,supervocab
+14419,fixation,supervocab
+14420,fixed assets,supervocab
+14421,fixed star,supervocab
+14422,fizzle out,supervocab
+14423,flabbergasted,supervocab
+14424,flake out,supervocab
+14425,flamboyant,supervocab
+14426,flappers,supervocab
+14427,flare up,supervocab
+14428,flashy,supervocab
+14429,flat,supervocab
+14430,flaunt,supervocab
+14431,fleece,supervocab
+14432,fleeting,supervocab
+14433,flight,supervocab
+14434,flighty,supervocab
+14435,flimsy,supervocab
+14436,flinch,supervocab
+14437,flip through,supervocab
+14438,flippant,supervocab
+14439,flirt with,supervocab
+14440,float,supervocab
+14441,floating ice,supervocab
+14442,flooding,supervocab
+14443,flora and fauna,supervocab
+14444,flourish,supervocab
+14445,flout,supervocab
+14446,fluorescent lamp,supervocab
 14447,focal length,supervocab
 14448,foggy bottom,supervocab
 14449,foible,supervocab
 14450,food chain,supervocab
-14451,food self-sufﬁciency rate,supervocab
+14451,food self-sufficiency rate,supervocab
 14452,forced repatriation,supervocab
 14453,foreboding,supervocab
 14454,foreign exchange rate,supervocab
@@ -693,7 +693,7 @@ word_id,word,source
 14458,forthcoming book,supervocab
 14459,fracas,supervocab
 14460,freeze out,supervocab
-14461,friction coefﬁcient,supervocab
+14461,friction coefficient,supervocab
 14462,fuel cell,supervocab
 14463,full scale,supervocab
 14464,functionalism,supervocab
@@ -797,7 +797,7 @@ word_id,word,source
 14562,home in on,supervocab
 14563,homeland security,supervocab
 14564,hone in on,supervocab
-14565,honoriﬁc words,supervocab
+14565,honorific words,supervocab
 14566,honors student,supervocab
 14567,horizontal axis,supervocab
 14568,hormone-disrupting chemicals,supervocab
@@ -812,7 +812,7 @@ word_id,word,source
 14577,hydroelectric power generation,supervocab
 14578,hydroponics,supervocab
 14579,hype up,supervocab
-14580,hyperinﬂation,supervocab
+14580,hyperinflation,supervocab
 14581,hypnotic therapy,supervocab
 14582,hypothalamus,supervocab
 14583,ibis,supervocab
@@ -861,11 +861,11 @@ word_id,word,source
 14626,ineffaceable,supervocab
 14627,ineluctable,supervocab
 14628,inert gas,supervocab
-14629,inﬁnite,supervocab
-14630,inﬂammatory,supervocab
-14631,inﬂationary spiral,supervocab
-14632,inﬂection,supervocab
-14633,inﬂict,supervocab
+14629,infinite,supervocab
+14630,inflammatory,supervocab
+14631,inflationary spiral,supervocab
+14632,inflection,supervocab
+14633,inflict,supervocab
 14634,information retrieval,supervocab
 14635,infrared rays,supervocab
 14636,inhibited,supervocab
@@ -907,7 +907,7 @@ word_id,word,source
 14672,joint custody,supervocab
 14673,jumpy,supervocab
 14674,just-in-time marketing,supervocab
-14675,justiﬁcation,supervocab
+14675,justification,supervocab
 14676,karma,supervocab
 14677,keep at,supervocab
 14678,kidney dialysis,supervocab
@@ -939,7 +939,7 @@ word_id,word,source
 14704,latch onto,supervocab
 14705,launch into,supervocab
 14706,lay aside,supervocab
-14707,leaﬂet,supervocab
+14707,leaflet,supervocab
 14708,leave off,supervocab
 14709,leech off,supervocab
 14710,legitimate self-defense,supervocab
@@ -958,7 +958,7 @@ word_id,word,source
 14723,lingua franca,supervocab
 14724,linguistic xenophobia,supervocab
 14725,liquefaction,supervocab
-14726,liqueﬁed natural gas,supervocab
+14726,liquefied natural gas,supervocab
 14727,liquidated company,supervocab
 14728,listed stock,supervocab
 14729,literacy rate,supervocab
@@ -996,7 +996,7 @@ word_id,word,source
 14761,lymphatic gland,supervocab
 14762,madrasa,supervocab
 14763,magnanimity,supervocab
-14764,magnetic ﬂux,supervocab
+14764,magnetic flux,supervocab
 14765,mahayana buddhism,supervocab
 14766,mail-order business,supervocab
 14767,maimed,supervocab
@@ -1055,10 +1055,10 @@ word_id,word,source
 14820,methanol,supervocab
 14821,methodism,supervocab
 14822,metonymy,supervocab
-14823,microﬁnance,supervocab
+14823,microfinance,supervocab
 14824,microorganism,supervocab
 14825,mid-career recruiting,supervocab
-14826,middle ear inﬂammation,supervocab
+14826,middle ear inflammation,supervocab
 14827,mien,supervocab
 14828,miffed,supervocab
 14829,military intervention,supervocab
@@ -1099,7 +1099,7 @@ word_id,word,source
 14864,move up,supervocab
 14865,muddled,supervocab
 14866,mudslinging barrage,supervocab
-14867,mufﬂe,supervocab
+14867,muffle,supervocab
 14868,mulct,supervocab
 14869,multicellular organism,supervocab
 14870,multifarious,supervocab
@@ -1107,11 +1107,11 @@ word_id,word,source
 14872,multiple-choice exam,supervocab
 14873,multiplying factor,supervocab
 14874,mumblecore,supervocab
-14875,muniﬁcent,supervocab
+14875,munificent,supervocab
 14876,muse on,supervocab
 14877,muster up,supervocab
 14878,mutual funds,supervocab
-14879,mystiﬁed,supervocab
+14879,mystified,supervocab
 14880,nanotechnology,supervocab
 14881,narrow down,supervocab
 14882,national treasury,supervocab
@@ -1134,13 +1134,13 @@ word_id,word,source
 14899,nirvana,supervocab
 14900,nitpicking,supervocab
 14901,nitrogen oxides,supervocab
-14902,no-frills ﬂight,supervocab
+14902,no-frills flight,supervocab
 14903,nocturnal animal,supervocab
 14904,noisome,supervocab
 14905,non-aggression treaty,supervocab
 14906,non-committal,supervocab
 14907,non-ferrous metals,supervocab
-14908,nonafﬁliated voters,supervocab
+14908,nonaffiliated voters,supervocab
 14909,nonaligned neutrality,supervocab
 14910,nonentity,supervocab
 14911,nose into,supervocab
@@ -1161,9 +1161,9 @@ word_id,word,source
 14926,octane number,supervocab
 14927,off-year election,supervocab
 14928,offhand,supervocab
-14929,ofﬁce supplies,supervocab
-14930,ofﬁcial discount rate,supervocab
-14931,ofﬁcial party endorsement,supervocab
+14929,office supplies,supervocab
+14930,official discount rate,supervocab
+14931,official party endorsement,supervocab
 14932,offshore funds,supervocab
 14933,oil slick,supervocab
 14934,oleaginous,supervocab
@@ -1222,7 +1222,7 @@ word_id,word,source
 14987,part from,supervocab
 14988,part with,supervocab
 14989,pass for,supervocab
-14990,pathﬁnder,supervocab
+14990,pathfinder,supervocab
 14991,pavlovian conditioning,supervocab
 14992,peace envoy,supervocab
 14993,peaceful coexistence,supervocab
@@ -1288,7 +1288,7 @@ word_id,word,source
 15053,political manifesto,supervocab
 15054,polysemy,supervocab
 15055,polytheism,supervocab
-15056,pontiﬁcate,supervocab
+15056,pontificate,supervocab
 15057,pop up,supervocab
 15058,popular sovereignty,supervocab
 15059,porcupine,supervocab
@@ -1301,7 +1301,7 @@ word_id,word,source
 15066,post-impressionism,supervocab
 15067,postmodernism,supervocab
 15068,potential energy,supervocab
-15069,power ampliﬁer,supervocab
+15069,power amplifier,supervocab
 15070,power failure,supervocab
 15071,power transmission,supervocab
 15072,practicing doctor,supervocab
@@ -1320,14 +1320,14 @@ word_id,word,source
 15085,presidential primary,supervocab
 15086,pressure trough,supervocab
 15087,prestigious university,supervocab
-15088,pretax proﬁt,supervocab
+15088,pretax profit,supervocab
 15089,price busting,supervocab
 15090,prick up,supervocab
 15091,prisoner of war,supervocab
 15092,probationary period,supervocab
 15093,probationary acceptance,supervocab
 15094,proceeds,supervocab
-15095,proﬂigate,supervocab
+15095,profligate,supervocab
 15096,prognosticate,supervocab
 15097,progressive taxation,supervocab
 15098,prolix,supervocab
@@ -1372,9 +1372,9 @@ word_id,word,source
 15137,rain down on,supervocab
 15138,ramadan,supervocab
 15139,rambling,supervocab
-15140,ramiﬁcation,supervocab
+15140,ramification,supervocab
 15141,ramshackle,supervocab
-15142,rank and ﬁle,supervocab
+15142,rank and file,supervocab
 15143,rapprochement talks,supervocab
 15144,rasping,supervocab
 15145,rat on,supervocab
@@ -1396,8 +1396,8 @@ word_id,word,source
 15161,reel off,supervocab
 15162,reeling,supervocab
 15163,reference letter,supervocab
-15164,reﬁned,supervocab
-15165,reﬂexology,supervocab
+15164,refined,supervocab
+15165,reflexology,supervocab
 15166,refraction,supervocab
 15167,refraction angle,supervocab
 15168,refractory,supervocab
@@ -1428,7 +1428,7 @@ word_id,word,source
 15193,revolutions per minute,supervocab
 15194,rheumatoid arthritis,supervocab
 15195,rickety,supervocab
-15196,riﬂe through,supervocab
+15196,rifle through,supervocab
 15197,riled,supervocab
 15198,rip into,supervocab
 15199,rise up against,supervocab
@@ -1478,7 +1478,7 @@ word_id,word,source
 15243,screenager,supervocab
 15244,screw up,supervocab
 15245,scrounge around,supervocab
-15246,scufﬂe,supervocab
+15246,scuffle,supervocab
 15247,sea lines of communication,supervocab
 15248,search engine optimization,supervocab
 15249,seasonal rain front,supervocab
@@ -1564,7 +1564,7 @@ word_id,word,source
 15329,solvency margin,supervocab
 15330,soothing,supervocab
 15331,sophism,supervocab
-15332,soporiﬁc,supervocab
+15332,soporific,supervocab
 15333,sound bite,supervocab
 15334,sound clips,supervocab
 15335,sound off,supervocab
@@ -1572,7 +1572,7 @@ word_id,word,source
 15337,space debris,supervocab
 15338,space expansion,supervocab
 15339,spacewalk,supervocab
-15340,speciﬁc gravity,supervocab
+15340,specific gravity,supervocab
 15341,speculative stocks,supervocab
 15342,speech act,supervocab
 15343,speedometer,supervocab
@@ -1589,7 +1589,7 @@ word_id,word,source
 15354,square with,supervocab
 15355,squeal on,supervocab
 15356,stag beetle,supervocab
-15357,stagﬂation,supervocab
+15357,stagflation,supervocab
 15358,stalactite cave,supervocab
 15359,stand by,supervocab
 15360,stand down as,supervocab
@@ -1601,7 +1601,7 @@ word_id,word,source
 15366,stationary satellite,supervocab
 15367,step up,supervocab
 15368,stick up for,supervocab
-15369,stiﬂe,supervocab
+15369,stifle,supervocab
 15370,stigmatize,supervocab
 15371,stir up,supervocab
 15372,stock buyout,supervocab
@@ -1626,7 +1626,7 @@ word_id,word,source
 15391,substitute teacher,supervocab
 15392,subtraction,supervocab
 15393,succulent perennials,supervocab
-15394,suﬁsm,supervocab
+15394,sufism,supervocab
 15395,sulky,supervocab
 15396,sum up,supervocab
 15397,summon up,supervocab
@@ -1762,14 +1762,14 @@ word_id,word,source
 15527,the nankai trough,supervocab
 15528,the napoleon complex,supervocab
 15529,the national aeronautics and space administration,supervocab
-15530,the national riﬂe association,supervocab
+15530,the national rifle association,supervocab
 15531,the national security council,supervocab
 15532,the new testament,supervocab
 15533,the nolan committee,supervocab
 15534,the oedipus complex,supervocab
 15535,the ohm's law,supervocab
 15536,the oslo agreement,supervocab
-15537,the paciﬁc rim,supervocab
+15537,the pacific rim,supervocab
 15538,the paleolithic age,supervocab
 15539,the paleozoic era,supervocab
 15540,the periodic law,supervocab
@@ -1837,7 +1837,7 @@ word_id,word,source
 15602,track down,supervocab
 15603,tractable,supervocab
 15604,trade on,supervocab
-15605,trafﬁc,supervocab
+15605,traffic,supervocab
 15606,trailblazer,supervocab
 15607,transcendentalism,supervocab
 15608,transfer a to b,supervocab
@@ -1848,8 +1848,8 @@ word_id,word,source
 15613,tribulation,supervocab
 15614,trickle-down economics,supervocab
 15615,trickster,supervocab
-15616,triﬂe with,supervocab
-15617,triﬂing,supervocab
+15616,trifle with,supervocab
+15617,trifling,supervocab
 15618,trigonometric function,supervocab
 15619,trilogy,supervocab
 15620,tropical storm,supervocab
@@ -1886,7 +1886,7 @@ word_id,word,source
 15651,unearned income,supervocab
 15652,unemployment allowance,supervocab
 15653,unfathomable,supervocab
-15654,unﬂagging,supervocab
+15654,unflagging,supervocab
 15655,unicorn,supervocab
 15656,universal care,supervocab
 15657,universal gravitation,supervocab
@@ -1894,7 +1894,7 @@ word_id,word,source
 15659,unlawful,supervocab
 15660,unmindful of,supervocab
 15661,unmitigated,supervocab
-15662,unqualiﬁed,supervocab
+15662,unqualified,supervocab
 15663,unremitting,supervocab
 15664,unrestrained,supervocab
 15665,unshakable,supervocab
@@ -1929,7 +1929,7 @@ word_id,word,source
 15694,virgin forest,supervocab
 15695,virtual water,supervocab
 15696,visceral,supervocab
-15697,viscosity coefﬁcient,supervocab
+15697,viscosity coefficient,supervocab
 15698,vital capacity,supervocab
 15699,vitiate,supervocab
 15700,vitriolic,supervocab
