@@ -40,7 +40,7 @@ def consolidate_words(
 
     # 特定のディレクトリにあるCSVファイルから単語を統合する
     python -m src.data_pipeline.main consolidate-words --data-dir /path/to/my/csv_files
-    englishapp consolidate-words --data-dir ./src/data/word_data/originals/
+    englishapp consolidate-words --data-dir ./src/data/word_data/
     ```
     """
     typer.echo("単語データの統合を開始します...")

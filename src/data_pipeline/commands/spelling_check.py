@@ -28,7 +28,7 @@ def check_spelling(
     使用方法
     ```bash
     python -m src.data_pipeline.main check-spelling [OPTIONS]
-    englishapp check-spelling --data-dir ./src/data/word_data/originals/
+    englishapp check-spelling --data-dir ./src/data/word_data/
     ```
 
     オプション
